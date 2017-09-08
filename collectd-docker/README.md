@@ -14,7 +14,7 @@ _This directory consolidates all the metadata associated with the Docker plugin 
 
 This is the SignalFx Docker plugin. Follow these instructions to install the Docker plugin for collectd.
 
-The [`docker-collectd`](https://github.com/signalfx/docker-collectd-plugin) plugin collects metrics about the Docker containers running on the system using Docker's stats API. It reports metrics about the CPU utilization of each container, their memory consumption, and their network and disk activity.
+The [docker-collectd](https://github.com/signalfx/docker-collectd-plugin) plugin collects metrics about the Docker containers running on the system using Docker's stats API. It reports metrics about the CPU utilization of each container, their memory consumption, and their network and disk activity.
 
 #### FEATURES
 

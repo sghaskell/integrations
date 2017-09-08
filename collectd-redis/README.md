@@ -53,7 +53,7 @@ This plugin requires:
 
 1. Download the [redis-collectd-plugin Python module](https://github.com/signalfx/redis-collectd-plugin).
 
-1. Download SignalFx's sample configuration files for a [Redis master](https://github.com/signalfx/integrations/tree/master/collectd-redis/10-redis_master.conf) or [Redis slave](https://github.com/signalfx/integrations/tree/master/collectd-redis/10-redis_slave.conf) to `/etc/collectd/managed_config`. 
+1. Download SignalFx's sample configuration files for a [Redis master](https://github.com/signalfx/integrations/tree/master/collectd-redis/10-redis_master.conf) or [Redis slave](https://github.com/signalfx/integrations/tree/master/collectd-redis/10-redis_slave.conf) to `/etc/collectd/managed_config`.
 
 1. Modify the sample configuration file as described in  [Configuration](#configuration), below.
 
@@ -61,7 +61,7 @@ This plugin requires:
 
 ### CONFIGURATION
 
-Using the example configuration files [`10-redis_master.conf`](https://github.com/signalfx/integrations/tree/master/collectd-redis/10-redis_master.conf) or [`10-redis_slave.conf`](https://github.com/signalfx/integrations/tree/master/collectd-redis/10-redis_slave.conf) as a guide, provide values for the configuration options listed below that make sense for your environment and allow you to connect to the Redis instance to be monitored.
+Using the example configuration files [10-redis_master.conf](https://github.com/signalfx/integrations/tree/master/collectd-redis/10-redis_master.conf) or [10-redis_slave.conf](https://github.com/signalfx/integrations/tree/master/collectd-redis/10-redis_slave.conf) as a guide, provide values for the configuration options listed below that make sense for your environment and allow you to connect to the Redis instance to be monitored.
 
 | Configuration Option | Type | Definition |
 |----------------------|------|------------|

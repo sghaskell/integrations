@@ -151,7 +151,7 @@ sfx.send(
 sfx.stop()
 ```
 
-See [`examples/generic_usecase.py`](examples/generic_usecase.py) for a
+See [examples/generic_usecase.py](examples/generic_usecase.py) for a
 complete code sample showing how to send data to SignalFx.
 
 #### <a name="sending-events">Sending events

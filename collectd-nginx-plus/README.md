@@ -13,7 +13,7 @@ _This directory consolidates all the metadata associated with the NGINX Plus plu
 
 This is the SignalFx NGINX Plus plugin. Follow these instructions to install the NGINX Plus plugin for collectd.
 
-The [`niginx-plus-collectd`](https://github.com/signalfx/collectd-nginx-plus) plugin collects metrics about a single NGINX Plus instance,
+The [niginx-plus-collectd](https://github.com/signalfx/collectd-nginx-plus) plugin collects metrics about a single NGINX Plus instance,
 using the `/status` endpoints exposed with the ngx_http_status_module, documentation [here](http://nginx.org/en/docs/http/ngx_http_status_module.html).
 
 #### FEATURES
@@ -38,7 +38,7 @@ using the `/status` endpoints exposed with the ngx_http_status_module, documenta
 
 ### INSTALLATION
 
-1. Download the [`niginx-plus-collectd`](https://github.com/signalfx/collectd-nginx-plus) project.
+1. Download the [niginx-plus-collectd](https://github.com/signalfx/collectd-nginx-plus) project.
 
 1. Run the following command to install the module’s dependencies using `pip`, replacing the example path with the download location of the `niginx-plus-collectd` project:
 

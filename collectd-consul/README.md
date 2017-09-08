@@ -14,7 +14,7 @@ _This directory consolidates all the metadata associated with the consul plugin 
 
 This is the SignalFx Consul plugin. Follow these instructions to install the Consul plugin for collectd.
 
-The [`consul-collectd`](https://github.com/signalfx/collectd-consul) plugin collects metrics from Consul instances hitting these endpoints:  
+The [consul-collectd](https://github.com/signalfx/collectd-consul) plugin collects metrics from Consul instances hitting these endpoints:  
 - [/agent/self](https://www.consul.io/api/agent.html#read-configuration)  
 - [/agent/metrics](https://www.consul.io/api/agent.html#view-metrics)  
 - [/catalog/nodes](https://www.consul.io/api/catalog.html#list-nodes)  
@@ -227,7 +227,7 @@ LoadPlugin python
 - **CONSUL HEALTH**:
 
   - **Leadership Change Event**: Event feed showing leader tranisiton events. The event has the new and old leader node name as dimensions.
-  
+
     [<img src='./img/chart_leader_change_event.png' width=200px>](./img/chart_leader_change_event.png)
 
   - **Leadership Transitions**: Tracks number of leadership transitions. If there are frequent leadership changes this may be an indication that the servers are overloaded and aren't meeting the soft real-time requirements for Raft, or that there are networking problems between the servers.
@@ -238,7 +238,7 @@ LoadPlugin python
 
     [<img src='./img/chart_leader_last_contact.png' width=200px>](./img/chart_leader_last_contact.png)
 
-  - **Leader latency to commit to disk**: Time it takes for the leader to write log entries to disk. 
+  - **Leader latency to commit to disk**: Time it takes for the leader to write log entries to disk.
 
     [<img src='./img/chart_leader_disk_commit.png' width=200px>](./img/chart_leader_disk_commit.png)
 
@@ -258,7 +258,7 @@ LoadPlugin python
 
     [<img src='./img/chart_number_of_rpc_queries.png' width=200px>](./img/chart_number_of_rpc_queries.png)
 
-  - **Cluster Joins and Leaves**: This chart tracks successful node joins and leaves in the Serf memberlist. 
+  - **Cluster Joins and Leaves**: This chart tracks successful node joins and leaves in the Serf memberlist.
 
     [<img src='./img/chart_join_leave.png' width=200px>](./img/chart_join_leave.png)
 
@@ -281,7 +281,7 @@ LoadPlugin python
     [<img src='./img/chart_heap_objects.png' width=200px>](./img/chart_heap_objects.png)
 
   - **Allocated Bytes**: Number of allocated bytes to the Consul process.
-  
+
     [<img src='./img/chart_allocated_bytes.png' width=200px>](./img/chart_allocated_bytes.png)
 
   - **Number of GO routines**: The number of GO routines Consul is running. This is a general load pressure indicator for Consul agent.
@@ -300,7 +300,7 @@ LoadPlugin python
 All charts metioned in the Client dashboard are also present in the Server dashboard. In addition to those, the following charts are present
 
   - **Raft candidate state**: This chart tracks if the selected Consul server starts an election. If this metric increments without a leadership change occurring it could indicate that a single server is overloaded or is experiencing network connectivity issues.
- 
+
     [<img src='./img/chart_raft_candidate.png' width=200px>](./img/chart_raft_candidate.png)
 
 All metrics reported by the Consul collectd plugin will contain the following dimensions by default:
@@ -327,7 +327,7 @@ A few other details:
 * The metrics from `/agent/metric` endpoint are aggregated over an interval of 10 seconds. Keep this in mind when changing the default collectd interval from 10 seconds.
 
 ### METRICS
-List of default metrics collected from telemetry stream or `agent/metrics` endpoint- 
+List of default metrics collected from telemetry stream or `agent/metrics` endpoint-
  - consul.raft.state.leader
  - consul.raft.state.candidate
  - consul.raft.leader.lastContact
@@ -366,7 +366,7 @@ List of default metrics collected from additional endpoints -
  - consul.health.services.critical
  - consul.network.node.latency
  - consul.network.dc.latency
- 
+
 ### LICENSE
 
 This integration is released under the Apache 2.0 license. See [LICENSE](./LICENSE) for more details.

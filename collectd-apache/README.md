@@ -39,7 +39,7 @@ This plugin collects metrics from the module `mod_status`.
 
 ### INSTALLATION
 
-1. Enable the [`mod_status`](http://httpd.apache.org/docs/2.4/mod/mod_status.html) module in your Apache server.
+1. Enable the [mod_status](http://httpd.apache.org/docs/2.4/mod/mod_status.html) module in your Apache server.
 
 1. Add the following configuration to your Apache server:
 
