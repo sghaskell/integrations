@@ -26,7 +26,7 @@ There are currently (\d+) users
 
 As you can see the actual number of users is stored in the first "sub match". This value can then be used by collectd as a gauge value.
 
-And there's even more: Per default, Exim logs the size of each email in its logfile. You can match this size and add all the values up. So you'll end up with a typical octet-counter which you can use with the ipt_bytes type, for example. Such a regular expression would look like this:
+And there's even more: Per default, Exim logs the size of each email in its logfile. You can match this size and add all the values up. So you'll end up with a typical octet-counter which you can use with the ipt\_bytes type, for example. Such a regular expression would look like this:
 
 ```
 \<S=(\d+)\>

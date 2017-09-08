@@ -106,8 +106,8 @@ Using the example configuration file [10-spark.conf](https://github.com/signalfx
 | Master | URL for master application | "http://localhost:8080" |
 | Cluster | Your Spark cluster mode - only standalone and mesos supported | "Standalone" |
 | EnhancedMetrics | Flag to specify whether to include additional metrics | "False" |
-| IncludeMetrics | Metrics from enhanced metrics that can be included individually | "metric_name_1,metric_name_2" |
-| ExcludeMetrics | Metrics from enhanced metrics that can be excluded individually | "metric_name_1,metric_name2" |
+| IncludeMetrics | Metrics from enhanced metrics that can be included individually | "metric\_name\_1,metric\_name\_2" |
+| ExcludeMetrics | Metrics from enhanced metrics that can be excluded individually | "metric\_name\_1,metric\_name2" |
 | Dimension | Key-value pair for a user-defined dimension | "dimension\_key=dimension\_value" |
 | Dimension | Comma separated key-value pairs for user-defined dimensions | "dimension\_key1=dimension\_value1,dimension\_key2=dimension\_value2" |
 
@@ -116,7 +116,7 @@ Example configuration:
 ```apache
 LoadPlugin python
 <Plugin python>
-  ModulePath "/opt/collectd-spark"
+  ModulePath "/usr/share/collectd/collectd-spark"
 
   Import spark_plugin
 
@@ -138,7 +138,7 @@ The plugin can be configured to collect metrics from multiple instances in the f
 ```apache
 LoadPlugin python
 <Plugin python>
-  ModulePath "/opt/collectd-spark"
+  ModulePath "/usr/share/collectd/collectd-spark"
 
   Import spark_plugin
 

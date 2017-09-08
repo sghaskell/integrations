@@ -61,7 +61,7 @@ This plugin requires:
 
 ### CONFIGURATION
 
-Using the example configuration files [10-redis_master.conf](https://github.com/signalfx/integrations/tree/master/collectd-redis/10-redis_master.conf) or [10-redis_slave.conf](https://github.com/signalfx/integrations/tree/master/collectd-redis/10-redis_slave.conf) as a guide, provide values for the configuration options listed below that make sense for your environment and allow you to connect to the Redis instance to be monitored.
+Using the example configuration files [10-redis\_master.conf](https://github.com/signalfx/integrations/tree/master/collectd-redis/10-redis_master.conf) or [10-redis\_slave.conf](https://github.com/signalfx/integrations/tree/master/collectd-redis/10-redis_slave.conf) as a guide, provide values for the configuration options listed below that make sense for your environment and allow you to connect to the Redis instance to be monitored.
 
 | Configuration Option | Type | Definition |
 |----------------------|------|------------|
@@ -117,9 +117,9 @@ You can configure this plugin to monitor multiple Redis instances on the same ma
 
 In the example above, 3 redis instances on the same host listen on different ports and `Instance` is used to supply a static value for the dimension `plugin_instance`. If `Instance` was not specified, the value of `plugin_instance` reported by collectd would contain the combination of `Host` and `Port` as follows:
 
-- "plugin_instance" => "127.0.0.1:9100"
-- "plugin_instance" => "127.0.0.1:9101"
-- "plugin_instance" => "127.0.0.1:9102"
+- "plugin\_instance" => "127.0.0.1:9100"
+- "plugin\_instance" => "127.0.0.1:9101"
+- "plugin\_instance" => "127.0.0.1:9102"
 
 ### USAGE
 

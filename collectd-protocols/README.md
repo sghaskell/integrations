@@ -43,8 +43,8 @@ From [collectd wiki](https://collectd.org/documentation/manpages/collectd.conf.5
 
 | Configuration Option | Type | Definition |
 |----------------------|------|------------|
-|`Value`| _Selector_ | Selects whether or not to select a specific value. <ul><li>The string being matched is of the form `Protocol:ValueName` where `Protocol` will be used as the plugin instance and `ValueName` will be used as type instance. </li><li> An example of the string being used would be `Tcp:RetransSegs` </li><li> You can use regular expressions to match a large number of values with just one configuration option. </li><li> To select all "extended" TCP values, you could use the following statement: `Value "/^TcpExt:/"` </li><li> Whether only matched values are selected or all matched values are ignored depends on the **`IgnoreSelected`**. By default, only matched values are selected. If no value is configured at all, all values will be selected.</li></ui>|
-|`IgnoreSelected`| _true/false_ | If set to true, inverts the selection made by `Value`, i. e. all matching values will be ignored.|
+| `Value` | _Selector_ | Selects whether or not to select a specific value. <ul><li>The string being matched is of the form `Protocol:ValueName` where `Protocol` will be used as the plugin instance and `ValueName` will be used as type instance. </li><li> An example of the string being used would be `Tcp:RetransSegs` </li><li> You can use regular expressions to match a large number of values with just one configuration option. </li><li> To select all "extended" TCP values, you could use the following statement: `Value "/^TcpExt:/"` </li><li> Whether only matched values are selected or all matched values are ignored depends on the **IgnoreSelected**. By default, only matched values are selected. If no value is configured at all, all values will be selected.</li></ui> |
+| `IgnoreSelected` | _true/false_ | If set to true, inverts the selection made by `Value`, i. e. all matching values will be ignored. |
 
 
 ### USAGE

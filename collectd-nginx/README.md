@@ -39,9 +39,9 @@ This plugin requires:
 1. On RHEL/CentOS and Amazon Linux systems, run the following command to install this plugin:
 
          yum install collectd-nginx
-         
-   On Ubuntu and Debian systems, this plugin is included by default with the [SignalFx collectd agent](https://github.com/signalfx/integrations/tree/master/collectd)[](sfx_link:sfxcollectd). 
-         
+
+   On Ubuntu and Debian systems, this plugin is included by default with the [SignalFx collectd agent](https://github.com/signalfx/integrations/tree/master/collectd)[](sfx_link:sfxcollectd).
+
 1. Enable the `stub_status` module in your NGINX server as described [below](#configuration).
 
 1. Download SignalFx’s [sample configuration file](https://github.com/signalfx/integrations/blob/master/collectd-nginx/10-nginx.conf) to `/etc/collectd/managed_config`.
@@ -76,7 +76,7 @@ The following status information is provided:
 | -------|-------------|
 |Active connections| The current number of active client connections including Waiting connections.|
 |accepts|The total number of accepted client connections.|
-|handled|The total number of handled connections. Generally, the parameter value is the same as accepts unless some resource limits have been reached (for example, the worker_connections limit).|
+|handled|The total number of handled connections. Generally, the parameter value is the same as accepts unless some resource limits have been reached (for example, the worker\_connections limit).|
 |requests|The total number of client requests.|
 |Reading|The current number of connections where nginx is reading the request header.|
 |Writing|The current number of connections where nginx is writing the response back to the client.|
