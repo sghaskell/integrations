@@ -216,11 +216,11 @@ LoadPlugin python
 
     [<img src='./img/chart_consul_server_map.png' width=200px>](./img/chart_consul_server_map.png)
 
-  - **Mean node network latency**: Shows the average latency of a given node from other nodes in the Consul cluster. The dimension consul_node corresponds to the source node. The maximum and minimum values for this metric are also available.
+  - **Mean node network latency**: Shows the average latency of a given node from other nodes in the Consul cluster. The dimension consul\_node corresponds to the source node. The maximum and minimum values for this metric are also available.
 
     [<img src='./img/chart_mean_node_latency.png' width=200px>](./img/chart_mean_node_latency.png)
 
-  - **Mean datacenter latency**: Average datacenter latency between 2 datacenters. This metric has the additional dimension destination_dc dimension. The latency is calculated between this destination datacenter and the agent's datacenter given by the datacenter dimension. The maximum and minimum values for this metric are also available.
+  - **Mean datacenter latency**: Average datacenter latency between 2 datacenters. This metric has the additional dimension destination\_dc dimension. The latency is calculated between this destination datacenter and the agent's datacenter given by the datacenter dimension. The maximum and minimum values for this metric are also available.
 
     [<img src='./img/chart_mean_dc_latency.png' width=200px>](./img/chart_mean_dc_latency.png)
 
@@ -334,7 +334,7 @@ List of default metrics collected from telemetry stream or `agent/metrics` endpo
  - consul.raft.leader.dispatchLog
  - consul.raft.commitTime
  - consul.raft.apply
- - consul.raft.replication.appendEntries.rpc.<FOLLOWER_IP>
+ - consul.raft.replication.appendEntries.rpc.<FOLLOWER\_IP>
  - consul.rpc.query
  - consul.consul.leader.reconcile
  - consul.serf.events
@@ -342,22 +342,22 @@ List of default metrics collected from telemetry stream or `agent/metrics` endpo
  - consul.serf.queue.Query
  - consul.serf.member.join
  - consul.serf.member.left
- - consul.runtime.heap_objects
- - consul.runtime.alloc_bytes
- - consul.runtime.num_goroutines
- - consul.dns.domain_query.<HOST>
- - consul.dns.ptr_query.<HOST>
- - consul.dns.stale_queries.<HOST>
+ - consul.runtime.heap\_objects
+ - consul.runtime.alloc\_bytes
+ - consul.runtime.num\_goroutines
+ - consul.dns.domain\_query.<HOST>
+ - consul.dns.ptr\_query.<HOST>
+ - consul.dns.stale\_queries.<HOST>
  - consul.serf.member.flap
  - consul.memberlist.msg.suspect
 
 List of default metrics collected from additional endpoints -
- - consul.is_leader
+ - consul.is\_leader
  - consul.peers
  - consul.catalog.nodes.total
  - consul.catalog.service.total
- - consul.catalog.nodes_by_service
- - consul.catalog.services_by_node
+ - consul.catalog.nodes\_by\_service
+ - consul.catalog.services\_by\_node
  - consul.health.nodes.passing
  - consul.health.nodes.warning
  - consul.health.nodes.critical

@@ -39,7 +39,7 @@ This plugin collects metrics from the module `mod_status`.
 
 ### INSTALLATION
 
-1. Enable the [mod_status](http://httpd.apache.org/docs/2.4/mod/mod_status.html) module in your Apache server.
+1. Enable the [mod\_status](http://httpd.apache.org/docs/2.4/mod/mod_status.html) module in your Apache server.
 
 1. Add the following configuration to your Apache server:
 
@@ -83,7 +83,7 @@ Apache worker threads can be in one of the following states:
 | Waiting      | Idle and waiting for request            |
 | Sending      | Serving response                        |
 | KeepAlive    | Kept alive for possible next request    |
-| Idle_cleanup | Idle and marked for cleanup             |
+| Idle\_cleanup | Idle and marked for cleanup             |
 | Closing      | Closing connection                      |
 | Logging      | Writing to log file                     |
 | Reading      | Reading request                         |
