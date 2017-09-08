@@ -36,7 +36,7 @@ This is the Kafka plugin for collectd. It will send data about Kafka to SignalFx
 
 ### INSTALLATION
 
-1. RHEL/CentOS and Amazon Linux users: Install the [Java plugin for collectd](https://github.com/signalfx/integrations/tree/master/collectd-java)[](sfx_link:collectd-java) if it is not already installed. 
+1. RHEL/CentOS and Amazon Linux users: Install the [Java plugin for collectd](https://github.com/signalfx/integrations/tree/master/collectd-java)[](sfx_link:collectd-java) if it is not already installed.
 
 1. Download SignalFx's example Kafka configuration file to `/etc/collectd/managed_config`:  [20-kafka_82.conf](https://github.com/signalfx/integrations/blob/master/collectd-kafka/20-kafka_82.conf)
 
@@ -70,10 +70,10 @@ Common metrics to monitor:
 |-------------|------------|--------------|
 | Message in rate | `kafka.server:type=BrokerTopicMetrics,name=MessagesInPerSec` |  |
 | Byte in rate | `kafka.server:type=BrokerTopicMetrics,name=BytesInPerSec` |  |
-| Request rate | <code>kafka.network:type=RequestMetrics,name=RequestsPerSec,request={Produce&#124;FetchConsumer&#124;FetchFollower}</code> |  |
+| Request rate | `kafka.network:type=RequestMetrics,name=RequestsPerSec,request={Produce&#124;FetchConsumer&#124;FetchFollower}` |  |
 | Byte out rate | `kafka.server:type=BrokerTopicMetrics,name=BytesOutPerSec` |  |
 | Log flush rate and time | `kafka.log:type=LogFlushStats,name=LogFlushRateAndTimeMs` |  |
-| # of under replicated partitions <code> &#124; ISR &#124; < &#124; all replicas &#124; </code> | `kafka.server:type=ReplicaManager,name=UnderReplicatedPartitions` | 0 |
+| # of under replicated partitions ` &#124; ISR &#124; < &#124; all replicas &#124; ` | `kafka.server:type=ReplicaManager,name=UnderReplicatedPartitions` | 0 |
 | Is controller active on broker | `kafka.controller:type=KafkaController,name=ActiveControllerCount` | only one broker in the broker should have 1 |
 | Leader election rate | `kafka.controller:type=ControllerStats,name=LeaderElectionRateAndTimeMs` | non-zero when there are broker failures |
 | Unclean leader election rate | `kafka.controller:type=ControllerStats,name=UncleanLeaderElectionsPerSec` | 0 |
@@ -85,15 +85,15 @@ Common metrics to monitor:
 | Lag in messages per follower replica | `kafka.server:type=FetcherLagMetrics,name=ConsumerLag,clientId=([-.\w]+),topic=([-.\w]+),partition=([0-9]+)` | lag should be proportional to the maximum batch size of a produce request. |
 | Requests waiting in the producer purgatory | `kafka.server:type=ProducerRequestPurgatory,name=PurgatorySize` | non-zero if ack=-1 is used |
 | Requests waiting in the fetch purgatory | `kafka.server:type=FetchRequestPurgatory,name=PurgatorySize` | size depends on fetch.wait.max.ms in the consumer |
-| Request total time | <code>kafka.network:type=RequestMetrics,name=TotalTimeMs,request={Produce&#124;FetchConsumer&#124;FetchFollower}</code> | broken into queue, local, remote and response send time |
-| Time the request waiting in the request queue | <code>kafka.network:type=RequestMetrics,name=QueueTimeMs,request={Produce&#124;FetchConsumer&#124;FetchFollower}</code> |  |
-| Time the request being processed at the leader | <code>kafka.network:type=RequestMetrics,name=LocalTimeMs,request={Produce&#124;FetchConsumer&#124;FetchFollower}</code> |  |
-| Time the request waits for the follower | <code>kafka.network:type=RequestMetrics,name=RemoteTimeMs,request={Produce&#124;FetchConsumer&#124;FetchFollower}</code> | non-zero for produce requests when ack=-1 |
-| Time to send the response | <code>kafka.network:type=RequestMetrics,name=ResponseSendTimeMs,request={Produce&#124;FetchConsumer&#124;FetchFollower}</code> |  |
+| Request total time | `kafka.network:type=RequestMetrics,name=TotalTimeMs,request={Produce&#124;FetchConsumer&#124;FetchFollower}` | broken into queue, local, remote and response send time |
+| Time the request waiting in the request queue | `kafka.network:type=RequestMetrics,name=QueueTimeMs,request={Produce&#124;FetchConsumer&#124;FetchFollower}` |  |
+| Time the request being processed at the leader | `kafka.network:type=RequestMetrics,name=LocalTimeMs,request={Produce&#124;FetchConsumer&#124;FetchFollower}` |  |
+| Time the request waits for the follower | `kafka.network:type=RequestMetrics,name=RemoteTimeMs,request={Produce&#124;FetchConsumer&#124;FetchFollower}` | non-zero for produce requests when ack=-1 |
+| Time to send the response | `kafka.network:type=RequestMetrics,name=ResponseSendTimeMs,request={Produce&#124;FetchConsumer&#124;FetchFollower}` |  |
 | Number of messages the consumer lags behind the producer by | `kafka.consumer:type=ConsumerFetcherManager,name=MaxLag,clientId=([-.\w]+)` |  |
 | The average fraction of time the network processors are idle | `kafka.network:type=SocketServer,name=NetworkProcessorAvgIdlePercent` | between 0 and 1, ideally > 0.3 |
 | The average fraction of time the request handler threads are idle | `kafka.server:type=KafkaRequestHandlerPool,name=RequestHandlerAvgIdlePercent` | between 0 and 1, ideally > 0.3 |
-| Quota metrics per client-id | <code>kafka.server:type={Produce&#124;Fetch},client-id==([-.\w]+)</code> | Two attributes. throttle-time indicates the amount of time in ms the client-id was throttled. Ideally = 0. byte-rate indicates the data produce/consume rate of the client in bytes/sec. |
+| Quota metrics per client-id | `kafka.server:type={Produce&#124;Fetch},client-id==([-.\w]+)` | Two attributes. throttle-time indicates the amount of time in ms the client-id was throttled. Ideally = 0. byte-rate indicates the data produce/consume rate of the client in bytes/sec. |
 
 The following metrics are available on new producer instances:
 

@@ -50,8 +50,8 @@ Follow these steps to install and configure this plugin:
 1. On RHEL/CentOS and Amazon Linux systems, run the following command to install this plugin:
 
          yum install collectd-mysql
-         
-   On Ubuntu and Debian systems, this plugin is included by default with the [SignalFx collectd agent](https://github.com/signalfx/integrations/tree/master/collectd)[](sfx_link:sfxcollectd). 
+
+   On Ubuntu and Debian systems, this plugin is included by default with the [SignalFx collectd agent](https://github.com/signalfx/integrations/tree/master/collectd)[](sfx_link:sfxcollectd).
 
 1. Download SignalFx's [sample configuration file](https://github.com/signalfx/integrations/tree/master/collectd-mysql/10-mysql.conf) for this plugin to `/etc/collectd/managed_config`.
 
@@ -71,7 +71,7 @@ Using the example configuration file [10-mysql.conf](https://github.com/signalfx
 | Port | Can be used to connect to the database in lieu of specifying a Socket | 3306 |
 | User | A valid username that collectd can use to connect to MySQL. | "root" |
 | Password | Password for the username given in User. | "abcdABCD1." |
-| Database (within block) | The name of the MySQL database to monitor. | `Database "mysql_one"` |
+| Database (within block) | The name of the MySQL database to monitor. | `Database "mysql\_one"` |
 
 #### Note: Monitoring multiple instances
 
@@ -91,7 +91,7 @@ If you have configured MySQL to use replication you may want to collect informat
 
 ### USAGE
 
-Below are screen captures of dashboards created for this plugin by SignalFx, illustrating the metrics emitted by this plugin. 
+Below are screen captures of dashboards created for this plugin by SignalFx, illustrating the metrics emitted by this plugin.
 
 For general reference on how to monitor MySQL performance using this plugin, see [documentation on collectd.org](https://collectd.org/wiki/index.php/Plugin:MySQL).
 
