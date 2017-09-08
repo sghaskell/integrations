@@ -86,7 +86,7 @@ The plugin is intended to be run on a per-node basis. Define only one "Module" e
 | Port | The port number of this instance of Elasticsearch. | "9200" |
 | DetailedMetrics | Turns on additional metric time series. Acceptable values: (true/false). | false |
 | IndexInterval | Interval in seconds at which the plugin will report index metrics.  Must be greater than or equal and divisible by the Interval.  Incorrect values are automatically rounded to a compatible value. | 300 |
-| AdditionalMetrics | A python list of additional metrics to be emitted.  The names provided must match a metric defined in the elasticsearch_collectd.py file. | \[""\] |
+| AdditionalMetrics | A python list of additional metrics to be emitted.  The names provided must match a metric defined in the elasticsearch\_collectd.py file. | \[""\] |
 | Username | The plain text username for accessing the Elasticsearch installation (Basic Authentication Only). | ```Unconfigured``` |
 | Password | The plain text password for accessing the Elasticsearch installation (Basic Authentication Only). | ```Unconfigured``` |
 | ThreadPools | "search" and "index" thread pools are required, but additional threadpools can be specified in the list. See [note regarding available thread pools](#note-available-thread-pools) below. | \["search","index"\] |
@@ -106,13 +106,13 @@ The following table indicates thread pools that can be monitored by this plugin 
 | snapshot         |&#x2713;     |&#x2713;     |&#x2713;     |
 | warmer           |&#x2713;     |&#x2713;     |&#x2713;     |
 | refresh          |&#x2713;     |&#x2713;     |&#x2713;     |
-| fetch\_shard_started|      |&#x2713;     |&#x2713;     |
-| fetch\_shard_store|        |&#x2713;     |&#x2713;     |
+| fetch\_shard\_started|      |&#x2713;     |&#x2713;     |
+| fetch\_shard\_store|        |&#x2713;     |&#x2713;     |
 | listener         |        |&#x2713;     |&#x2713;     |
 | management       |        |&#x2713;     |&#x2713;     |
 | percolate        |        |&#x2713;     |&#x2713;     |
 | suggest          |        |&#x2713;     |&#x2713;     |
-| force_merge      |        |        |&#x2713;     |
+| force\_merge      |        |        |&#x2713;     |
 
 
 #### Note: Using this plugin from a container deployment
