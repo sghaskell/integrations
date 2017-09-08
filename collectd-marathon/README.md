@@ -1,4 +1,4 @@
-# Marathon
+# ![https://github.com/signalfx/integrations/blob/master/collectd-marathon/img/integrations_marathon.png] Marathon
 
 _This directory consolidates all the metadata associated with the Marathon plugin for collectd.  The relevant code for the plugin can be found [here](https://github.com/signalfx/collectd-marathon)_
 
@@ -14,7 +14,7 @@ _This directory consolidates all the metadata associated with the Marathon plugi
 
 This is the SignalFx Marathon plugin. Follow these instructions to install the Marathon plugin for collectd.
 
-The [collectd-marathon](https://github.com/signalfx/collectd-marathon) plugin collects metrics about Marathon applications and tasks. 
+The [collectd-marathon](https://github.com/signalfx/collectd-marathon) plugin collects metrics about Marathon applications and tasks.
 
 #### Features
 ##### Built-in dashboards
