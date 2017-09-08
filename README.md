@@ -61,13 +61,13 @@ We will programmatically read this document to generate a description on your in
 
 | field name | description |
 |------------|-------------|
-| display_name | name that will display in the integration tile|
+| display\_name | name that will display in the integration tile|
 | description | description of integration |
-| project_url | URL of 'metadata' directory (`https://github.com/signalfx/integrations/tree/master/[integration-foo]`)|
+| project\_url | URL of 'metadata' directory (`https://github.com/signalfx/integrations/tree/master/[integration-foo]`)|
 | code | URL of code repository |
 | featured | flag to put integration in "Top Integrations" section |
-| logo_large | URL of 300x300 pixel logo image |
-| logo_small | URL of 150x150 pixel logo image |
+| logo\_large | URL of 300x300 pixel logo image |
+| logo\_small | URL of 150x150 pixel logo image |
 
 
 Example:

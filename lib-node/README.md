@@ -150,7 +150,7 @@ Events can be send to SignalFx via the `sendEvent` function. The
 event param objects must be specified. `Event` param object is an optional map and may contains following fields:
 
 + **eventType** (string) - Required field. The event type (name of the event time series).
-+ **category** (int) - the category of event. Choose one from EVENT_CATEGORIES list.
++ **category** (int) - the category of event. Choose one from EVENT\_CATEGORIES list.
 Different categories of events are supported.Available categories of events are `USER_DEFINED`, `ALERT`, `AUDIT`, `JOB`,
 `COLLECTD`, `SERVICE_DISCOVERY`, `EXCEPTION`. For mode details see
 `proto/signal_fx_protocol_buffers.proto` file. Value by default is `USER_DEFINED`

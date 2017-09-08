@@ -65,16 +65,16 @@ client = SignalFx.new 'MY_SIGNALFX_TOKEN'
 ```
 
 Optional constructor parameters:
-+ **api_token** - Your private SignalFx token
-+ **enable_aws_unique_id** - boolean, `false` by default.
++ **api\_token** - Your private SignalFx token
++ **enable\_aws\_unique\_id** - boolean, `false` by default.
        If `true`, library will retrieve Amazon unique identifier
        and set it as `AWSUniqueId` dimension for each datapoint and event.
        Use this option only if your application deployed to Amazon
-+ **ingest_endpoint** - string
-+ **api_endpoint** - string
++ **ingest\_endpoint** - string
++ **api\_endpoint** - string
 + **timeout** - number
-+ **batch_size** - number
-+ **user_agents** - array
++ **batch\_size** - number
++ **user\_agents** - array
 
 #### <a name="sending-metrics">Sending metrics
 
