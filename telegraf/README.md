@@ -82,7 +82,7 @@ In `telegraf.conf`, provide values for the configuration options listed below th
 | [[outputs.signalfx]] | APIToken | Your SignalFx API token. | 'YOUR_SIGNALFX_API_TOKEN' |
 | [[outputs.signalfx]] | DatapointIngestURL | The datapoint ingest endpoint you wish to send to. | `https://ingest.signalfx.com/v2/datapoint` |
 | [[outputs.signalfx]] | EventIngestURL | The event ingest endpoint you wish to send to. | `https://ingest.signalfx.com/v2/event` |
-| [[outputs.signalfx]] | Exclude | An array of metric names represented as strings that should not be sent to SignalFx | `["system.uptime_format", "cpu.idle"]` |
+| [[outputs.signalfx]] | Exclude | An array of metric names represented as strings that should not be sent to SignalFx | `["system.uptime\_format", "cpu.idle"]` |
 | [agent] | logfile | Name of the desired logfile. Leave empty to log to `stderr`.  | 'logfile.log' |
 
 

@@ -14,7 +14,7 @@ _This is a directory that consolidates all the metadata associated with SignalFx
 
 This is a collectd plugin for getting metrics and information from
 [ZooKeeper](http://zookeeper.apache.org) servers, based on the ZooKeeper monitoring script
-[check_zookeeper.py](https://svn.apache.org/repos/asf/zookeeper/trunk/src/contrib/monitoring/check_zookeeper.py).
+[check\_zookeeper.py](https://svn.apache.org/repos/asf/zookeeper/trunk/src/contrib/monitoring/check_zookeeper.py).
 
 #### FEATURES
 

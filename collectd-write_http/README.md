@@ -59,7 +59,7 @@ Synopsis:
 |ClientKey| File|File that holds the private key in PEM format to be used for certificate-based authentication.|
 |ClientCert| File|File that holds the SSL certificate to be used for certificate-based authentication.|
 |ClientKeyPass| Password|Password required to load the private key in ClientKey.|
-|SSLVersion | SSLv2/SSLv3/TLSv1/TLSv1_0/TLSv1_1/TLSv1_2|Define which SSL protocol version must be used. By default libcurl will attempt to figure out the remote SSL protocol version. See curl_easy_setopt(3) for more details.|
+|SSLVersion | SSLv2/SSLv3/TLSv1/TLSv1\_0/TLSv1\_1/TLSv1\_2|Define which SSL protocol version must be used. By default libcurl will attempt to figure out the remote SSL protocol version. See curl\_easy\_setopt(3) for more details.|
 |Format |Command/JSON|Format of the output to generate. If set to Command, will create output that is understood by the Exec and UnixSock plugins. When set to JSON, will create output in the JavaScript Object Notation (JSON). Defaults to Command.|
 |StoreRates| true/false|If set to true, convert counter values to rates. If set to false (the default) counter values are stored as is, i.e. as an increasing integer number.|
 |BufferSize| Bytes|Sets the send buffer size to Bytes. By increasing this buffer, less HTTP requests will be generated, but more metrics will be batched / metrics are cached for longer before being sent, introducing additional delay until they are available on the server side. Bytes must be at least 1024 and cannot exceed the size of an int, i.e. 2 GByte. Defaults to 4096.|
