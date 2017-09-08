@@ -94,12 +94,12 @@ The following options are recognized within MBean blocks:
 
 | configuration option | type | definition |
 | ---------------------|------------|---------------|
-|Host| name| Host name used when dispatching the values to collectd. See [naming schema](https://collectd.org/wiki/index.php/Naming_schema) for details. The option sets this field only, it is not used to connect to anything and doesn't need to be a real, resolvable name.|
-|ServiceURL |URL| Specifies how the MBeanServer can be reached. Any string accepted by the JMXServiceURL is valid. See also: [JMXServiceURL](http://java.sun.com/javase/6/docs/api/javax/management/remote/JMXServiceURL.html)|
-|User |name| Use name to authenticate to the server. If not configured, “monitorRole” will be used.|
-|Password|password| Use password to authenticate to the server. If not given, unauthenticated access is used.|
-|InstancePrefix |prefix| Prefixes the generated plugin instance with prefix. If a second InstancePrefix is specified in a referenced MBean block, the prefix specified in the Connection block will appear at the beginning of the plugin instance, the prefix specified in the MBean block will be appended to it. (optional, since version 5.0)|
-|Collect |mbean_block_name| Configures which of the _MBean_ blocks to use with this connection. May be repeated to collect multiple _MBeans_ from this server.|
+| Host | name | Host name used when dispatching the values to collectd. See [naming schema](https://collectd.org/wiki/index.php/Naming_schema) for details. The option sets this field only, it is not used to connect to anything and doesn't need to be a real, resolvable name. |
+| ServiceURL | URL | Specifies how the MBeanServer can be reached. Any string accepted by the JMXServiceURL is valid. See also: [JMXServiceURL](http://java.sun.com/javase/6/docs/api/javax/management/remote/JMXServiceURL.html) |
+| User | name | Use name to authenticate to the server. If not configured, “monitorRole” will be used. |
+| Password | password | Use password to authenticate to the server. If not given, unauthenticated access is used. |
+| InstancePrefix | prefix | Prefixes the generated plugin instance with prefix. If a second InstancePrefix is specified in a referenced MBean block, the prefix specified in the Connection block will appear at the beginning of the plugin instance, the prefix specified in the MBean block will be appended to it. (optional, since version 5.0) |
+| Collect | mbean\_block\_name | Configures which of the _MBean_ blocks to use with this connection. May be repeated to collect multiple _MBeans_ from this server. |
 
 ### USAGE
 
@@ -107,11 +107,11 @@ The GenericJMX collectd plugin by itself gathers generic Java metrics. By defaul
 
 | configuration option | type | definition |
 | ---------------------|------------|---------------|
-|Collect "classes"| mbean_block_name | The classes that are running on the host|
-|Collect "garbage_collector"| mbean_block_name| Number of garbage collections and time spent. |
-|Collect "memory-heap"| mbean_block_name| Total size and usage of Heap Memory |
-|Collect "memory-nonheap"| mbean_block_name | Total size and usage of non-heap memory|
-|Collect "memory_pool"| mbean_block_name | Total size and use of memory pool |
+|Collect "classes"| mbean\_block\_name | The classes that are running on the host|
+|Collect "garbage\_collector"| mbean\_block\_name| Number of garbage collections and time spent. |
+|Collect "memory-heap"| mbean\_block\_name| Total size and usage of Heap Memory |
+|Collect "memory-nonheap"| mbean\_block\_name | Total size and usage of non-heap memory|
+|Collect "memory\_pool"| mbean\_block\_name | Total size and use of memory pool |
 
 ### METRICS
 
