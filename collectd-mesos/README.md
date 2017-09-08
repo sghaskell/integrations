@@ -49,7 +49,7 @@ This plugin requires:
 
 1. Download the three Python modules for Mesos from the following URL:
   [https://github.com/signalfx/collectd-mesos](https://github.com/signalfx/collectd-mesos). Place them in a convenient spot (e.g. in `/usr/share/collectd/mesos-collectd-plugin`)
-  
+
 1. Download SignalFx's sample configuration files for a [Mesos master](https://github.com/signalfx/integrations/tree/master/collectd-mesos/10-mesos-master.conf) or a [Mesos slave](https://github.com/signalfx/integrations/tree/master/collectd-mesos/10-mesos-slave.conf) to `/etc/collectd/managed_config`.
 
 1. Modify the configuration file to contain values that make sense for your environment, as described [below](#configuration).
@@ -58,7 +58,7 @@ This plugin requires:
 
 ### CONFIGURATION
 
-Using the example configuration files [`10-mesos-master.conf`](././10-mesos-master.conf) or [`10-mesos-slave.conf`](././10-mesos-slave.conf) as a guide, provide values for the configuration options listed below that make sense for your environment and allow you to connect to the Mesos instance to be monitored.
+Using the example configuration files [10-mesos-master.conf](././10-mesos-master.conf) or [10-mesos-slave.conf](././10-mesos-slave.conf) as a guide, provide values for the configuration options listed below that make sense for your environment and allow you to connect to the Mesos instance to be monitored.
 
 | configuration option | definition | default value |
 | ---------------------|------------|---------------|
@@ -93,7 +93,7 @@ Track week-over-week growth of tasks in your cluster to be informed of changing 
 
 ![connected slaves](./img/connected_slaves.png)
 
-An unexpectedly low number of connected slaves on a Mesos master can indicate a network problem preventing them from connecting. To verify this, check to see if there’s an unexpectedly high number of dropped messages in [`counter.master_dropped_messages`](./docs/counter.master_dropped_messages.md).
+An unexpectedly low number of connected slaves on a Mesos master can indicate a network problem preventing them from connecting. To verify this, check to see if there’s an unexpectedly high number of dropped messages in [counter.master_dropped_messages](./docs/counter.master_dropped_messages.md).
 
 ![connected frameworks and task detail](./img/connected_frameworks.png)
 

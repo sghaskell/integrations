@@ -73,7 +73,7 @@ Using the example configuration file [10-couchbase.conf](https://github.com/sign
 | Host | Hostname or IP address of the Couchbase server. | "localhost" |
 | Port | Port at which the Couchbase server can be reached. | "8091" |
 | ClusterName | Name of this Couchbase cluster. | "default" |
-| CollectMode | Change to "detailed" to collect all available metrics from Couchbase stats API. Defaults to "default", collecting a curated set that works well with SignalFx. See [`metric_info.py`](https://github.com/signalfx/collectd-couchbase/blob/master/metric_info.py) for more information. | "default" |
+| CollectMode | Change to "detailed" to collect all available metrics from Couchbase stats API. Defaults to "default", collecting a curated set that works well with SignalFx. See [metric_info.py](https://github.com/signalfx/collectd-couchbase/blob/master/metric_info.py) for more information. | "default" |
 | Interval | Number of seconds between calls to Couchbase API. | 10 |
 | Username | If CollectTarget is "BUCKET" and this bucket requires authentication, username to authenticate to this bucket. If this bucket does not require authentication, do not include this option in the Module block. | "USERNAME" |
 | Password | If CollectTarget is "BUCKET" and this bucket requires authentication, password to authenticate to this bucket. If this bucket does not require authentication, do not include this option in the Module block. | "PASSWORD" |
