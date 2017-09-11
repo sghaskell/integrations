@@ -1,6 +1,6 @@
 # ![](https://github.com/signalfx/integrations/blob/master/collectd-rabbitmq/img/integrations_rabbitmq.png) RabbitMQ
 
-_This is a directory that consolidates all the metadata associated with the RabbitMQ collectd plugin. The relevant code for the plugin can be found [here](https://github.com/signalfx/collectd-rabbitmq)_
+This is a directory that consolidates all the metadata associated with the RabbitMQ collectd plugin. The relevant code for the plugin can be found [here](https://github.com/signalfx/collectd-rabbitmq).
 
 - [Description](#description)
 - [Requirements and Dependencies](#requirements-and-dependencies)

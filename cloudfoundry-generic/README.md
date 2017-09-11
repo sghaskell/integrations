@@ -1,6 +1,6 @@
 # ![](././img/integrations_cloudfoundry.png) Cloud Foundry
 
-_This directory consolidates all the metadata associated with the **Cloud Foundry Integration**. The relevant code for the integration can be found [here](https://github.com/search?q=topic%3Acloud-foundry+org%3Asignalfx+fork%3Atrue)_
+This directory consolidates all the metadata associated with the **Cloud Foundry Integration**. The relevant code for the integration can be found [here](https://github.com/search?q=topic%3Acloud-foundry+org%3Asignalfx+fork%3Atrue).
 
 - [Description](#description)
 - [Requirements and Dependencies](#requirements-and-dependencies)

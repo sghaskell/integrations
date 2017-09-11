@@ -1,6 +1,6 @@
 # ![](https://github.com/signalfx/integrations/blob/master/kubernetes/img/integrations_kubernetes.png) Kubernetes
 
-_This is a directory that consolidates all the metadata associated with the Kubernetes integration. The relevant documentation for the project can be found [here](https://docs.signalfx.com/en/latest/integrations/kubernetes-quickstart.html)_
+This is a directory that consolidates all the metadata associated with the Kubernetes integration. The relevant documentation for the project can be found [here](https://docs.signalfx.com/en/latest/integrations/kubernetes-quickstart.html).
 
 - [Description](#description)
 - [License](#license)
