@@ -79,7 +79,7 @@ Configuration directions are provided by [Cisco](https://github.com/cisco/bigmud
 
 ### METRICS
 
-For documentation of the metrics and dimensions emitted by this plugin, [click here](././docs).
+For documentation of the metrics and dimensions emitted by this plugin, [click here](./docs).
 
 ### LICENSE
 

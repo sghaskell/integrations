@@ -104,7 +104,7 @@ For additional information on how to monitor Mesos, check out Apache's guide [he
 
 ### METRICS
 
-For documentation of the metrics and dimensions emitted by this plugin, [click here](././docs).
+For documentation of the metrics and dimensions emitted by this plugin, [click here](./docs).
 
 ### LICENSE
 

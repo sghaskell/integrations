@@ -41,7 +41,7 @@ There are many potential uses for the cURL-JSON plugin. One example is for gathe
 
 ### METRICS
 
-For documentation of the metrics and dimensions emitted by this plugin, [click here](././docs).
+For documentation of the metrics and dimensions emitted by this plugin, [click here](./docs).
 
 ### LICENSE
 

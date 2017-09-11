@@ -214,7 +214,7 @@ Sample of pre-built dashboard in SignalFx:
 | esi\_parse         | Objects ESI parsed (unlock)   | Yes                | CollectESI         |
 | esi\_errors        | ESI parse errors (unlock)     | Yes                |                    |
 
-For segmented metrics and dimensions emitted by this plugin, [click here](././docs).
+For segmented metrics and dimensions emitted by this plugin, [click here](./docs).
 
 ### LICENSE
 

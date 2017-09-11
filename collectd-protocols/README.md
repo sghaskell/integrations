@@ -64,7 +64,7 @@ This is a plugin used to gather data about specific protocols in use by a host o
 
 ### METRICS
 
-For documentation of the metrics and dimensions emitted by this plugin, [click here](././docs).
+For documentation of the metrics and dimensions emitted by this plugin, [click here](./docs).
 
 ### LICENSE
 
