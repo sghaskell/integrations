@@ -54,15 +54,15 @@ The [docker-collectd](https://github.com/signalfx/docker-collectd-plugin) plugin
 
 1. Run the following command to install the module’s dependencies using `pip`, replacing the example path with the download location of the `docker-collectd-plugin` module:
 
-  ```
-  sudo pip install -r /path/to/docker-collectd-plugin/requirements.txt
-  ```
+  *   ```
+      sudo pip install -r /path/to/docker-collectd-plugin/requirements.txt
+      ```
 
- **On Amazon Linux**: Run the following commands instead:
-  ```
-  yum install python26-pip
-  sudo pip-2.6 install -r /path/to/docker-collectd-plugin/requirements.txt
-  ```
+ *    **On Amazon Linux**: Run the following commands instead:
+      ```
+      yum install python26-pip
+      sudo pip-2.6 install -r /path/to/docker-collectd-plugin/requirements.txt
+      ```
 
 1. Download SignalFx’s [sample configuration file](https://github.com/signalfx/integrations/blob/master/collectd-docker/10-docker.conf) for this plugin to `/etc/collectd/managed_config`.
 
@@ -74,7 +74,7 @@ The [docker-collectd](https://github.com/signalfx/docker-collectd-plugin) plugin
   * Set the CpuQuotaPercent and CpuSharesPercent configuration options to true
   * Configure the filter to emit the optional metrics. Please see the configuration details [here](#configuration)
 
-5. The optional dashboard `Docker Neighbours` offers visualizations based on the CPU quota and CPU shares metrics. To view the dashboard:
+1. The optional dashboard `Docker Neighbours` offers visualizations based on the CPU quota and CPU shares metrics. To view the dashboard:
   * Manually import the dashboard into your organization in SignalFx.
     * Download the dashboard
     * Click to open the Actions menu, hover over Import, then select Dashboard Group
