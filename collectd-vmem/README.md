@@ -45,7 +45,7 @@ From the [collectd wiki](https://collectd.org/documentation/manpages/collectd.co
 
 ### METRICS
 
-For documentation of the metrics and dimensions emitted by this plugin, [click here](././docs).
+For documentation of the metrics and dimensions emitted by this plugin, [click here](./docs).
 
 ### LICENSE
 

@@ -102,7 +102,7 @@ This plugin emits a notification at every startup. If your collectd configuratio
 
 >This section refers to the metrics documentation found in the `/docs` subdirectory. See [/docs/README.md](././docs/readme.md) for formatting instructions.
 
-For documentation of the metrics and dimensions emitted by this plugin, [click here](././docs).
+For documentation of the metrics and dimensions emitted by this plugin, [click here](./docs).
 
 ### LICENSE
 

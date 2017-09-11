@@ -48,7 +48,7 @@ The [SignalFx collectd plugin](https://github.com/signalfx/integrations/tree/mas
 
 ### METRICS
 
-For documentation of the metrics and dimensions emitted by this plugin, [click here](././docs).
+For documentation of the metrics and dimensions emitted by this plugin, [click here](./docs).
 
 ### LICENSE
 

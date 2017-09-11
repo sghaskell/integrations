@@ -109,7 +109,7 @@ For general reference on how to monitor MySQL performance using this plugin, see
 
 ### METRICS
 
-For documentation of the metrics and dimensions emitted by this plugin, [click here](././docs).
+For documentation of the metrics and dimensions emitted by this plugin, [click here](./docs).
 
 #### Note: This plugin may not emit all listed metrics
 
