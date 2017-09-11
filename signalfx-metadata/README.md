@@ -1,6 +1,6 @@
 # SignalFx plugin for collectd
 
-_This directory consolidates all the metadata associated with the SignalFx plugin for collectd. The relevant code for the plugin can be found [here](https://github.com/signalfx/collectd-signalfx/)_
+This directory consolidates all the metadata associated with the SignalFx plugin for collectd. The relevant code for the plugin can be found [here](https://github.com/signalfx/collectd-signalfx/).
 
 - [Description](#description)
 - [Requirements and Dependencies](#requirements-and-dependencies)

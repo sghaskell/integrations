@@ -1,6 +1,6 @@
 # ![](https://github.com/signalfx/integrations/blob/master/collectd/img/integration_collectd.png) Memory
 
-_This is a directory consolidate all the metadata associated with the Memory collectd plugin. The relevant code for the plugin can be found [here](https://github.com/signalfx/collectd/blob/master/src/memory.c)_
+This is a directory consolidate all the metadata associated with the Memory collectd plugin. The relevant code for the plugin can be found [here](https://github.com/signalfx/collectd/blob/master/src/memory.c).
 
 - [Description](#description)
 - [Requirements and Dependencies](#requirements-and-dependencies)

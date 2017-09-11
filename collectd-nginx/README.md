@@ -1,6 +1,6 @@
 # ![](https://github.com/signalfx/integrations/blob/master/collectd-nginx/img/integrations_nginx.png) NGINX
 
-_This is a directory that consolidates all the metadata associated with the NGINX collectd plugin. The relevant code for the plugin can be found [here](https://github.com/signalfx/collectd/blob/master/src/nginx.c)_
+This is a directory that consolidates all the metadata associated with the NGINX collectd plugin. The relevant code for the plugin can be found [here](https://github.com/signalfx/collectd/blob/master/src/nginx.c).
 
 - [Description](#description)
 - [Requirements and Dependencies](#requirements-and-dependencies)

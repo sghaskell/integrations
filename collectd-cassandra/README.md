@@ -1,6 +1,6 @@
 # ![](./img/integrations_cassandra.png) Cassandra
 
- _This directory consolidates all the metadata associated with SignalFx's Cassandra integration with collectd. The relevant code for the plugin can be found [here](https://github.com/signalfx/collectd/blob/master/src/java.c)_
+ This directory consolidates all the metadata associated with SignalFx's Cassandra integration with collectd. The relevant code for the plugin can be found [here](https://github.com/signalfx/collectd/blob/master/src/java.c).
 
 - [Description](#description)
 - [Requirements and Dependencies](#requirements-and-dependencies)
@@ -51,9 +51,9 @@ Use this integration to monitor the following types of information from Cassandr
 
 Open the JMX port on your Cassandra app. Cassandra will listen for connections on port 8080 (port 7199 starting in 0.8.0-beta1). More information can be found at the [Cassandra Project site](http://wiki.apache.org/cassandra/JmxInterface). There is also a page covering a few [common issues](http://wiki.apache.org/cassandra/JmxGotchas).
 
-#### Install Cassandra integration 
+#### Install Cassandra integration
 
-1. RHEL/CentOS and Amazon Linux users: Install the [Java plugin for collectd](https://github.com/signalfx/integrations/tree/master/collectd-java)[](sfx_link:collectd-java) if it is not already installed. 
+1. RHEL/CentOS and Amazon Linux users: Install the [Java plugin for collectd](https://github.com/signalfx/integrations/tree/master/collectd-java)[](sfx_link:collectd-java) if it is not already installed.
 
 1. Download SignalFx's example Cassandra configuration file to `/etc/collectd/managed_config`:  [20-cassandra.conf](https://github.com/signalfx/integrations/blob/master/collectd-cassandra/20-cassandra.conf)
 

@@ -1,6 +1,6 @@
 # ![](https://github.com/signalfx/integrations/blob/master/collectd-apache/img/integrations_apache.png) Apache
 
-_This is a directory that consolidates all the metadata associated with the Apache collectd plugin. The relevant code for the plugin can be found [here](https://github.com/signalfx/collectd/blob/master/src/apache.c)_
+This is a directory that consolidates all the metadata associated with the Apache collectd plugin. The relevant code for the plugin can be found [here](https://github.com/signalfx/collectd/blob/master/src/apache.c).
 
 - [Description](#description)
 - [Requirements and Dependencies](#requirements-and-dependencies)

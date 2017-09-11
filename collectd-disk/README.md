@@ -1,6 +1,6 @@
 # ![](https://github.com/signalfx/integrations/blob/master/collectd/img/integration_collectd.png) Disk
 
-_This directory consolidates all the metadata associated with the Disk collectd plugin. The relevant code for the plugin can be found [here](https://github.com/signalfx/collectd/blob/master/src/disk.c)_
+This directory consolidates all the metadata associated with the Disk collectd plugin. The relevant code for the plugin can be found [here](https://github.com/signalfx/collectd/blob/master/src/disk.c).
 
 - [Description](#description)
 - [Requirements and Dependencies](#requirements-and-dependencies)

@@ -1,6 +1,6 @@
 # Example Python Plugin
 
-_This directory consolidates all the metadata associated with the **Example Integration**. The relevant code for the integration can be found [here](https://github.com/signalfx/collectd-example)_
+This directory consolidates all the metadata associated with the **Example Integration**. The relevant code for the integration can be found [here](https://github.com/signalfx/collectd-example).
 
 >This file contains information about our example Python plugin. It also contains instructions for producing similar README files for other plugins.
 >

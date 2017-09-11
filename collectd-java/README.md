@@ -1,6 +1,6 @@
 # ![](./img/integrations_java.png) Java
 
-_This directory consolidates all the metadata associated with the Java plugin for collectd. The relevant code for the plugin can be found [here](https://github.com/signalfx/collectd/blob/master/src/java.c)_
+This directory consolidates all the metadata associated with the Java plugin for collectd. The relevant code for the plugin can be found [here](https://github.com/signalfx/collectd/blob/master/src/java.c).
 
 - [Description](#description)
 - [Requirements and Dependencies](#requirements-and-dependencies)

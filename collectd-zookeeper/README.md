@@ -1,6 +1,6 @@
 # ![](https://github.com/signalfx/integrations/blob/master/collectd-zookeeper/img/integrations_zookeeper.png) Zookeeper
 
-_This is a directory that consolidates all the metadata associated with SignalFx's integration with Zookeeper. The relevant code for the plugin can be found [here](https://github.com/signalfx/collectd-zookeeper)_
+This is a directory that consolidates all the metadata associated with SignalFx's integration with Zookeeper. The relevant code for the plugin can be found [here](https://github.com/signalfx/collectd-zookeeper).
 
 - [Description](#description)
 - [Requirements and Dependencies](#requirements-and-dependencies)
