@@ -57,6 +57,7 @@ The [docker-collectd](https://github.com/signalfx/docker-collectd-plugin) plugin
       *     sudo pip install -r /path/to/docker-collectd-plugin/requirements.txt
 
       * **On Amazon Linux**: Run the following commands instead:
+      
             *     yum install python26-pip
                   sudo pip-2.6 install -r /path/to/docker-collectd-plugin/requirements.txt
 
