@@ -46,7 +46,7 @@ Configuration for the SignalFx filter:
 | value_field | string | (optional) defaults to `"value"` | The `fieldname` to use as the value for the metric in signalfx. If the `value` field is not present this encoder will set one as the value for counters: `1`. A value of `0` will be used for `gauges`. |
 | msg\_type | string | (optional) defaults to `"signalfxbatch"` | `Type` of the message outputted from this filter. |
 | max\_count | int  | (optional) defaults to `"20"` | Max number of messages before a batch is flushed from the filter.|
-| dimensions | string | (optional) defaults to `"" ` | A space delimited list of field names. Each of these will be written as "dimensions" on the SignalFx data point, which you can filter by in SignalFx.*|
+| dimensions | string | (optional) defaults to `""` | A space delimited list of field names. Each of these will be written as "dimensions" on the SignalFx data point, which you can filter by in SignalFx.*|
 
 `dimentions` example: a value of "Hostname Severity" would write the field:
 
