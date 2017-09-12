@@ -52,9 +52,7 @@ The [collectd-marathon](https://github.com/signalfx/collectd-marathon) plugin co
 
 1.  Run the following command to install the module’s dependencies using `pip`, replacing the example path with the download location of the `collectd-marathon` module:
 
-    ```
-    sudo pip install -r /path/to/collectd-marathon/requirements.txt
-    ```
+      sudo pip install -r /path/to/collectd-marathon/requirements.txt
 
 1.  Download SignalFx’s [sample configuration file](https://github.com/signalfx/integrations/blob/master/collectd-marathon/20-collectd-marathon.conf) for this plugin to `/etc/collectd/managed_config`.
 
