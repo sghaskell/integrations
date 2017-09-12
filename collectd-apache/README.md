@@ -42,17 +42,15 @@ This plugin collects metrics from the module `mod_status`.
 1. Enable the [mod\_status](http://httpd.apache.org/docs/2.4/mod/mod_status.html) module in your Apache server.
 
 1. Add the following configuration to your Apache server:
-
-        ExtendedStatus on
-        <Location /mod_status>
+    *     ExtendedStatus on
+          <Location /mod_status>
           SetHandler server-status
-        </Location>
+          </Location>
 
 1. Restart Apache.
 
 1. On RHEL/CentOS and Amazon Linux systems, run the following command to install this plugin:
-
-         yum install collectd-apache
+    *     yum install collectd-apache
 
    On Ubuntu and Debian systems, this plugin is included by default with the [SignalFx collectd agent](https://github.com/signalfx/integrations/tree/master/collectd)[](sfx_link:sfxcollectd).
 

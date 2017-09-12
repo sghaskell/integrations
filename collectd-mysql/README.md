@@ -47,11 +47,12 @@ This plugin connects to a MySQL instance and reports on the values returned by a
 
 Follow these steps to install and configure this plugin:
 
-1. On RHEL/CentOS and Amazon Linux systems, run the following command to install this plugin:
+1. Installing the plugin:
+    * On RHEL/CentOS and Amazon Linux systems, run the following command to install this plugin:
 
-         yum install collectd-mysql
+          yum install collectd-mysql
 
-   On Ubuntu and Debian systems, this plugin is included by default with the [SignalFx collectd agent](https://github.com/signalfx/integrations/tree/master/collectd)[](sfx_link:sfxcollectd).
+    * On Ubuntu and Debian systems, this plugin is included by default with the [SignalFx collectd agent](https://github.com/signalfx/integrations/tree/master/collectd)[](sfx_link:sfxcollectd).
 
 1. Download SignalFx's [sample configuration file](https://github.com/signalfx/integrations/tree/master/collectd-mysql/10-mysql.conf) for this plugin to `/etc/collectd/managed_config`.
 

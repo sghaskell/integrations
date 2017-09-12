@@ -43,7 +43,6 @@ To monitor the general health of ActiveMQ, see [SignalFx's ActiveMQ integration]
         cd path/to/activemq-integration/amq-message-age
         ./run.sh
 
-
 ### CONFIGURATION
 
 Supply values for the following properties in the `/activemq-integration/amq-message-age/properties` file.
