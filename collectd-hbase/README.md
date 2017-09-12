@@ -26,15 +26,12 @@
 
 1. Install the [Java plugin](https://collectd.org/wiki/index.php/Plugin:GenericJMX).
 
- RHEL/CentOS 6.x & 7.x, and Amazon Linux 2014.09, 2015.03 & 2015.09
+    * RHEL/CentOS 6.x & 7.x, and Amazon Linux 2014.09, 2015.03 & 2015.09. Run the following command to install the Java plugin for collectd:
 
- Run the following command to install the Java plugin for collectd:
+          yum install collectd-java
 
-         yum install collectd-java
-
- Ubuntu 12.04, 14.04, 15.04 & Debian 7, 8:
-
- This plugin is included with [SignalFx's collectd package](https://github.com/signalfx/integrations/tree/master/collectd).
+    * Ubuntu 12.04, 14.04, 15.04 & Debian 7, 8:
+      - This plugin is included with [SignalFx's collectd package](https://github.com/signalfx/integrations/tree/master/collectd).
 
 1. Download SignalFx's sample JMX configuration file and sample Cassandra configuration file from the following URLs:
 
