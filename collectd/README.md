@@ -55,9 +55,9 @@ You must have administrator (sudo) privileges to install this agent.
 #### Install on a host
 
 Run the following command to install the SignalFx collectd agent ([click here to read about available configuration options](https://github.com/signalfx/signalfx-collectd-installer/blob/master/README.md)):
-
+```
           sudo curl -sSL https://dl.signalfx.com/collectd-install | bash -s YOUR_SIGNALFX_API_TOKEN
-
+```
 #### Install in a privileged container
 
 SignalFx supports two Docker images of the SignalFx collectd agent for containerized environments:
@@ -66,7 +66,7 @@ SignalFx supports two Docker images of the SignalFx collectd agent for container
 - Ubuntu: [quay.io/signalfuse/collectd](quay.io/signalfuse/collectd)
 
 Run the following command to start the container, replacing `IMAGE_URL` with the URL of the desired image:
-
+```
           docker run --privileged \
             --net="host" \
             -e "SF_API_TOKEN=YOUR_SIGNALFX_API_TOKEN" \
@@ -75,7 +75,7 @@ Run the following command to start the container, replacing `IMAGE_URL` with the
             -v /var/run/docker.sock:/var/run/docker.sock \
             -v /etc:/mnt/etc:ro \
             IMAGE_URL
-
+```
 To read more about the SignalFx collectd agent Docker image, [click here for complete documentation on Github](https://github.com/signalfx/docker-collectd).
 
 #### Additional installation options
