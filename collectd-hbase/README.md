@@ -44,10 +44,10 @@
 
 1. Modify [hbase.conf](https://github.com/signalfx/integrations/blob/master/collectd-hbase/20-hbase.conf) to provide values that make sense for your environment, as described in the header.
 
- Add the following lines to /etc/collectd.conf, replacing the example paths with the locations of the configuration files you downloaded in step 2:
+    * Add the following lines to /etc/collectd.conf, replacing the example paths with the locations of the configuration files you downloaded in step 2:
 
-         include '/path/to/10-jmx.conf'
-         include '/path/to/20-hbase.conf'
+          include '/path/to/10-jmx.conf'
+          include '/path/to/20-hbase.conf'
 
 1. Restart collectd.
 
