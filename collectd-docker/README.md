@@ -76,13 +76,12 @@ The [docker-collectd](https://github.com/signalfx/docker-collectd-plugin) plugin
 1. The optional dashboard `Docker Neighbours` offers visualizations based on the CPU quota and CPU shares metrics. To view the dashboard:
 
       * Manually import the dashboard into your organization in SignalFx.
-
             - Download the dashboard
 
             - Click to open the Actions menu, hover over Import, then select Dashboard Group
 
             - Specify the path to the downloaded `Page_Docker.json` file
-            
+
             - The new dashboard group should appear under Custom Dashboard Groups
 
 ### CONFIGURATION
