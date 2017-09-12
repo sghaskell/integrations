@@ -54,9 +54,7 @@ Follow these steps to install this plugin:
 2. Modify the sample configuration file [10-example.conf](https://github.com/signalfx/integrations/tree/master/collectd-example/10-example.conf) to contain values that make sense for your environment, as described [below](#configuration).
 3. Add the following line to `collectd.conf`, replacing the path with the path to the sample configuration file you modified in step 2:
 
-  ```
-  include '/path/to/10-example.conf'
-  ```
+        include '/path/to/10-example.conf'
 4. Restart collectd.
 
 ### CONFIGURATION
