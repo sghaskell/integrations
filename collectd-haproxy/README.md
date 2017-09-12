@@ -27,7 +27,8 @@ Use the [collectd-haproxy](https://github.com/signalfx/collectd-haproxy) collect
 1. Modify the sample configuration file as described in [Configuration](#configuration), below.
 1. `SELINUX ONLY` Create a SELinux policy package using the supplied type enforcement file.  Enter the commands below to create and install the policy package.
 
-      *   ```
+      *   
+      
             $ cd /usr/share/collectd/collectd-haproxy/selinux
             $ checkmodule -M -m -o collectd-haproxy.mod collectd-haproxy.te
             checkmodule:  loading policy configuration from collectd-haproxy.te
@@ -36,7 +37,6 @@ Use the [collectd-haproxy](https://github.com/signalfx/collectd-haproxy) collect
             $ semodule_package -o collectd-haproxy.pp -m collectd-haproxy.mod
             $ sudo semodule -i collectd-haproxy.pp
             $ sudo reboot
-          ```
 
 1. Restart collectd.
 
