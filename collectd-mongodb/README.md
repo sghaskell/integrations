@@ -76,7 +76,7 @@ Documentation for MongoDB can be found here: http://docs.mongodb.org/manual/
 1. If you want to use SSL/TLS to connect to Mongo, install the PyMongo TLS
    dependencies as well:
 
-      sudo pip install pymongo[tls]
+        sudo pip install pymongo[tls]
 
 1. Download the [collectd-mongodb Python module](https://github.com/signalfx/collectd-mongodb).  
 
