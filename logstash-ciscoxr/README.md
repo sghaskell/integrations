@@ -5,7 +5,6 @@
 - [Installation](#installation)
 - [Configuration](#configuration)
 - [Usage](#usage)
-- [Metrics](#metrics)
 - [License](#license)
 
 ### DESCRIPTION
@@ -76,10 +75,6 @@ Configuration directions are provided by [Cisco](https://github.com/cisco/bigmud
 ### USAGE
 
 ![](https://github.com/cisco/bigmuddy-network-telemetry-stacks/blob/master/common/png/signalfxjitter.png)
-
-### METRICS
-
-For documentation of the metrics and dimensions emitted by this plugin, [click here](./docs).
 
 ### LICENSE
 
