@@ -97,22 +97,22 @@ The following table indicates thread pools that can be monitored by this plugin 
 
 | thread pool name | ES 1.x | ES 2.0 | ES 2.1+ |
 |------------------|--------|--------|--------|
-| merge            | &#x2713;      |        |        |
-| optimize         |&#x2713;     |        |        |
-| bulk             |&#x2713;     |&#x2713;     |&#x2713;     |
-| flush            |&#x2713;     |&#x2713;     |&#x2713;     |
-| generic          |&#x2713;     |&#x2713;     |&#x2713;     |
-| get              |&#x2713;     |&#x2713;     |&#x2713;     |
-| snapshot         |&#x2713;     |&#x2713;     |&#x2713;     |
-| warmer           |&#x2713;     |&#x2713;     |&#x2713;     |
-| refresh          |&#x2713;     |&#x2713;     |&#x2713;     |
-| fetch\_shard\_started|      |&#x2713;     |&#x2713;     |
-| fetch\_shard\_store|        |&#x2713;     |&#x2713;     |
-| listener         |        |&#x2713;     |&#x2713;     |
-| management       |        |&#x2713;     |&#x2713;     |
-| percolate        |        |&#x2713;     |&#x2713;     |
-| suggest          |        |&#x2713;     |&#x2713;     |
-| force\_merge      |        |        |&#x2713;     |
+| merge            | \u2713      |        |        |
+| optimize         |\u2713     |        |        |
+| bulk             |\u2713     |\u2713     |\u2713     |
+| flush            |\u2713     |\u2713     |\u2713     |
+| generic          |\u2713     |\u2713     |\u2713     |
+| get              |\u2713     |\u2713     |\u2713     |
+| snapshot         |\u2713     |\u2713     |\u2713     |
+| warmer           |\u2713     |\u2713     |\u2713     |
+| refresh          |\u2713     |\u2713     |\u2713     |
+| fetch\_shard\_started|      |\u2713     |\u2713     |
+| fetch\_shard\_store|        |\u2713     |\u2713     |
+| listener         |        |\u2713     |\u2713     |
+| management       |        |\u2713     |\u2713     |
+| percolate        |        |\u2713     |\u2713     |
+| suggest          |        |\u2713     |\u2713     |
+| force\_merge      |        |        |\u2713     |
 
 
 #### Note: Using this plugin from a container deployment
