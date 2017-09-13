@@ -25,7 +25,7 @@ At this time there are no built in dashboards.  You may find metrics reported by
 |----------|--------------|
 | collectd | 5.0 or later |
 | Python   | 2.6 or later |
-| vmstat  | - |
+| vmstat  |   |
 | Python plugin for collectd | (included with [SignalFx collectd agent](https://github.com/signalfx/integrations/tree/master/collectd)[](sfx_link:sfxcollectd)) |
 
 ### INSTALLATION
