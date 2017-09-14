@@ -7,14 +7,14 @@
 - [Usage](#usage)
  - [Create client](#create-client)
  - [Sending metrics](#sending-metrics)
- - [Sending multi-dimensional metrics](#multi-dimensional)
+ - [Sending multi-dimensional metrics](#sending-multi-dimensional-metrics)
  - [Sending events](#sending-events)
 - [Examples](#examples)
 - [License](#license)
 
 
 
-### <a name="description"></a>DESCRIPTION
+### DESCRIPTION
 
 <code>signalfx-ruby</code> is a programmatic interface in
 Ruby for SignalFx's metadata and ingest APIs. It is meant
@@ -24,7 +24,7 @@ to interact with SignalFx or report metric and event data
 to SignalFx.
 
 
-### <a name="requirements-and-dependencies"></a>REQUIREMENTS AND DEPENDENCIES
+### REQUIREMENTS AND DEPENDENCIES
 
 #### Ruby version
 
@@ -36,7 +36,7 @@ To use this library, you need a SignalFx API access
 token. [Click here for more information on retrieving your API token](https://developers.signalfx.com/docs/authentication-overview).
 
 
-### <a name="installation"></a>INSTALLATION
+### INSTALLATION
 
 Add this line to your application's Gemfile:
 
@@ -51,9 +51,9 @@ Or install it yourself as:
     $ gem install signalfx
 
 
-### <a name="usage"></a>USAGE
+### USAGE
 
-#### <a name="create-client">Create client
+#### Create client
 
 The default constructor `SignalFx` uses Protobuf to send data to SignalFx. If it cannot send Protobuf, it falls back to sending JSON.
 
@@ -76,7 +76,7 @@ Optional constructor parameters:
 + **batch\_size** - number
 + **user\_agents** - array
 
-#### <a name="sending-metrics">Sending metrics
+#### Sending metrics
 
 The core function of the library is to send metric data to SignalFx. For example:
 
@@ -108,7 +108,7 @@ client.send(
 The `timestamp` must be a millisecond precision timestamp; the number of milliseconds elapsed since Epoch. The `timestamp` field is optional, but strongly recommended. If not specified, it will be set by SignalFx's ingest servers automatically; in this situation, the timestamp of your datapoints will not accurately represent the time of their measurement (network latency, batching, etc. will all impact when those datapoints actually make it to SignalFx).
 
 
-#### <a name="multi-dimensional">Sending multi-dimensional metrics
+#### Sending multi-dimensional metrics
 
 The SignalFx data format includes the concept of
 dimensions. Time series dimensions are custom key/value
@@ -152,7 +152,7 @@ client.send(
 See `examples/generic_usecase.rb` for a complete code example for Reporting data.
 
 
-#### <a name="sending-events">Sending events
+#### Sending events
 
 Events can be sent to SignalFx via the `send_event` function. The
 event type must be specified, and dimensions and extra event properties
@@ -182,6 +182,6 @@ client.send_event(
 See `examples/generic_usecase.rb` for a complete code example for Reporting data.
 
 
-### <a name="license"></a>LICENSE
+### LICENSE
 
 Apache Software License v2 © [SignalFx](https://signalfx.com)
