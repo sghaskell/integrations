@@ -43,20 +43,20 @@ The SignalFx Telegraf Agent is supported on the following operating systems:
 #### Install on a host
 
 1.  Download the latest release of the [SignalFx Telegraf Agent](https://github.com/signalfx/telegraf/releases) for your platform.
-1.  Unzip the downloaded zip file.
-```bash
-unzip Linux-x86_64.zip
-```
-1. Copy the binary `telegraf` to the location of your choosing.
-1. This agent must be configured before it is run. To generate a configuration file for the agent, execute the `telegraf` binary with the option `config` and redirect it to a file named `telegraf.conf`:
-```bash
-./telegraf config > telegraf.conf
-```
-1. Modify the resulting configuration file to provide values that make sense for your environment, as described [below](#configuration).
-1. Start the SignalFx Telegraf Agent, specifying the configuration file you generated in step 4.
-```
-./telegraf --config <path to the telegraf config file>
-```
+2.  Unzip the downloaded zip file.
+    ```bash
+    unzip Linux-x86_64.zip
+    ```
+3. Copy the binary `telegraf` to the location of your choosing.
+4. This agent must be configured before it is run. To generate a configuration file for the agent, execute the `telegraf` binary with the option `config` and redirect it to a file named `telegraf.conf`:
+    ```bash
+    ./telegraf config > telegraf.conf
+    ```
+5. Modify the resulting configuration file to provide values that make sense for your environment, as described [below](#configuration).
+6. Start the SignalFx Telegraf Agent, specifying the configuration file you generated in step 4.
+    ```
+    ./telegraf --config <path to the telegraf config file>
+    ```
 Note: This command only starts an executable. To ensure that the SignalFx Telegraf Agent starts as a background process at boot time, take additional steps as appropriate for your platform.
 
 ### CONFIGURATION

@@ -6,7 +6,6 @@ This directory consolidates all the metadata associated with the Load collectd p
 - [Requirements and Dependencies](#requirements-and-dependencies)
 - [Installation](#installation)
 - [Configuration](#configuration)
-- [Usage](#usage)
 - [Metrics](#metrics)
 - [License](#license)
 
@@ -33,8 +32,6 @@ Installation and initial configuration options are available as part of the [Sig
 ### CONFIGURATION
 
 The Load plugin does not have any configuration settings.
-
-### USAGE
 
 ### METRICS
 
