@@ -35,9 +35,9 @@ This plugin requires:
 
 3. Modify the configuration file as follows:
 
- 1. Modify the fields “TypesDB and “ModulePath” to point to the location on disk where you downloaded the Python module in step 2.
+    1. Modify the fields “TypesDB and “ModulePath” to point to the location on disk where you downloaded the Python module in step 2.
 
- 2. Provide values that make sense for your environment, as described [below](#configuration).
+    2. Provide values that make sense for your environment, as described [below](#configuration).
 
 4. Add the following line to /etc/collectd.conf, replacing the example path with the location of the configuration file you downloaded in step 4:
     ```
