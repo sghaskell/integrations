@@ -16,12 +16,7 @@
 
 ### DESCRIPTION
 
-<code>signalfx-ruby</code> is a programmatic interface in
-Ruby for SignalFx's metadata and ingest APIs. It is meant
-to provide a base for communicating with SignalFx APIs
-that can be easily leveraged by scripts and applications
-to interact with SignalFx or report metric and event data
-to SignalFx.
+<code>signalfx-ruby</code> is a programmatic interface in Ruby for SignalFx's metadata and ingest APIs. It is meant to provide a base for communicating with SignalFx APIs that can be easily leveraged by scripts and applications to interact with SignalFx or report metric and event data to SignalFx.
 
 
 ### REQUIREMENTS AND DEPENDENCIES
@@ -39,17 +34,17 @@ token. [Click here for more information on retrieving your API token](https://de
 ### INSTALLATION
 
 Add this line to your application's Gemfile:
-
+    ```
     gem 'signalfx'
-
+    ```
 And then execute:
-
+    ```
     $ bundle
-
+    ```
 Or install it yourself as:
-
+    ```
     $ gem install signalfx
-
+    ```
 
 ### USAGE
 
