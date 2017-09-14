@@ -4,10 +4,10 @@
 - [Description](#description)
 - [Requirements and Dependencies](#requirements-and-dependencies)
 - [Installation](#installation)
-- [CodaHale Metrics 3.0.x](#codahale3)
-- [Yammer Metrics](#yammer)
+- [CodaHale Metrics 3.0.x](#codahale-metrics-3.0.x)
+- [Yammer Metrics](#yammer-metrics)
 - [Example Project](#example-project)
-- [Sending Metrics Without CodaHale](#nocoda)
+- [Sending Metrics Without CodaHale](#sending-metrics-without-codehale)
 - [License](#license)
 
 
@@ -364,7 +364,7 @@ Run it as follows:
 
 New metrics from the example project should appear in SignalFx.
 
-### <a name="nocoda"></a>SENDING METRICS WITHOUT CODAHALE
+### SENDING METRICS WITHOUT CODAHALE
 
 We recommend sending metrics using Codahale as shown above. You can also
 interact with our Java library directly if you do not want to use Codahale. To
