@@ -58,8 +58,8 @@ collectd will be ready to be configured for your Java-based application.
 From [collectd wiki](https://collectd.org/wiki/index.php/Plugin:GenericJMX):
 
 > The configuration of the GenericJMX plugin consists of two blocks:
-* _MBean blocks_ that define a mapping of MBean attributes to the “types” used by collectd
-* _Connection blocks_ which define the parameters needed to connect to an MBeanServer and what data to collect.
+> * _MBean blocks_ that define a mapping of MBean attributes to the “types” used by collectd
+> * _Connection blocks_ which define the parameters needed to connect to an MBeanServer and what data to collect.
 
 > The configuration of the SNMP plugin is similar in nature, in case you know it.
 
