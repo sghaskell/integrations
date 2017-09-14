@@ -67,7 +67,7 @@ Follow these steps to enable this integration:
 
 1. Download the product file from [Pivotal Network](https://network.pivotal.io/products/signalfx-monitoring-alerting/).
 
-1. Follow the [installation instructions for the tile](http://docs.pivotal.io/partners/signalfx/installing.html).
+2. Follow the [installation instructions for the tile](http://docs.pivotal.io/partners/signalfx/installing.html).
 
 Metrics from Pivotal Cloud Foundry should begin streaming into SignalFx.
 
