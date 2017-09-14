@@ -17,9 +17,9 @@ From [collectd wiki](https://collectd.org/wiki/index.php/Plugin:Memory):
 The values are reported by their use by the operating system. Under Linux, the categories are:
 
 > * Used
- * Buffered
- * Cached
- * Free
+> * Buffered
+>  * Cached
+>  * Free
 
 > Free memory is memory you paid for, that's using power and that doesn't do anything useful. It is normal that the operating system puts that memory to use, for example by caching files it has accessed (reported as Cached under Linux).
 

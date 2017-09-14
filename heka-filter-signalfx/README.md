@@ -6,7 +6,6 @@ This is a directory consolidate all the metadata associated with the Heka filter
 - [Requirements and Dependencies](#requirements-and-dependencies)
 - [Installation](#installation)
 - [Configuration](#configuration)
-- [Metrics](#metrics)
 - [License](#license)
 
 ### DESCRIPTION

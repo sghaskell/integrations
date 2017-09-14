@@ -105,19 +105,9 @@ The `timestamp` must be a millisecond precision timestamp; the number of millise
 
 #### Sending multi-dimensional metrics
 
-The SignalFx data format includes the concept of
-dimensions. Time series dimensions are custom key/value
-pairs in combination with the metric name that identify
-the metric time series. Dimensions are also useful in
-aggregating and filtering metrics. For example, sending
-an "environment" dimension with each datapoint would
-allow you to vary alerts based on the different
-environments that metrics are being sent from.
+The SignalFx data format includes the concept of dimensions. Time series dimensions are custom key/value pairs in combination with the metric name that identify the metric time series. Dimensions are also useful in aggregating and filtering metrics. For example, sending an "environment" dimension with each datapoint would allow you to vary alerts based on the different environments that metrics are being sent from.
 
-Reporting dimensions for the data can be accomplished
-by specifying a `dimensions` parameter on each datapoint
-containing a dictionary of string to string key/value
-pairs representing the dimensions:
+Reporting dimensions for the data can be accomplished by specifying a `dimensions` parameter on each datapoint containing a dictionary of string to string key/value pairs representing the dimensions:
 
 ```ruby
 require('signalfx')
@@ -149,12 +139,7 @@ See `examples/generic_usecase.rb` for a complete code example for Reporting data
 
 #### Sending events
 
-Events can be sent to SignalFx via the `send_event` function. The
-event type must be specified, and dimensions and extra event properties
-can be supplied as well. Also please specify event category: for that get
-option from dictionary `EVENT_CATEGORIES`. Different categories of events are supported.
-Available categories of events are `USER_DEFINED`, `ALERT`, `AUDIT`, `JOB`,
-`COLLECTD`, `SERVICE_DISCOVERY`, `EXCEPTION`.
+Events can be sent to SignalFx via the `send_event` function. The event type must be specified, and dimensions and extra event properties can be supplied as well. Also please specify event category: for that get option from dictionary `EVENT_CATEGORIES`. Different categories of events are supported. Available categories of events are `USER_DEFINED`, `ALERT`, `AUDIT`, `JOB`, `COLLECTD`, `SERVICE_DISCOVERY`, `EXCEPTION`.
 
 ```ruby
 require('signalfx')
