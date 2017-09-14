@@ -6,12 +6,12 @@
 - [Installation](#installation)
 - [Usage](#usage)
  - [Sending metrics](#sending-metrics)
- - [Sending multi-dimensional metrics](#multi-dimensional)
+ - [Sending multi-dimensional metrics](#sending-multi-dimensional-metrics)
  - [Sending events](#sending-events)
  - [Metric metadata](#metric-metadata)
- - [AWS integration](#AWS-integration)
+ - [AWS integration](#aws-integration)
  - [Pyformance reporter](#pyformance-reporter)
-- [Known Issues](#issues)
+- [Known Issues](#known-issues)
 - [License](#license)
 
 
