@@ -7,7 +7,6 @@ This is a directory that consolidates all the metadata associated with the Stats
 - [Installation](#installation)
 - [Configuration](#configuration)
 - [Usage](#usage)
-- [Metrics](#metrics)
 - [License](#license)
 
 ### DESCRIPTION
@@ -36,7 +35,7 @@ NOTE: This plugin is included by default with all versions of the [SignalFx coll
 
 1. Download SignalFx's [sample StatsD configuration file](https://github.com/signalfx/integrations/blob/master/collectd-statsd/10-statsd.conf) to `/etc/collectd/managed_config`.
 
-1. Restart collectd.
+2. Restart collectd.
 
 #### Verifying installation
 

@@ -48,11 +48,11 @@ This plugin requires:
 
 1. Download the [collectd-zookeeper Python module](https://github.com/signalfx/collectd-zookeeper).
 
-1. Download SignalFx’s [sample configuration file](https://github.com/signalfx/integrations/blob/master/collectd-zookeeper/20-zookeeper.conf) to `/etc/collectd/managed_config`.
+2. Download SignalFx’s [sample configuration file](https://github.com/signalfx/integrations/blob/master/collectd-zookeeper/20-zookeeper.conf) to `/etc/collectd/managed_config`.
 
-1. Modify the configuration file as described in [Configuration](#configuration) below.
+3. Modify the configuration file as described in [Configuration](#configuration) below.
 
-1. Restart collectd.
+4. Restart collectd.
 
 ### CONFIGURATION
 

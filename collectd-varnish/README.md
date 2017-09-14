@@ -38,14 +38,15 @@ Varnish Cache is a web application accelerator also known as a caching HTTP reve
 ### INSTALLATION
 
 1. On RHEL/CentOS and Amazon Linux systems, run the following command to install this plugin:
+    ```
+    yum install collectd-varnish
+    ```
 
-         yum install collectd-varnish
+2. Download SignalFx's [sample configuration file](https://github.com/signalfx/integrations/blob/master/collectd-varnish/10-varnish.conf) to `/etc/collectd/managed_config`.
 
-1. Download SignalFx's [sample configuration file](https://github.com/signalfx/integrations/blob/master/collectd-varnish/10-varnish.conf) to `/etc/collectd/managed_config`.
+3. Modify the sample configuration file to provide values that make sense for your environment, as described in [Configuration](#configuration) below.
 
-1. Modify the sample configuration file to provide values that make sense for your environment, as described in [Configuration](#configuration) below.
-
-1. Restart collectd.
+4. Restart collectd.
 
 #### Special Instructions for installing Varnish 3 on Ubuntu
 
@@ -54,9 +55,9 @@ Follow these steps to add varnish 3 plugin support:
 
 1. Copy the [varnish3.so](https://dl.signalfx.com/debs/collectd-varnish/varnish3.so) file to the collectd library directory `/usr/lib/collectd/`.
 
-1. Update the configuration file `10-varnish.conf` in your `/etc/collectd/managed_config` directory to show `varnish3` instead of `varnish` as the name used by the LoadPlugin.
+2. Update the configuration file `10-varnish.conf` in your `/etc/collectd/managed_config` directory to show `varnish3` instead of `varnish` as the name used by the LoadPlugin.
 
-1. Restart collectd.
+3. Restart collectd.
 
 Example configuration for Varnish 3 on Ubuntu
 ```apache
