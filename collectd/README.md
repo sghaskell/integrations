@@ -80,11 +80,11 @@ To read more about the SignalFx collectd agent Docker image, [click here for com
 
 #### Additional installation options
 
-- **[Chef cookbook: chef\_install\_configure\_collectd]**
+- **Chef cookbook: chef\_install\_configure\_collectd**
 
   SignalFx supports a Chef cookbook that installs the SignalFx collectd agent and important plugins on a host. [Click here to access it on Chef Supermarket](https://supermarket.chef.io/cookbooks/chef_install_configure_collectd).
 
-- **[Puppet module: signalfx/collectd]**
+- **Puppet module: signalfx/collectd**
 
   SignalFx provides Puppet modules to install the SignalFx collectd agent and important plugins on a host. [Click here to access it on Puppet Forge](https://forge.puppet.com/signalfx/collectd).
 
