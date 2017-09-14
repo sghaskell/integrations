@@ -52,25 +52,28 @@ The [docker-collectd](https://github.com/signalfx/docker-collectd-plugin) plugin
 
 1. Download the [docker-collectd-plugin](https://github.com/signalfx/docker-collectd-plugin) Python module.
 
-1. Run the following command to install the module’s dependencies using `pip`, replacing the example path with the download location of the `docker-collectd-plugin` module:
-    *     sudo pip install -r /path/to/docker-collectd-plugin/requirements.txt
+2. Run the following command to install the module’s dependencies using `pip`, replacing the example path with the download location of the `docker-collectd-plugin` module:
+    ```
+    sudo pip install -r /path/to/docker-collectd-plugin/requirements.txt
+    ```
 
     * **On Amazon Linux**: Run the following commands instead:
+        ```
+        yum install python26-pip
+        sudo pip-2.6 install -r /path/to/docker-collectd-plugin/requirements.txt
+        ```
 
-                yum install python26-pip
-                sudo pip-2.6 install -r /path/to/docker-collectd-plugin/requirements.txt
+3. Download SignalFx’s [sample configuration file](https://github.com/signalfx/integrations/blob/master/collectd-docker/10-docker.conf) for this plugin to `/etc/collectd/managed_config`.
 
-1. Download SignalFx’s [sample configuration file](https://github.com/signalfx/integrations/blob/master/collectd-docker/10-docker.conf) for this plugin to `/etc/collectd/managed_config`.
+4. Modify the configuration file to provide values that make sense for your environment, as described in [Configuration](#configuration) below.
 
-1. Modify the configuration file to provide values that make sense for your environment, as described in [Configuration](#configuration) below.
+5. Restart collectd.
 
-1. Restart collectd.
-
-1. Optional metrics regarding CPU quota and CPU shares can be enabled in the plugin configuration file. To enable the optional metrics:
+6. Optional metrics regarding CPU quota and CPU shares can be enabled in the plugin configuration file. To enable the optional metrics:
     * Set the CpuQuotaPercent and CpuSharesPercent configuration options to true
     * Configure the filter to emit the optional metrics. Please see the configuration details [here](#configuration)
 
-1. The optional dashboard `Docker Neighbours` offers visualizations based on the CPU quota and CPU shares metrics. To view the dashboard:
+7. The optional dashboard `Docker Neighbours` offers visualizations based on the CPU quota and CPU shares metrics. To view the dashboard:
     * Manually import the dashboard into your organization in SignalFx.
       - Download the dashboard
       - Click to open the Actions menu, hover over Import, then select Dashboard Group
