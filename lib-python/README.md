@@ -6,16 +6,16 @@
 - [Installation](#installation)
 - [Usage](#usage)
  - [Sending metrics](#sending-metrics)
- - [Sending multi-dimensional metrics](#multi-dimensional)
+ - [Sending multi-dimensional metrics](#sending-multi-dimensional-metrics)
  - [Sending events](#sending-events)
  - [Metric metadata](#metric-metadata)
- - [AWS integration](#AWS-integration)
+ - [AWS integration](#aws-integration)
  - [Pyformance reporter](#pyformance-reporter)
-- [Known Issues](#issues)
+- [Known Issues](#known-issues)
 - [License](#license)
 
 
-### <a name="description"></a>DESCRIPTION
+### DESCRIPTION
 
 <code>signalfx-python</code> is a programmatic
 interface in Python for SignalFx's metadata and ingest
@@ -28,7 +28,7 @@ common Python-based metric collections tools or
 libraries.
 
 
-### <a name="requirements-and-dependencies"></a>REQUIREMENTS AND DEPENDENCIES
+### REQUIREMENTS AND DEPENDENCIES
 
 #### Python version
 
@@ -42,7 +42,7 @@ higher.
 To use this library, you need a SignalFx API access
 token. [Click here for more information on retrieving your API token](https://developers.signalfx.com/docs/authentication-overview).
 
-### <a name="installation"></a>INSTALLATION
+### INSTALLATION
 
 To install from pip:
 
@@ -59,9 +59,9 @@ python setup.py install
 ```
 
 
-### <a name="usage"></a>USAGE
+### USAGE
 
-#### <a name="sending-metrics">Sending metrics
+#### Sending metrics
 
 The core function of the library is to send metric data to SignalFx. For example:
 
@@ -118,7 +118,7 @@ datapoints without blocking the caller. Calling
 `stop()` will gracefully flush the thread's send
 queue and close its TCP connections.
 
-#### <a name="multi-dimensional">Sending multi-dimensional metrics
+#### Sending multi-dimensional metrics
 
 The SignalFx data format includes the concept of
 dimensions. Time series dimensions are custom key/value
@@ -154,7 +154,7 @@ sfx.stop()
 See [examples/generic_usecase.py](examples/generic_usecase.py) for a
 complete code sample showing how to send data to SignalFx.
 
-#### <a name="sending-events">Sending events
+#### Sending events
 
 Events can be sent to SignalFx via the `send_event` function. The
 event type must be specified, and dimensions and extra event properties
@@ -176,7 +176,7 @@ sfx.send_event(
 
 See `examples/generic_usecase.py` for a complete code example.
 
-#### <a name="metric-metadata">Metric metadata
+#### Metric metadata
 
 The library includes functions that search, get, and update metric dimensions, properties and tags.  Deleting tags is also supported.
 
@@ -189,7 +189,7 @@ sfx.update_tag('some_tag_name',
                 custom_properties={'version':'some_number'})
 ```
 
-#### <a name="AWS-integration">AWS integration
+#### AWS integration
 
 Optionally, the client may be configured to append additional dimensions to all metrics and events sent to SignalFx. One use case for this is to append the [AWS unique ID](https://signalfx-product-docs.readthedocs-hosted.com/en/latest/integrations/aws-info.html#uniquely-identifying-aws-instances) of the current host as an extra dimension. For example:
 
@@ -211,7 +211,7 @@ sfx.send(
 sfx.stop()
 ```
 
-#### <a name="pyformance-reporter">PyFormance reporter
+#### PyFormance reporter
 
 `pyformance` is a [Python library](https://github.com/omergertel/pyformance)
 that provides [CodaHale](http://metrics.codahale.com/)-style metrics in
@@ -239,7 +239,7 @@ gauge('test').set_value(42)
 
 See `examples/pyformance_usecase.py` for a complete code example using PyFormance.
 
-### <a name="issues"></a>KNOWN ISSUES
+### KNOWN ISSUES
 
 #### Sending only 1 datapoint and not seeing it in the chart
 
@@ -278,6 +278,6 @@ a bug that causes the above issue. This was fixed in
 later versions of Python; we recommend using Python
 2.7.9 or newer when using this library.
 
-### <a name="license"></a>LICENSE
+### LICENSE
 
 This library is released under the Apache 2.0 license. See [LICENSE](https://github.com/signalfx/signalfx-python/blob/master/LICENSE) for more details.

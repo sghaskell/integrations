@@ -6,7 +6,6 @@ This is a directory consolidate all the metadata associated with the vmem collec
 - [Requirements and Dependencies](#requirements-and-dependencies)
 - [Installation](#installation)
 - [Configuration](#configuration)
-- [Usage](#usage)
 - [Metrics](#metrics)
 - [License](#license)
 
@@ -40,8 +39,6 @@ From the [collectd wiki](https://collectd.org/documentation/manpages/collectd.co
 | Configuration Option | Type | Definition |
 |----------------------|------|------------|
 |Verbose| true/false|Enables verbose collection of information. This will start collecting page "actions", e. g. page allocations, (de)activations, steals and so on. Part of these statistics are collected on a "per zone" basis.|
-
-### USAGE
 
 ### METRICS
 

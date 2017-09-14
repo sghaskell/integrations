@@ -6,8 +6,6 @@ This directory consolidates all the metadata associated with the Write-HTTP coll
 - [Requirements and Dependencies](#requirements-and-dependencies)
 - [Installation](#installation)
 - [Configuration](#configuration)
-- [Usage](#usage)
-- [Metrics](#metrics)
 - [License](#license)
 
 ### DESCRIPTION

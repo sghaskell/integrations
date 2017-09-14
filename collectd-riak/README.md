@@ -45,13 +45,14 @@ This plugin is included with [SignalFx's collectd package](https://support.signa
 
 1. Download SignalFx's [sample configuration file ](https://github.com/signalfx/integrations/tree/master/collectd-riak/10-riak.conf) for this plugin.
 
-1. Modify the sample configuration file as described in [Configuration](#configuration), below.
+2. Modify the sample configuration file as described in [Configuration](#configuration), below.
 
-1. Add the following line to `/etc/collectd.conf`, replacing the example path with the location of the configuration file:
+3. Add the following line to `/etc/collectd.conf`, replacing the example path with the location of the configuration file:
+    ```
+    include '/path/to/10-riak.conf'
+    ```
 
-          include '/path/to/10-riak.conf'
-
-1. Restart collectd.
+4. Restart collectd.
 
 ### CONFIGURATION
 

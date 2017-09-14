@@ -7,13 +7,13 @@
 - [Usage](#usage)
  - [Create client](#create-client)
  - [Sending metrics](#sending-metrics)
- - [Sending multi-dimensional metrics](#multi-dimensional)
+ - [Sending multi-dimensional metrics](#sending-multi-dimensional-metrics)
  - [Sending events](#sending-events)
 - [Examples](#examples)
 - [License](#license)
 
 
-### <a name="description"></a>DESCRIPTION
+### DESCRIPTION
 
 <code>signalfx-nodejs</code> is a programmatic interface in JavaScript
 for SignalFx's metadata and ingest APIs. It is meant to provide a base
@@ -22,7 +22,7 @@ scripts and applications to interact with SignalFx or report metric
 and event data to SignalFx.
 
 
-### <a name="requirements-and-dependencies"></a>REQUIREMENTS AND DEPENDENCIES
+### REQUIREMENTS AND DEPENDENCIES
 
 #### API access token
 
@@ -30,7 +30,7 @@ To use this library, you need a SignalFx API access
 token. [Click here for more information on retrieving your API token](https://developers.signalfx.com/docs/authentication-overview).
 
 
-### <a name="installation"></a>INSTALLATION
+### INSTALLATION
 
 To install using npm:
 ```sh
@@ -38,9 +38,9 @@ $ npm install signalfx --save-dev
 ```
 
 
-### <a name="usage"></a>USAGE
+### USAGE
 
-#### <a name="create-client">Create client
+#### Create client
 
 There are two ways to create a client object:
 
@@ -64,7 +64,7 @@ Object `options` is an optional map and may contains following fields:
 + **userAgents** - array of strings, items from this array will be added to 'user-agent' header separated by comma
 
 
-#### <a name="sending-metrics">Sending metrics
+#### Sending metrics
 
 The core function of the library is to send metric data to SignalFx. For example:
 
@@ -102,7 +102,7 @@ accurately represent the time of their measurement (network
 latency, batching, etc. will all impact when those
 datapoints actually make it to SignalFx).
 
-#### <a name="multi-dimensional">Sending multi-dimensional metrics
+#### Sending multi-dimensional metrics
 
 The SignalFx data format includes the concept of
 dimensions. Time series dimensions are custom key/value
@@ -144,7 +144,7 @@ client.send({
           ]});
 ```
 
-#### <a name="sending-events">Sending events
+#### Sending events
 
 Events can be send to SignalFx via the `sendEvent` function. The
 event param objects must be specified. `Event` param object is an optional map and may contains following fields:
@@ -178,7 +178,7 @@ client.sendEvent({
           timestamp: timestamp})
 ```
 
-### <a name="examples"> Examples
+### Examples
 
 Complete code example for Reporting data
 ```js
@@ -229,6 +229,6 @@ Set your SignalFx token and run example
 $ node path/to/example/generic_usage.js
 ```
 
-### <a name="license"></a>LICENSE
+### LICENSE
 
 This library is released under the Apache 2.0 license. See [LICENSE](https://github.com/signalfx/signalfx-nodejs/blob/master/LICENSE) for more details.

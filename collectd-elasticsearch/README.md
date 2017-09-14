@@ -60,11 +60,11 @@ Original Elasticsearch Documentation https://www.elastic.co/guide/en/elasticsear
 
 1. Download the [collectd-elasticsearch]( https://github.com/signalfx/collectd-elasticsearch) Python module.
 
-1. Download SignalFx’s [sample configuration file](https://github.com/signalfx/integrations/blob/master/collectd-elasticsearch/20-elasticsearch.conf) to `/etc/collectd/managed_config`.
+2. Download SignalFx’s [sample configuration file](https://github.com/signalfx/integrations/blob/master/collectd-elasticsearch/20-elasticsearch.conf) to `/etc/collectd/managed_config`.
 
-1. Modify the configuration file to provide values that make sense for your environment, as described [below](#configuration).
+3. Modify the configuration file to provide values that make sense for your environment, as described [below](#configuration).
 
-1. Restart collectd.
+4. Restart collectd.
 
 ### CONFIGURATION
 

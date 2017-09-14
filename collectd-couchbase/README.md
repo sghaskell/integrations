@@ -55,11 +55,11 @@ collects statistics from Couchbase.
 
 1. Download the [collectd-couchbase Python module](https://github.com/signalfx/collectd-couchbase).
 
-1. Download SignalFx's [sample configuration file](https://github.com/signalfx/integrations/blob/master/collectd-couchbase/10-couchbase.conf) for this plugin to `/etc/collectd/managed_config`.
+2. Download SignalFx's [sample configuration file](https://github.com/signalfx/integrations/blob/master/collectd-couchbase/10-couchbase.conf) for this plugin to `/etc/collectd/managed_config`.
 
-1. Modify the sample configuration file as described in [Configuration](#configuration), below.
+3. Modify the sample configuration file as described in [Configuration](#configuration), below.
 
-1. Restart collectd.
+4. Restart collectd.
 
 ### CONFIGURATION
 

@@ -38,18 +38,19 @@ This plugin requires:
 
 1. Installing the plugin:
     * On RHEL/CentOS and Amazon Linux systems, run the following command to install this plugin:
-
-          yum install collectd-nginx
+        ```
+        yum install collectd-nginx
+        ```
 
     * On Ubuntu and Debian systems, this plugin is included by default with the [SignalFx collectd agent](https://github.com/signalfx/integrations/tree/master/collectd)[](sfx_link:sfxcollectd).
 
-1. Enable the `stub_status` module in your NGINX server as described [below](#configuration).
+2. Enable the `stub_status` module in your NGINX server as described [below](#configuration).
 
-1. Download SignalFx’s [sample configuration file](https://github.com/signalfx/integrations/blob/master/collectd-nginx/10-nginx.conf) to `/etc/collectd/managed_config`.
+3. Download SignalFx’s [sample configuration file](https://github.com/signalfx/integrations/blob/master/collectd-nginx/10-nginx.conf) to `/etc/collectd/managed_config`.
 
-1. Modify the sample configuration file to provide values that make sense for your environment, as described in [Configuration](#configuration), below.
+4. Modify the sample configuration file to provide values that make sense for your environment, as described in [Configuration](#configuration), below.
 
-1. Restart collectd.
+5. Restart collectd.
 
 ### CONFIGURATION
 

@@ -4,14 +4,14 @@
 - [Description](#description)
 - [Requirements and Dependencies](#requirements-and-dependencies)
 - [Installation](#installation)
-- [CodaHale Metrics 3.0.x](#codahale3)
-- [Yammer Metrics](#yammer)
+- [CodaHale Metrics 3.0.x](#codahale-metrics-30x)
+- [Yammer Metrics](#yammer-metrics)
 - [Example Project](#example-project)
-- [Sending Metrics Without CodaHale](#nocoda)
+- [Sending Metrics Without CodaHale](#sending-metrics-without-codahale)
 - [License](#license)
 
 
-### <a name="description"></a>DESCRIPTION
+### DESCRIPTION
 
 This repository contains libraries for instrumenting Java applications and
 reporting metrics to SignalFx, using Codahale Metrics.
@@ -20,7 +20,7 @@ You can also use the module `signalfx-java` to send metrics directly to SignalFx
 using protocol buffers, without using Codahale or Yammer metrics.
 
 
-### <a name="requirements-and-dependencies"></a>REQUIREMENTS AND DEPENDENCIES
+### REQUIREMENTS AND DEPENDENCIES
 
 #### Codahale, Yammer and Dropwizard Metrics version
 
@@ -37,10 +37,10 @@ Java 6+ with `signalfx-metrics`.
 #### API access token
 
 To use this library, you need a SignalFx API access
-token. [Click here for more information on retrieving your API token](https://developers.signalfx.com/docs/authentication-overview). 
+token. [Click here for more information on retrieving your API token](https://developers.signalfx.com/docs/authentication-overview).
 
 
-### <a name="installation"></a>INSTALLATION
+### INSTALLATION
 
 #### Using this library in your project with Maven
 
@@ -116,7 +116,7 @@ $ mvn install
 ```
 
 
-### <a name="codahale3"></a>CODAHALE METRICS 3.0.x
+### CODAHALE METRICS 3.0.x
 
 #### 1. Set up the Codahale reporter
 
@@ -238,7 +238,7 @@ final SignalFxReporter signalfxReporter = new SignalFxReporter.Builder(
 ).addUniqueDimension(AWSInstanceInfo.DIMENSION_NAME, instanceInfo).build();
 ```
 
-### <a name="yammer"></a>YAMMER METRICS
+### YAMMER METRICS
 
 You can also use this library with Yammer metrics 2.0.x as shown in the
 following examples.
@@ -337,7 +337,7 @@ final SignalFxReporter signalfxReporter = new SignalFxReporter.Builder(
 ).addDimension(AWSInstanceInfo.DIMENSION_NAME, instanceInfo).build();
 ```
 
-### <a name="example-project"></a>EXAMPLE PROJECT
+### EXAMPLE PROJECT
 
 You can find a full-stack example project called "signalfx-yammer-example" in
 the repo.
@@ -364,7 +364,7 @@ Run it as follows:
 
 New metrics from the example project should appear in SignalFx.
 
-### <a name="nocoda"></a>SENDING METRICS WITHOUT CODAHALE
+### SENDING METRICS WITHOUT CODAHALE
 
 We recommend sending metrics using Codahale as shown above. You can also
 interact with our Java library directly if you do not want to use Codahale. To
@@ -398,6 +398,6 @@ try (AggregateMetricSender.Session i = mf.createSession()) {
 }
 ```
 
-### <a name="license"></a>LICENSE
+### LICENSE
 
 This library is released under the Apache 2.0 license. See [LICENSE](https://github.com/signalfx/signalfx-java/blob/master/LICENSE)for more details.
