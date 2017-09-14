@@ -7,7 +7,6 @@ This is a directory consolidate all the metadata associated with the cURL-JSON c
 - [Installation](#installation)
 - [Configuration](#configuration)
 - [Usage](#usage)
-- [Metrics](#metrics)
 - [License](#license)
 
 ### DESCRIPTION
@@ -38,10 +37,6 @@ This plugin is a generic plugin, i.e. it cannot work without configuration, beca
 ### USAGE
 
 There are many potential uses for the cURL-JSON plugin. One example is for gathering metrics from [Riak KV from Basho](http://basho.com/products/riak-kv/). You can find more details on this use case and a Riak KV configuration [here](https://github.com/signalfx/integrations/tree/master/collectd-riak).
-
-### METRICS
-
-For documentation of the metrics and dimensions emitted by this plugin, [click here](./docs).
 
 ### LICENSE
 
