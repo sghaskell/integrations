@@ -15,11 +15,7 @@
 
 ### DESCRIPTION
 
-<code>signalfx-nodejs</code> is a programmatic interface in JavaScript
-for SignalFx's metadata and ingest APIs. It is meant to provide a base
-for communicating with SignalFx APIs that can be easily leveraged by
-scripts and applications to interact with SignalFx or report metric
-and event data to SignalFx.
+<code>signalfx-nodejs</code> is a programmatic interface in JavaScript for SignalFx's metadata and ingest APIs. It is meant to provide a base for communicating with SignalFx APIs that can be easily leveraged by scripts and applications to interact with SignalFx or report metric and event data to SignalFx.
 
 
 ### REQUIREMENTS AND DEPENDENCIES
@@ -93,30 +89,13 @@ client.send({
              ...
            ]});
 ```
-The `timestamp` must be a millisecond precision timestamp;
-the number of milliseconds elapsed since Epoch. The `timestamp`
-field is optional, but strongly recommended. If not specified,
-it will be set by SignalFx's ingest servers automatically;
-in this situation, the timestamp of your datapoints will not
-accurately represent the time of their measurement (network
-latency, batching, etc. will all impact when those
-datapoints actually make it to SignalFx).
+The `timestamp` must be a millisecond precision timestamp; the number of milliseconds elapsed since Epoch. The `timestamp` field is optional, but strongly recommended. If not specified, it will be set by SignalFx's ingest servers automatically; in this situation, the timestamp of your datapoints will not accurately represent the time of their measurement (network latency, batching, etc. will all impact when those datapoints actually make it to SignalFx).
 
 #### Sending multi-dimensional metrics
 
-The SignalFx data format includes the concept of
-dimensions. Time series dimensions are custom key/value
-pairs in combination with the metric name that identify
-the metric time series. Dimensions are also useful in
-aggregating and filtering metrics. For example, sending
-an "environment" dimension with each datapoint would
-allow you to vary alerts based on the different
-environments that metrics are being sent from.
+The SignalFx data format includes the concept of dimensions. Time series dimensions are custom key/value pairs in combination with the metric name that identify the metric time series. Dimensions are also useful in aggregating and filtering metrics. For example, sending an "environment" dimension with each datapoint would allow you to vary alerts based on the different environments that metrics are being sent from.
 
-Reporting dimensions for the data can be accomplished
-by specifying a `dimensions` parameter on each datapoint
-containing a dictionary of string to string key/value
-pairs representing the dimensions:
+Reporting dimensions for the data can be accomplished by specifying a `dimensions` parameter on each datapoint containing a dictionary of string to string key/value pairs representing the dimensions:
 
 ```js
 var signalfx = require('signalfx');
