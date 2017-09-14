@@ -6,7 +6,6 @@ This is a directory consolidate all the metadata associated with the Memory coll
 - [Requirements and Dependencies](#requirements-and-dependencies)
 - [Installation](#installation)
 - [Configuration](#configuration)
-- [Usage](#usage)
 - [Metrics](#metrics)
 - [License](#license)
 
@@ -42,8 +41,6 @@ Installation and initial configuration options are available as part of the [Sig
 ### CONFIGURATION
 
 No configuration is required for this plugin.
-
-### USAGE
 
 ### METRICS
 

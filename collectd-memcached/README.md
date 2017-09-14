@@ -46,9 +46,9 @@ Documentation for Memcached can be found here: [https://github.com/memcached/mem
 
 1. Download SignalFx's [sample memcached configuration file](https://github.com/signalfx/integrations/blob/master/collectd-memcached/10-memcached.conf) to `/etc/collectd/managed_config`.
 
-1. Modify the sample configuration file to provide values that make sense for your environment, as described in [Configuration](#configuration), below.
+2. Modify the sample configuration file to provide values that make sense for your environment, as described in [Configuration](#configuration), below.
 
-1. Restart collectd.
+3. Restart collectd.
 
 ### CONFIGURATION
 
