@@ -30,9 +30,9 @@
 
 2. Download SignalFx's sample JMX configuration file and sample Cassandra configuration file from the following URLs:
 
- [JMX.conf](https://github.com/signalfx/integrations/blob/master/collectd-java/10-jmx.conf)
+    * [JMX.conf](https://github.com/signalfx/integrations/blob/master/collectd-java/10-jmx.conf)
 
- [hbase.conf](https://github.com/signalfx/integrations/blob/master/collectd-hbase/20-hbase.conf)
+    * [hbase.conf](https://github.com/signalfx/integrations/blob/master/collectd-hbase/20-hbase.conf)
 
 3. Modify [hbase.conf](https://github.com/signalfx/integrations/blob/master/collectd-hbase/20-hbase.conf) to provide values that make sense for your environment, as described in the header.
 
