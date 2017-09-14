@@ -4,7 +4,7 @@
 - [Description](#description)
 - [Requirements and Dependencies](#requirements-and-dependencies)
 - [Installation](#installation)
-- [CodaHale Metrics 3.0.x](#codahale-metrics-3\.0\.x)
+- [CodaHale Metrics 3.0.x](#codahale-metrics-30x)
 - [Yammer Metrics](#yammer-metrics)
 - [Example Project](#example-project)
 - [Sending Metrics Without CodaHale](#sending-metrics-without-codahale)
