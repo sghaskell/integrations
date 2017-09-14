@@ -43,6 +43,7 @@ Synopsis:
    </Node>
  </Plugin>
 ```
+
 > The plugin can send values to multiple HTTP servers by specifying one <Node Name> block for each server. Within each Node block, the following options are available:
 
 | Option | type | description |
