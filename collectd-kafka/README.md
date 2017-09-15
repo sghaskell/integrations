@@ -146,7 +146,7 @@ The following metrics are available on new producer instances:
 | produce-throttle-time-max | The maximum time in ms a request was throttled by a broker. | kafka.producer:type=producer-topic-metrics,client-id=([-.\w]+) |
 | produce-throttle-time-avg | The average time in ms a request was throttled by a broker. | kafka.producer:type=producer-topic-metrics,client-id=([-.\w]+) |
 
-Documentation of the metrics and dimensions emitted by this plugin, segmented by metric [click here](./docs).
+For documentation of the metrics and dimensions emitted by this plugin, [click here](./docs).
 
 ### LICENSE
 

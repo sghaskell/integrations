@@ -185,7 +185,7 @@ Additional details:
 
 
 ### METRICS
-To emphasize, metrics will only be collected if MetricsURL is provided and/or Applications is set to True in 10-spark.conf (please read the example configuration file for associated required keys). Click [here](./docs) for a list of metrics that the plugin can collect and send as well as metric definitions. See [usage](#usage) for details.
+To emphasize, metrics will only be collected if MetricsURL is provided and/or Applications is set to True in 10-spark.conf (please read the example configuration file for associated required keys). For documentation of the metrics and dimensions emitted by this plugin, [click here](./docs). See [usage](#usage) for details.
 
 The following are default metrics captured and sent if Metrics Sink and Applications are enabled:
 

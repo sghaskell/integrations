@@ -101,7 +101,7 @@ You can add a dimension to every datapoint that Telegraf sends to SignalFx by in
 
 ### METRICS
 
-For full documentation of the metrics and dimensions emitted by Telegraf, see the `docs` directory in this repository.
+For documentation of the metrics and dimensions emitted by this plugin, [click here](./docs).
 
 ### LICENSE
 

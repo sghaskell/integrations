@@ -85,7 +85,7 @@ The following status information is provided:
 |Waiting|The current number of idle client connections waiting for a request.|
 
 
-For metrics and dimensions emitted by this plugin, [click here](./docs).
+For documentation of the metrics and dimensions emitted by this plugin, [click here](./docs).
 
 ### LICENSE
 
