@@ -151,7 +151,7 @@ Couchbase persists in-memory items to disk. This graph shows the number of items
 
 ### METRICS
 
-For full documentation of the metrics and dimensions emitted by this plugin, [click here](./docs).
+For documentation of the metrics and dimensions emitted by this plugin, [click here](./docs).
 
 ### LICENSE
 

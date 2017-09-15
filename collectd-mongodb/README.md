@@ -172,7 +172,7 @@ You can monitor disk I/O utilization for your MongoDB host using the [disk\_ops.
 
 ### METRICS
 
-For complete documentation of the metrics and dimensions emitted by this plugin, [click here](./docs).
+For documentation of the metrics and dimensions emitted by this plugin, [click here](./docs).
 
 ### LICENSE
 

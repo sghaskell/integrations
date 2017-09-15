@@ -74,7 +74,7 @@ export SIGNALFXTOKEN="DuMMyExaMPLeT0KEn"
 
 ### USAGE
 
-![](https://github.com/cisco/bigmuddy-network-telemetry-stacks/blob/master/common/png/signalfxjitter.png)
+![](https://github.com/signalfx/integrations/blob/master/logstash-ciscoxr/img/signalfxjitter.png)
 
 ### LICENSE
 

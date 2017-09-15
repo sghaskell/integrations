@@ -122,7 +122,7 @@ This is not an exhaustive list of metrics, there are dozens of metrics that are 
 
 ### METRICS
 
-For documentation of the frequently used metrics and dimensions emitted by this plugin, [click here](./docs).
+For documentation of the metrics and dimensions emitted by this plugin, [click here](./docs).
 
 #### Note: Discover _all_ Available Riak Metrics
 

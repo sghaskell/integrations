@@ -84,7 +84,8 @@ Sample of pre-built dashboard in SignalFx:
 ![](././img/dashboard_marathon_overview.png)
 
 ### METRICS
-For full documentation of the metrics and dimensions emitted by this plugin, see the `docs` directory in this repository.
+
+For documentation of the metrics and dimensions emitted by this plugin, [click here](./docs).
 
 ### LICENSE
 
