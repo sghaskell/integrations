@@ -535,7 +535,7 @@ type WithDimensions struct {
 
 WithDimensions adds dimensions on top of the datapoints of a collector. This can be used to take an existing Collector and include extra dimensions.
 
-#### func (\*WithDimensions) [Datapoints](#datapoints)
+#### func (\*WithDimensions) Datapoints
 
 ```go
 func (w *WithDimensions) Datapoints() []*datapoint.Datapoint
