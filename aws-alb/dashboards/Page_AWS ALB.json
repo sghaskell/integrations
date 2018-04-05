@@ -13,7 +13,7 @@
 }, {
   "marshallId" : 3,
   "marshallMemberOf" : [ 2 ],
-  "sf_dashboard" : "ApplicationELB Instances",
+  "sf_dashboard" : "Application ELB Instances",
   "sf_description" : "Overview of the Amazon ALB service.",
   "sf_discoveryQuery" : "namespace:\"AWS/ApplicationELB\"",
   "sf_discoverySelectors" : [ "sf_key:LoadBalancer", "namespace:AWS/ApplicationELB" ],
@@ -2695,7 +2695,7 @@
 }, {
   "marshallId" : 19,
   "marshallMemberOf" : [ 2 ],
-  "sf_dashboard" : "ApplicationELB Instance",
+  "sf_dashboard" : "Application ELB Instance",
   "sf_description" : "",
   "sf_discoveryQuery" : "namespace:\"AWS/ApplicationELB\"",
   "sf_discoverySelectors" : [ "_exists_:LoadBalancer" ],
