@@ -1,0 +1,8 @@
+{ "display_name":"Spring Boot",
+  "description": "Monitor Spring Boot using Micrometer.",
+  "project_url": "https://github.com/signalfx/integrations/tree/master/pivotal-springboot",
+  "code": "https://micrometer.io",
+  "featured": false,
+  "data_signature": "agent:\"micrometer\"",
+  "in_app_categories": ["servicesMonitored"]
+}
