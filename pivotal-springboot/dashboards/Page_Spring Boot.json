@@ -709,7 +709,7 @@
 }, {
   "marshallId" : 8,
   "marshallMemberOf" : [ 3 ],
-  "sf_chart" : "Mean time (ms) per request, by status",
+  "sf_chart" : "Mean time per request, by status",
   "sf_chartIndex" : 1517251754237,
   "sf_description" : "",
   "sf_type" : "Chart",
@@ -789,25 +789,12 @@
       "configuration" : {
         "aliases" : { },
         "extrapolationPolicy" : "NULL_EXTRAPOLATION",
-        "maxExtrapolations" : -1
+        "maxExtrapolations" : -1,
+        "prefix" : "",
+        "suffix" : "",
+        "unitType" : "Second"
       },
-      "dataManipulations" : [ {
-        "direction" : {
-          "options" : {
-            "aggregateGroupBy" : [ ],
-            "collapseGroups" : false,
-            "transformTimeRange" : null
-          },
-          "type" : "aggregation"
-        },
-        "fn" : {
-          "options" : {
-            "scaleAmount" : 1000
-          },
-          "type" : "SCALE"
-        },
-        "showMe" : false
-      } ],
+      "dataManipulations" : [ ],
       "expressionText" : "A/G",
       "invisible" : false,
       "metricDefinition" : { },
@@ -846,6 +833,7 @@
       "colorByMetric" : false,
       "colorByValue" : false,
       "colorByValueScale" : [ ],
+      "histogramColor" : "#ea1849",
       "legendColumnConfiguration" : [ {
         "enabled" : false,
         "property" : "sf_originatingMetric"
@@ -872,7 +860,7 @@
       "useKMG2" : false,
       "yAxisConfigurations" : [ {
         "id" : "yAxis0",
-        "label" : "ms",
+        "label" : "",
         "max" : null,
         "min" : null,
         "name" : "yAxis0",
@@ -884,8 +872,8 @@
     },
     "currentUniqueKey" : 10,
     "relatedDetectors" : [ ],
-    "revisionNumber" : 5,
-    "uiHelperValue" : "##CHARTID##_5"
+    "revisionNumber" : 7,
+    "uiHelperValue" : "##CHARTID##_7"
   }
 }, {
   "marshallId" : 9,
