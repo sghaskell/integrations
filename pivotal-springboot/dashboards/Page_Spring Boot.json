@@ -37,15 +37,6 @@
   "sf_uiModel" : {
     "version" : 1,
     "widgets" : [ {
-      "col" : 4,
-      "options" : {
-        "chartIndex" : 1517607245344,
-        "id" : 0
-      },
-      "row" : 0,
-      "sizeX" : 4,
-      "sizeY" : 2
-    }, {
       "col" : 0,
       "options" : {
         "chartIndex" : 1517254857348,
@@ -57,7 +48,16 @@
     }, {
       "col" : 8,
       "options" : {
-        "chartIndex" : 1517256474084,
+        "chartIndex" : 1515521330574,
+        "id" : 0
+      },
+      "row" : 0,
+      "sizeX" : 4,
+      "sizeY" : 1
+    }, {
+      "col" : 4,
+      "options" : {
+        "chartIndex" : 1515521572702,
         "id" : 0
       },
       "row" : 0,
@@ -66,7 +66,16 @@
     }, {
       "col" : 0,
       "options" : {
-        "chartIndex" : 1515521306490,
+        "chartIndex" : 1517255522891,
+        "id" : 0
+      },
+      "row" : 1,
+      "sizeX" : 8,
+      "sizeY" : 1
+    }, {
+      "col" : 8,
+      "options" : {
+        "chartIndex" : 1527725150519,
         "id" : 0
       },
       "row" : 1,
@@ -75,10 +84,37 @@
     }, {
       "col" : 8,
       "options" : {
-        "chartIndex" : 1515521330574,
+        "chartIndex" : 1517251869045,
         "id" : 0
       },
-      "row" : 1,
+      "row" : 2,
+      "sizeX" : 4,
+      "sizeY" : 1
+    }, {
+      "col" : 4,
+      "options" : {
+        "chartIndex" : 1517006506607,
+        "id" : 0
+      },
+      "row" : 2,
+      "sizeX" : 4,
+      "sizeY" : 1
+    }, {
+      "col" : 0,
+      "options" : {
+        "chartIndex" : 1517256474084,
+        "id" : 0
+      },
+      "row" : 2,
+      "sizeX" : 4,
+      "sizeY" : 1
+    }, {
+      "col" : 4,
+      "options" : {
+        "chartIndex" : 1527791745149,
+        "id" : 0
+      },
+      "row" : 3,
       "sizeX" : 4,
       "sizeY" : 1
     }, {
@@ -87,169 +123,49 @@
         "chartIndex" : 1517251754237,
         "id" : 0
       },
-      "row" : 2,
+      "row" : 3,
       "sizeX" : 4,
       "sizeY" : 1
     }, {
       "col" : 8,
       "options" : {
-        "chartIndex" : 1517608849515,
+        "chartIndex" : 1527791476711,
         "id" : 0
       },
-      "row" : 2,
+      "row" : 3,
       "sizeX" : 4,
       "sizeY" : 1
     }, {
       "col" : 4,
       "options" : {
-        "chartIndex" : 1517255522891,
+        "chartIndex" : 1527723317082,
         "id" : 0
       },
-      "row" : 2,
+      "row" : 4,
       "sizeX" : 4,
       "sizeY" : 1
     }, {
       "col" : 0,
       "options" : {
-        "chartIndex" : 1517006506607,
+        "chartIndex" : 1527726667511,
         "id" : 0
       },
-      "row" : 3,
+      "row" : 4,
       "sizeX" : 4,
       "sizeY" : 1
     }, {
       "col" : 8,
       "options" : {
-        "chartIndex" : 1515521572702,
+        "chartIndex" : 1527727023372,
         "id" : 0
       },
-      "row" : 3,
-      "sizeX" : 4,
-      "sizeY" : 1
-    }, {
-      "col" : 4,
-      "options" : {
-        "chartIndex" : 1517251869045,
-        "id" : 0
-      },
-      "row" : 3,
+      "row" : 4,
       "sizeX" : 4,
       "sizeY" : 1
     } ]
   }
 }, {
   "marshallId" : 4,
-  "marshallMemberOf" : [ 3 ],
-  "sf_chart" : "Top requests/sec per host",
-  "sf_chartIndex" : 1517607245344,
-  "sf_description" : "",
-  "sf_type" : "Chart",
-  "sf_uiModel" : {
-    "allPlots" : [ {
-      "configuration" : {
-        "aliases" : { },
-        "extrapolationPolicy" : "NULL_EXTRAPOLATION",
-        "maxExtrapolations" : -1,
-        "rollupPolicy" : null,
-        "suffix" : "requests/sec"
-      },
-      "dataManipulations" : [ {
-        "direction" : {
-          "options" : {
-            "aggregateGroupBy" : [ {
-              "value" : "host"
-            } ],
-            "collapseGroups" : false,
-            "transformTimeRange" : null
-          },
-          "type" : "aggregation"
-        },
-        "fn" : {
-          "options" : { },
-          "type" : "MEAN"
-        },
-        "showMe" : false
-      } ],
-      "invisible" : false,
-      "name" : "http.server.requests.count - Mean by host",
-      "queryItems" : [ ],
-      "seriesData" : {
-        "metric" : "http.server.requests.count",
-        "regExStyle" : null
-      },
-      "transient" : false,
-      "type" : "plot",
-      "uniqueKey" : 1,
-      "yAxisIndex" : 0
-    }, {
-      "configuration" : {
-        "aliases" : { },
-        "extrapolationPolicy" : "NULL_EXTRAPOLATION",
-        "maxExtrapolations" : -1
-      },
-      "dataManipulations" : [ ],
-      "invisible" : false,
-      "metricDefinition" : { },
-      "name" : "New Plot",
-      "queryItems" : [ ],
-      "seriesData" : { },
-      "transient" : true,
-      "type" : "plot",
-      "uniqueKey" : 2,
-      "yAxisIndex" : 0
-    } ],
-    "chartMode" : "heatmap",
-    "chartType" : null,
-    "chartconfig" : {
-      "absoluteEnd" : null,
-      "absoluteStart" : null,
-      "colorByMetric" : false,
-      "colorByValue" : false,
-      "colorByValueScale" : [ ],
-      "groupBy" : [ ],
-      "heatmapAutoGradients" : 5,
-      "heatmapColorOverride" : "#05ce00",
-      "heatmapColorRange" : { },
-      "heatmapSortBy" : {
-        "asc" : true,
-        "value" : { }
-      },
-      "heatmapUnitsPerRow" : 0,
-      "heatmapUseValueAsColor" : false,
-      "hideTimestamp" : false,
-      "legendColumnConfiguration" : [ {
-        "enabled" : false,
-        "property" : "sf_originatingMetric"
-      }, {
-        "enabled" : false,
-        "property" : "sf_metric"
-      }, {
-        "enabled" : true,
-        "property" : "uri"
-      } ],
-      "range" : -900000,
-      "rangeEnd" : null,
-      "secondaryVisualization" : "NONE",
-      "sortPreference" : "-value",
-      "useKMG2" : false,
-      "yAxisConfigurations" : [ {
-        "id" : "yAxis0",
-        "max" : null,
-        "min" : null,
-        "name" : "yAxis0",
-        "plotlines" : {
-          "high" : null,
-          "low" : null
-        }
-      } ]
-    },
-    "currentUniqueKey" : 3,
-    "relatedDetectors" : [ ],
-    "revisionNumber" : 11,
-    "uiHelperValue" : "##CHARTID##_11"
-  }
-}, {
-  "marshallId" : 5,
   "marshallMemberOf" : [ 3 ],
   "sf_chart" : "Top 4XX responses per sec",
   "sf_chartIndex" : 1517006506607,
@@ -353,7 +269,7 @@
         "property" : "uri"
       } ],
       "range" : -900000,
-      "rangeEnd" : null,
+      "rangeEnd" : 0,
       "secondaryVisualization" : "NONE",
       "sortPreference" : "",
       "useKMG2" : false,
@@ -370,14 +286,13 @@
     },
     "currentUniqueKey" : 3,
     "relatedDetectors" : [ ],
-    "revisionNumber" : 4,
-    "uiHelperValue" : "##CHARTID##_4"
+    "revisionNumber" : 4
   }
 }, {
-  "marshallId" : 6,
+  "marshallId" : 5,
   "marshallMemberOf" : [ 3 ],
-  "sf_chart" : "Top 5XX responses per sec",
-  "sf_chartIndex" : 1517251869045,
+  "sf_chart" : "JVM GC events by cause",
+  "sf_chartIndex" : 1527727023372,
   "sf_description" : "",
   "sf_type" : "Chart",
   "sf_uiModel" : {
@@ -385,14 +300,105 @@
       "configuration" : {
         "aliases" : { },
         "extrapolationPolicy" : "NULL_EXTRAPOLATION",
-        "maxExtrapolations" : -1
+        "maxExtrapolations" : -1,
+        "rollupPolicy" : "SUM_ROLLUP"
       },
       "dataManipulations" : [ {
         "direction" : {
           "options" : {
             "aggregateGroupBy" : [ {
-              "value" : "status"
-            }, {
+              "value" : "cause"
+            } ],
+            "collapseGroups" : false,
+            "transformTimeRange" : null
+          },
+          "type" : "aggregation"
+        },
+        "fn" : {
+          "options" : { },
+          "type" : "SUM"
+        },
+        "showMe" : false
+      } ],
+      "invisible" : false,
+      "name" : "GC events",
+      "queryItems" : [ ],
+      "seriesData" : {
+        "metric" : "jvm.gc.pause.count"
+      },
+      "transient" : false,
+      "type" : "plot",
+      "uniqueKey" : 1,
+      "yAxisIndex" : 0
+    }, {
+      "configuration" : {
+        "aliases" : { },
+        "extrapolationPolicy" : "NULL_EXTRAPOLATION",
+        "maxExtrapolations" : -1
+      },
+      "dataManipulations" : [ ],
+      "invisible" : false,
+      "metricDefinition" : { },
+      "name" : "New Plot",
+      "queryItems" : [ ],
+      "seriesData" : { },
+      "transient" : true,
+      "type" : "plot",
+      "uniqueKey" : 2,
+      "yAxisIndex" : 0
+    } ],
+    "chartMode" : "graph",
+    "chartType" : "column",
+    "chartconfig" : {
+      "absoluteEnd" : null,
+      "absoluteStart" : null,
+      "dimensionInLegend" : "cause",
+      "hideTimestamp" : false,
+      "histogramColor" : "#ea1849",
+      "range" : -900000,
+      "rangeEnd" : null,
+      "secondaryVisualization" : "NONE",
+      "showLegend" : true,
+      "sortPreference" : "",
+      "useKMG2" : false,
+      "yAxisConfigurations" : [ {
+        "id" : "yAxis0",
+        "label" : "GC events",
+        "max" : null,
+        "min" : null,
+        "name" : "yAxis0",
+        "plotlines" : {
+          "high" : null,
+          "low" : null
+        }
+      } ]
+    },
+    "currentUniqueKey" : 3,
+    "markdownText" : "This is a markdown editor for creating text notes for your dashboards.<br> Enter your text or markdown on the left, and preview it on the right.<br>Here are some markdown examples:<br>\n#####_small headline italicized_\n1. ordered list\n2. same\n\n~~strike through~~\n<pre>code segment\nmore code\n</pre>\nthis is a [link](https://signalfx.com)\n\n* bullet1\n* bullet2\n\nClick Create to save this text note to your dashboard.\n",
+    "relatedDetectors" : [ ],
+    "revisionNumber" : 7,
+    "uiHelperValue" : "##CHARTID##_7"
+  }
+}, {
+  "marshallId" : 6,
+  "marshallMemberOf" : [ 3 ],
+  "sf_chart" : "5XX responses, by URI",
+  "sf_chartIndex" : 1527791476711,
+  "sf_description" : "",
+  "sf_type" : "Chart",
+  "sf_uiModel" : {
+    "allPlots" : [ {
+      "configuration" : {
+        "aliases" : { },
+        "colorOverride" : null,
+        "extrapolationPolicy" : "NULL_EXTRAPOLATION",
+        "maxExtrapolations" : -1,
+        "rollupPolicy" : "SUM_ROLLUP"
+      },
+      "dataManipulations" : [ {
+        "direction" : {
+          "options" : {
+            "aggregateGroupBy" : [ {
               "value" : "uri"
             } ],
             "collapseGroups" : false,
@@ -402,23 +408,7 @@
         },
         "fn" : {
           "options" : { },
-          "type" : "MEAN"
-        },
-        "showMe" : false
-      }, {
-        "direction" : {
-          "options" : {
-            "aggregateGroupBy" : [ ],
-            "collapseGroups" : false,
-            "transformTimeRange" : null
-          },
-          "type" : "aggregation"
-        },
-        "fn" : {
-          "options" : {
-            "count" : 10
-          },
-          "type" : "TOPN"
+          "type" : "SUM"
         },
         "showMe" : false
       } ],
@@ -456,14 +446,16 @@
       "uniqueKey" : 2,
       "yAxisIndex" : 0
     } ],
-    "chartMode" : "list",
-    "chartType" : "line",
+    "chartMode" : "graph",
+    "chartType" : "column",
     "chartconfig" : {
       "absoluteEnd" : null,
       "absoluteStart" : null,
       "colorByMetric" : false,
       "colorByValue" : false,
       "colorByValueScale" : [ ],
+      "dimensionInLegend" : "uri",
+      "histogramColor" : "#ea1849",
       "legendColumnConfiguration" : [ {
         "enabled" : false,
         "property" : "sf_originatingMetric"
@@ -476,11 +468,25 @@
       }, {
         "enabled" : true,
         "property" : "uri"
+      }, {
+        "enabled" : true,
+        "property" : "exception"
+      }, {
+        "enabled" : true,
+        "property" : "method"
+      }, {
+        "enabled" : true,
+        "property" : "host"
+      }, {
+        "enabled" : true,
+        "property" : "region"
       } ],
       "range" : -900000,
-      "rangeEnd" : null,
+      "rangeEnd" : 0,
       "secondaryVisualization" : "NONE",
+      "showLegend" : false,
       "sortPreference" : "",
+      "stackedChart" : true,
       "useKMG2" : false,
       "yAxisConfigurations" : [ {
         "id" : "yAxis0",
@@ -495,401 +501,24 @@
     },
     "currentUniqueKey" : 3,
     "relatedDetectors" : [ ],
-    "revisionNumber" : 5,
-    "uiHelperValue" : "##CHARTID##_5"
+    "revisionNumber" : 8,
+    "uiHelperValue" : "##CHARTID##_8"
   }
 }, {
   "marshallId" : 7,
   "marshallMemberOf" : [ 3 ],
-  "sf_chart" : "Top time per request, by host",
-  "sf_chartIndex" : 1517608849515,
+  "sf_chart" : "4XX responses, by URI",
+  "sf_chartIndex" : 1527791745149,
   "sf_description" : "",
   "sf_type" : "Chart",
   "sf_uiModel" : {
     "allPlots" : [ {
       "configuration" : {
         "aliases" : { },
-        "extrapolationPolicy" : "NULL_EXTRAPOLATION",
-        "maxExtrapolations" : -1,
-        "prefix" : "",
-        "rollupPolicy" : null,
-        "suffix" : "",
-        "unitType" : "Second"
-      },
-      "dataManipulations" : [ {
-        "direction" : {
-          "options" : {
-            "aggregateGroupBy" : [ {
-              "value" : "host"
-            } ],
-            "collapseGroups" : false,
-            "transformTimeRange" : null
-          },
-          "type" : "aggregation"
-        },
-        "fn" : {
-          "options" : { },
-          "type" : "MEAN"
-        },
-        "showMe" : false
-      }, {
-        "direction" : {
-          "options" : {
-            "aggregateGroupBy" : [ ],
-            "collapseGroups" : false,
-            "transformTimeRange" : null
-          },
-          "type" : "aggregation"
-        },
-        "fn" : {
-          "options" : { },
-          "type" : "TOPN"
-        },
-        "showMe" : false
-      } ],
-      "invisible" : false,
-      "name" : "mean time per request (ms)",
-      "queryItems" : [ ],
-      "seriesData" : {
-        "metric" : "http.server.requests.avg",
-        "regExStyle" : null
-      },
-      "transient" : false,
-      "type" : "plot",
-      "uniqueKey" : 1,
-      "yAxisIndex" : 0
-    }, {
-      "configuration" : {
-        "aliases" : { },
-        "colorOverride" : "#05ce00",
-        "extrapolationPolicy" : "NULL_EXTRAPOLATION",
-        "maxExtrapolations" : -1,
-        "prefix" : "",
-        "suffix" : "",
-        "unitType" : "Second"
-      },
-      "dataManipulations" : [ {
-        "direction" : {
-          "options" : {
-            "aggregateGroupBy" : [ ],
-            "collapseGroups" : false,
-            "transformTimeRange" : null
-          },
-          "type" : "aggregation"
-        },
-        "fn" : {
-          "options" : {
-            "percentile" : 50
-          },
-          "type" : "PERCENTILE"
-        },
-        "showMe" : false
-      } ],
-      "expressionText" : "A",
-      "invisible" : true,
-      "metricDefinition" : { },
-      "name" : "P50 mean ms/request",
-      "queryItems" : [ ],
-      "seriesData" : {
-        "metric" : null
-      },
-      "transient" : false,
-      "type" : "ratio",
-      "uniqueKey" : 9,
-      "valid" : true,
-      "yAxisIndex" : 0
-    }, {
-      "configuration" : {
-        "aliases" : { },
-        "colorOverride" : "#e9008a",
-        "extrapolationPolicy" : "NULL_EXTRAPOLATION",
-        "maxExtrapolations" : -1,
-        "prefix" : "",
-        "suffix" : "",
-        "unitType" : "Second"
-      },
-      "dataManipulations" : [ {
-        "direction" : {
-          "options" : {
-            "aggregateGroupBy" : [ ],
-            "collapseGroups" : false,
-            "transformTimeRange" : null
-          },
-          "type" : "aggregation"
-        },
-        "fn" : {
-          "options" : { },
-          "type" : "PERCENTILE"
-        },
-        "showMe" : false
-      } ],
-      "expressionText" : "A",
-      "invisible" : true,
-      "metricDefinition" : { },
-      "name" : "P95 mean ms/request",
-      "queryItems" : [ ],
-      "seriesData" : {
-        "metric" : null
-      },
-      "transient" : false,
-      "type" : "ratio",
-      "uniqueKey" : 10,
-      "valid" : true,
-      "yAxisIndex" : 0
-    }, {
-      "configuration" : {
-        "aliases" : { },
-        "extrapolationPolicy" : "NULL_EXTRAPOLATION",
-        "maxExtrapolations" : -1
-      },
-      "dataManipulations" : [ ],
-      "invisible" : false,
-      "metricDefinition" : { },
-      "name" : "New Plot",
-      "queryItems" : [ ],
-      "seriesData" : { },
-      "transient" : true,
-      "type" : "plot",
-      "uniqueKey" : 11,
-      "yAxisIndex" : 0
-    } ],
-    "chartMode" : "list",
-    "chartType" : "line",
-    "chartconfig" : {
-      "absoluteEnd" : null,
-      "absoluteStart" : null,
-      "colorByMetric" : false,
-      "colorByValue" : false,
-      "colorByValueScale" : [ ],
-      "histogramColor" : "#ea1849",
-      "legendColumnConfiguration" : [ {
-        "enabled" : false,
-        "property" : "sf_originatingMetric"
-      }, {
-        "enabled" : false,
-        "property" : "sf_metric"
-      }, {
-        "enabled" : true,
-        "property" : "status"
-      }, {
-        "enabled" : true,
-        "property" : "exception"
-      }, {
-        "enabled" : true,
-        "property" : "method"
-      }, {
-        "enabled" : true,
-        "property" : "uri"
-      }, {
-        "enabled" : true,
-        "property" : "host"
-      } ],
-      "range" : -900000,
-      "rangeEnd" : null,
-      "secondaryVisualization" : "SPARKLINE",
-      "sortPreference" : "-value",
-      "useKMG2" : false,
-      "yAxisConfigurations" : [ {
-        "id" : "yAxis0",
-        "label" : "ms",
-        "max" : null,
-        "min" : null,
-        "name" : "yAxis0",
-        "plotlines" : {
-          "high" : null,
-          "low" : null
-        }
-      } ]
-    },
-    "currentUniqueKey" : 12,
-    "relatedDetectors" : [ ],
-    "revisionNumber" : 9,
-    "uiHelperValue" : "##CHARTID##_9"
-  }
-}, {
-  "marshallId" : 8,
-  "marshallMemberOf" : [ 3 ],
-  "sf_chart" : "Mean time per request, by status",
-  "sf_chartIndex" : 1517251754237,
-  "sf_description" : "",
-  "sf_type" : "Chart",
-  "sf_uiModel" : {
-    "allPlots" : [ {
-      "configuration" : {
-        "aliases" : { },
-        "extrapolationPolicy" : "NULL_EXTRAPOLATION",
-        "maxExtrapolations" : -1,
-        "rollupPolicy" : null,
-        "suffix" : "ms"
-      },
-      "dataManipulations" : [ {
-        "direction" : {
-          "options" : {
-            "aggregateGroupBy" : [ {
-              "value" : "status"
-            } ],
-            "collapseGroups" : false,
-            "transformTimeRange" : null
-          },
-          "type" : "aggregation"
-        },
-        "fn" : {
-          "options" : { },
-          "type" : "MEAN"
-        },
-        "showMe" : false
-      } ],
-      "invisible" : true,
-      "name" : "http.server.requests.totalTime - Mean by status",
-      "queryItems" : [ ],
-      "seriesData" : {
-        "metric" : "http.server.requests.totalTime"
-      },
-      "transient" : false,
-      "type" : "plot",
-      "uniqueKey" : 1,
-      "yAxisIndex" : 0
-    }, {
-      "configuration" : {
-        "aliases" : { },
+        "colorOverride" : null,
         "extrapolationPolicy" : "NULL_EXTRAPOLATION",
         "maxExtrapolations" : -1,
         "rollupPolicy" : "SUM_ROLLUP"
-      },
-      "dataManipulations" : [ {
-        "direction" : {
-          "options" : {
-            "aggregateGroupBy" : [ {
-              "value" : "status"
-            } ],
-            "collapseGroups" : false,
-            "transformTimeRange" : null
-          },
-          "type" : "aggregation"
-        },
-        "fn" : {
-          "options" : { },
-          "type" : "SUM"
-        },
-        "showMe" : false
-      } ],
-      "invisible" : true,
-      "metricDefinition" : { },
-      "name" : "http.server.requests.count - Sum by status",
-      "queryItems" : [ ],
-      "seriesData" : {
-        "metric" : "http.server.requests.count",
-        "regExStyle" : null
-      },
-      "transient" : false,
-      "type" : "plot",
-      "uniqueKey" : 7,
-      "yAxisIndex" : 0
-    }, {
-      "configuration" : {
-        "aliases" : { },
-        "extrapolationPolicy" : "NULL_EXTRAPOLATION",
-        "maxExtrapolations" : -1,
-        "prefix" : "",
-        "suffix" : "",
-        "unitType" : "Second"
-      },
-      "dataManipulations" : [ ],
-      "expressionText" : "A/G",
-      "invisible" : false,
-      "metricDefinition" : { },
-      "name" : "mean time per request (ms)",
-      "queryItems" : [ ],
-      "seriesData" : {
-        "metric" : null
-      },
-      "transient" : false,
-      "type" : "ratio",
-      "uniqueKey" : 8,
-      "valid" : true,
-      "yAxisIndex" : 0
-    }, {
-      "configuration" : {
-        "aliases" : { },
-        "extrapolationPolicy" : "NULL_EXTRAPOLATION",
-        "maxExtrapolations" : -1
-      },
-      "dataManipulations" : [ ],
-      "invisible" : false,
-      "metricDefinition" : { },
-      "name" : "New Plot",
-      "queryItems" : [ ],
-      "seriesData" : { },
-      "transient" : true,
-      "type" : "plot",
-      "uniqueKey" : 9,
-      "yAxisIndex" : 0
-    } ],
-    "chartMode" : "graph",
-    "chartType" : "area",
-    "chartconfig" : {
-      "absoluteEnd" : null,
-      "absoluteStart" : null,
-      "colorByMetric" : false,
-      "colorByValue" : false,
-      "colorByValueScale" : [ ],
-      "histogramColor" : "#ea1849",
-      "legendColumnConfiguration" : [ {
-        "enabled" : false,
-        "property" : "sf_originatingMetric"
-      }, {
-        "enabled" : false,
-        "property" : "sf_metric"
-      }, {
-        "enabled" : true,
-        "property" : "status"
-      }, {
-        "enabled" : true,
-        "property" : "exception"
-      }, {
-        "enabled" : true,
-        "property" : "method"
-      }, {
-        "enabled" : true,
-        "property" : "uri"
-      } ],
-      "range" : -900000,
-      "rangeEnd" : null,
-      "secondaryVisualization" : "SPARKLINE",
-      "sortPreference" : "-value",
-      "useKMG2" : false,
-      "yAxisConfigurations" : [ {
-        "id" : "yAxis0",
-        "label" : "",
-        "max" : null,
-        "min" : null,
-        "name" : "yAxis0",
-        "plotlines" : {
-          "high" : null,
-          "low" : null
-        }
-      } ]
-    },
-    "currentUniqueKey" : 10,
-    "relatedDetectors" : [ ],
-    "revisionNumber" : 7,
-    "uiHelperValue" : "##CHARTID##_7"
-  }
-}, {
-  "marshallId" : 9,
-  "marshallMemberOf" : [ 3 ],
-  "sf_chart" : "Top requests/sec per URI",
-  "sf_chartIndex" : 1515521330574,
-  "sf_description" : "",
-  "sf_type" : "Chart",
-  "sf_uiModel" : {
-    "allPlots" : [ {
-      "configuration" : {
-        "aliases" : { },
-        "extrapolationPolicy" : "NULL_EXTRAPOLATION",
-        "maxExtrapolations" : -1,
-        "rollupPolicy" : null,
-        "suffix" : "requests/sec"
       },
       "dataManipulations" : [ {
         "direction" : {
@@ -904,16 +533,19 @@
         },
         "fn" : {
           "options" : { },
-          "type" : "MEAN"
+          "type" : "SUM"
         },
         "showMe" : false
       } ],
       "invisible" : false,
-      "name" : "http.server.requests.count - Mean by uri",
-      "queryItems" : [ ],
+      "name" : "responses per sec",
+      "queryItems" : [ {
+        "property" : "status",
+        "propertyValue" : "4*",
+        "type" : "property"
+      } ],
       "seriesData" : {
-        "metric" : "http.server.requests.count",
-        "regExStyle" : null
+        "metric" : "http.server.requests.count"
       },
       "transient" : false,
       "type" : "plot",
@@ -936,25 +568,16 @@
       "uniqueKey" : 2,
       "yAxisIndex" : 0
     } ],
-    "chartMode" : "list",
-    "chartType" : "line",
+    "chartMode" : "graph",
+    "chartType" : "column",
     "chartconfig" : {
       "absoluteEnd" : null,
       "absoluteStart" : null,
       "colorByMetric" : false,
       "colorByValue" : false,
       "colorByValueScale" : [ ],
-      "groupBy" : [ ],
-      "heatmapAutoGradients" : 5,
-      "heatmapColorOverride" : "#05ce00",
-      "heatmapColorRange" : { },
-      "heatmapSortBy" : {
-        "asc" : true,
-        "value" : { }
-      },
-      "heatmapUnitsPerRow" : 0,
-      "heatmapUseValueAsColor" : false,
-      "hideTimestamp" : false,
+      "dimensionInLegend" : "uri",
+      "histogramColor" : "#ea1849",
       "legendColumnConfiguration" : [ {
         "enabled" : false,
         "property" : "sf_originatingMetric"
@@ -963,12 +586,29 @@
         "property" : "sf_metric"
       }, {
         "enabled" : true,
+        "property" : "status"
+      }, {
+        "enabled" : true,
         "property" : "uri"
+      }, {
+        "enabled" : true,
+        "property" : "exception"
+      }, {
+        "enabled" : true,
+        "property" : "method"
+      }, {
+        "enabled" : true,
+        "property" : "host"
+      }, {
+        "enabled" : true,
+        "property" : "region"
       } ],
       "range" : -900000,
-      "rangeEnd" : null,
+      "rangeEnd" : 0,
       "secondaryVisualization" : "NONE",
-      "sortPreference" : "-value",
+      "showLegend" : false,
+      "sortPreference" : "",
+      "stackedChart" : true,
       "useKMG2" : false,
       "yAxisConfigurations" : [ {
         "id" : "yAxis0",
@@ -984,13 +624,13 @@
     "currentUniqueKey" : 3,
     "relatedDetectors" : [ ],
     "revisionNumber" : 9,
-    "uiHelperValue" : "##CHARTID##_9"
+    "uiHelperValue" : "__OBJECT_ID___9"
   }
 }, {
-  "marshallId" : 10,
+  "marshallId" : 8,
   "marshallMemberOf" : [ 3 ],
-  "sf_chart" : "Median JVM memory usage per host",
-  "sf_chartIndex" : 1515521306490,
+  "sf_chart" : "Median JVM memory usage",
+  "sf_chartIndex" : 1527723317082,
   "sf_description" : "",
   "sf_type" : "Chart",
   "sf_uiModel" : {
@@ -1124,14 +764,14 @@
     },
     "currentUniqueKey" : 4,
     "relatedDetectors" : [ ],
-    "revisionNumber" : 5,
-    "uiHelperValue" : "##CHARTID##_5"
+    "revisionNumber" : 7,
+    "uiHelperValue" : "__OBJECT_ID___7"
   }
 }, {
-  "marshallId" : 11,
+  "marshallId" : 9,
   "marshallMemberOf" : [ 3 ],
-  "sf_chart" : "Overall requests/sec",
-  "sf_chartIndex" : 1517254857348,
+  "sf_chart" : "Top 5XX responses per sec",
+  "sf_chartIndex" : 1517251869045,
   "sf_description" : "",
   "sf_type" : "Chart",
   "sf_uiModel" : {
@@ -1139,13 +779,16 @@
       "configuration" : {
         "aliases" : { },
         "extrapolationPolicy" : "NULL_EXTRAPOLATION",
-        "maxExtrapolations" : -1,
-        "rollupPolicy" : null
+        "maxExtrapolations" : -1
       },
       "dataManipulations" : [ {
         "direction" : {
           "options" : {
-            "aggregateGroupBy" : [ ],
+            "aggregateGroupBy" : [ {
+              "value" : "status"
+            }, {
+              "value" : "uri"
+            } ],
             "collapseGroups" : false,
             "transformTimeRange" : null
           },
@@ -1156,10 +799,33 @@
           "type" : "MEAN"
         },
         "showMe" : false
+      }, {
+        "direction" : {
+          "options" : {
+            "aggregateGroupBy" : [ ],
+            "collapseGroups" : false,
+            "transformTimeRange" : null
+          },
+          "type" : "aggregation"
+        },
+        "fn" : {
+          "options" : {
+            "count" : 10
+          },
+          "type" : "TOPN"
+        },
+        "showMe" : false
       } ],
       "invisible" : false,
-      "name" : "requests/sec",
-      "queryItems" : [ ],
+      "name" : "responses per sec",
+      "queryItems" : [ {
+        "NOT" : false,
+        "iconClass" : "icon-properties",
+        "property" : "status",
+        "propertyValue" : "5*",
+        "type" : "property",
+        "value" : "5*"
+      } ],
       "seriesData" : {
         "metric" : "http.server.requests.count"
       },
@@ -1184,23 +850,34 @@
       "uniqueKey" : 2,
       "yAxisIndex" : 0
     } ],
-    "chartMode" : "single",
+    "chartMode" : "list",
     "chartType" : "line",
     "chartconfig" : {
       "absoluteEnd" : null,
       "absoluteStart" : null,
       "colorByMetric" : false,
+      "colorByValue" : false,
       "colorByValueScale" : [ ],
-      "hideTimestamp" : false,
+      "legendColumnConfiguration" : [ {
+        "enabled" : false,
+        "property" : "sf_originatingMetric"
+      }, {
+        "enabled" : false,
+        "property" : "sf_metric"
+      }, {
+        "enabled" : true,
+        "property" : "status"
+      }, {
+        "enabled" : true,
+        "property" : "uri"
+      } ],
       "range" : -900000,
-      "rangeEnd" : null,
+      "rangeEnd" : 0,
       "secondaryVisualization" : "NONE",
       "sortPreference" : "",
-      "stackedChart" : true,
       "useKMG2" : false,
       "yAxisConfigurations" : [ {
         "id" : "yAxis0",
-        "label" : "requests/sec",
         "max" : null,
         "min" : null,
         "name" : "yAxis0",
@@ -1212,11 +889,10 @@
     },
     "currentUniqueKey" : 3,
     "relatedDetectors" : [ ],
-    "revisionNumber" : 7,
-    "uiHelperValue" : "__OBJECT_ID___7"
+    "revisionNumber" : 5
   }
 }, {
-  "marshallId" : 12,
+  "marshallId" : 10,
   "marshallMemberOf" : [ 3 ],
   "sf_chart" : "Requests/sec 24h change %",
   "sf_chartIndex" : 1517256474084,
@@ -1387,6 +1063,433 @@
     },
     "currentUniqueKey" : 8,
     "relatedDetectors" : [ ],
+    "revisionNumber" : 11
+  }
+}, {
+  "marshallId" : 11,
+  "marshallMemberOf" : [ 3 ],
+  "sf_chart" : "Request Duration",
+  "sf_chartIndex" : 1517255522891,
+  "sf_description" : "Percentile Distribution",
+  "sf_type" : "Chart",
+  "sf_uiModel" : {
+    "allPlots" : [ {
+      "configuration" : {
+        "aliases" : { },
+        "extrapolationPolicy" : "NULL_EXTRAPOLATION",
+        "maxExtrapolations" : -1,
+        "prefix" : "",
+        "rollupPolicy" : null,
+        "suffix" : "",
+        "unitType" : "Second"
+      },
+      "dataManipulations" : [ ],
+      "invisible" : true,
+      "name" : "mean time per request",
+      "queryItems" : [ ],
+      "seriesData" : {
+        "metric" : "http.server.requests.avg",
+        "regExStyle" : null
+      },
+      "transient" : false,
+      "type" : "plot",
+      "uniqueKey" : 1,
+      "yAxisIndex" : 0
+    }, {
+      "configuration" : {
+        "aliases" : { },
+        "colorOverride" : "#05ce00",
+        "extrapolationPolicy" : "NULL_EXTRAPOLATION",
+        "maxExtrapolations" : -1,
+        "prefix" : "",
+        "suffix" : "",
+        "unitType" : "Second"
+      },
+      "dataManipulations" : [ {
+        "direction" : {
+          "options" : {
+            "aggregateGroupBy" : [ ],
+            "collapseGroups" : false,
+            "transformTimeRange" : null
+          },
+          "type" : "aggregation"
+        },
+        "fn" : {
+          "options" : {
+            "percentile" : 50
+          },
+          "type" : "PERCENTILE"
+        },
+        "showMe" : false
+      } ],
+      "expressionText" : "A",
+      "invisible" : false,
+      "metricDefinition" : { },
+      "name" : "P50 mean duration/request",
+      "queryItems" : [ ],
+      "seriesData" : {
+        "metric" : null
+      },
+      "transient" : false,
+      "type" : "ratio",
+      "uniqueKey" : 9,
+      "valid" : true,
+      "yAxisIndex" : 0
+    }, {
+      "configuration" : {
+        "aliases" : { },
+        "colorOverride" : "#e9008a",
+        "extrapolationPolicy" : "NULL_EXTRAPOLATION",
+        "maxExtrapolations" : -1,
+        "prefix" : "",
+        "suffix" : "",
+        "unitType" : "Second"
+      },
+      "dataManipulations" : [ {
+        "direction" : {
+          "options" : {
+            "aggregateGroupBy" : [ ],
+            "collapseGroups" : false,
+            "transformTimeRange" : null
+          },
+          "type" : "aggregation"
+        },
+        "fn" : {
+          "options" : { },
+          "type" : "PERCENTILE"
+        },
+        "showMe" : false
+      } ],
+      "expressionText" : "A",
+      "invisible" : false,
+      "metricDefinition" : { },
+      "name" : "P95 mean duration/request",
+      "queryItems" : [ ],
+      "seriesData" : {
+        "metric" : null
+      },
+      "transient" : false,
+      "type" : "ratio",
+      "uniqueKey" : 10,
+      "valid" : true,
+      "yAxisIndex" : 0
+    }, {
+      "configuration" : {
+        "aliases" : { },
+        "colorOverride" : "#999999",
+        "extrapolationPolicy" : "NULL_EXTRAPOLATION",
+        "maxExtrapolations" : -1,
+        "prefix" : "",
+        "suffix" : "",
+        "unitType" : "Second"
+      },
+      "dataManipulations" : [ {
+        "direction" : {
+          "options" : {
+            "aggregateGroupBy" : [ ],
+            "collapseGroups" : false,
+            "transformTimeRange" : null
+          },
+          "type" : "aggregation"
+        },
+        "fn" : {
+          "options" : {
+            "percentile" : 10
+          },
+          "type" : "PERCENTILE"
+        },
+        "showMe" : false
+      } ],
+      "expressionText" : "A",
+      "invisible" : false,
+      "metricDefinition" : { },
+      "name" : "P10 mean duration/request",
+      "queryItems" : [ ],
+      "seriesData" : {
+        "metric" : null
+      },
+      "transient" : false,
+      "type" : "ratio",
+      "uniqueKey" : 11,
+      "valid" : true,
+      "yAxisIndex" : 0
+    }, {
+      "configuration" : {
+        "aliases" : { },
+        "colorOverride" : "#999999",
+        "extrapolationPolicy" : "NULL_EXTRAPOLATION",
+        "maxExtrapolations" : -1,
+        "prefix" : "",
+        "rollupPolicy" : "MAX_ROLLUP",
+        "suffix" : "",
+        "unitType" : "Second"
+      },
+      "dataManipulations" : [ {
+        "direction" : {
+          "options" : {
+            "aggregateGroupBy" : [ ],
+            "collapseGroups" : false,
+            "transformTimeRange" : null
+          },
+          "type" : "aggregation"
+        },
+        "fn" : {
+          "options" : { },
+          "type" : "MAX"
+        },
+        "showMe" : false
+      } ],
+      "invisible" : false,
+      "name" : "max duration/request",
+      "queryItems" : [ ],
+      "seriesData" : {
+        "metric" : "http.server.requests.max",
+        "regExStyle" : null
+      },
+      "transient" : false,
+      "type" : "plot",
+      "uniqueKey" : 13,
+      "yAxisIndex" : 0
+    }, {
+      "configuration" : {
+        "aliases" : { },
+        "extrapolationPolicy" : "NULL_EXTRAPOLATION",
+        "maxExtrapolations" : -1
+      },
+      "dataManipulations" : [ ],
+      "invisible" : false,
+      "metricDefinition" : { },
+      "name" : "New Plot",
+      "queryItems" : [ ],
+      "seriesData" : { },
+      "transient" : true,
+      "type" : "plot",
+      "uniqueKey" : 14,
+      "yAxisIndex" : 0
+    } ],
+    "chartMode" : "graph",
+    "chartType" : "area",
+    "chartconfig" : {
+      "absoluteEnd" : null,
+      "absoluteStart" : null,
+      "colorByMetric" : false,
+      "colorByValue" : false,
+      "colorByValueScale" : [ ],
+      "dimensionInLegend" : "sf_metric",
+      "histogramColor" : "#ea1849",
+      "legendColumnConfiguration" : [ {
+        "enabled" : false,
+        "property" : "sf_originatingMetric"
+      }, {
+        "enabled" : false,
+        "property" : "sf_metric"
+      }, {
+        "enabled" : true,
+        "property" : "status"
+      }, {
+        "enabled" : true,
+        "property" : "exception"
+      }, {
+        "enabled" : true,
+        "property" : "method"
+      }, {
+        "enabled" : true,
+        "property" : "uri"
+      }, {
+        "enabled" : true,
+        "property" : "host"
+      } ],
+      "range" : -900000,
+      "rangeEnd" : null,
+      "secondaryVisualization" : "SPARKLINE",
+      "showLegend" : true,
+      "sortPreference" : "-value",
+      "useKMG2" : false,
+      "yAxisConfigurations" : [ {
+        "id" : "yAxis0",
+        "label" : "",
+        "max" : null,
+        "min" : null,
+        "name" : "yAxis0",
+        "plotlines" : {
+          "high" : null,
+          "low" : null
+        }
+      } ]
+    },
+    "currentUniqueKey" : 15,
+    "relatedDetectors" : [ ],
+    "revisionNumber" : 12,
+    "uiHelperValue" : "##CHARTID##_12"
+  }
+}, {
+  "marshallId" : 12,
+  "marshallMemberOf" : [ 3 ],
+  "sf_chart" : "Mean duration, by status",
+  "sf_chartIndex" : 1517251754237,
+  "sf_description" : "",
+  "sf_type" : "Chart",
+  "sf_uiModel" : {
+    "allPlots" : [ {
+      "configuration" : {
+        "aliases" : { },
+        "extrapolationPolicy" : "NULL_EXTRAPOLATION",
+        "maxExtrapolations" : -1,
+        "rollupPolicy" : "SUM_ROLLUP",
+        "suffix" : "ms"
+      },
+      "dataManipulations" : [ {
+        "direction" : {
+          "options" : {
+            "aggregateGroupBy" : [ {
+              "value" : "status"
+            } ],
+            "collapseGroups" : false,
+            "transformTimeRange" : null
+          },
+          "type" : "aggregation"
+        },
+        "fn" : {
+          "options" : { },
+          "type" : "SUM"
+        },
+        "showMe" : false
+      } ],
+      "invisible" : true,
+      "name" : "http.server.requests.totalTime - Sum by status",
+      "queryItems" : [ ],
+      "seriesData" : {
+        "metric" : "http.server.requests.totalTime"
+      },
+      "transient" : false,
+      "type" : "plot",
+      "uniqueKey" : 1,
+      "yAxisIndex" : 0
+    }, {
+      "configuration" : {
+        "aliases" : { },
+        "extrapolationPolicy" : "NULL_EXTRAPOLATION",
+        "maxExtrapolations" : -1,
+        "rollupPolicy" : "SUM_ROLLUP"
+      },
+      "dataManipulations" : [ {
+        "direction" : {
+          "options" : {
+            "aggregateGroupBy" : [ {
+              "value" : "status"
+            } ],
+            "collapseGroups" : false,
+            "transformTimeRange" : null
+          },
+          "type" : "aggregation"
+        },
+        "fn" : {
+          "options" : { },
+          "type" : "SUM"
+        },
+        "showMe" : false
+      } ],
+      "invisible" : true,
+      "metricDefinition" : { },
+      "name" : "http.server.requests.count - Sum by status",
+      "queryItems" : [ ],
+      "seriesData" : {
+        "metric" : "http.server.requests.count",
+        "regExStyle" : null
+      },
+      "transient" : false,
+      "type" : "plot",
+      "uniqueKey" : 7,
+      "yAxisIndex" : 0
+    }, {
+      "configuration" : {
+        "aliases" : { },
+        "extrapolationPolicy" : "NULL_EXTRAPOLATION",
+        "maxExtrapolations" : -1,
+        "prefix" : "",
+        "suffix" : "",
+        "unitType" : "Second"
+      },
+      "dataManipulations" : [ ],
+      "expressionText" : "A/G",
+      "invisible" : false,
+      "metricDefinition" : { },
+      "name" : "mean time per request",
+      "queryItems" : [ ],
+      "seriesData" : {
+        "metric" : null
+      },
+      "transient" : false,
+      "type" : "ratio",
+      "uniqueKey" : 8,
+      "valid" : true,
+      "yAxisIndex" : 0
+    }, {
+      "configuration" : {
+        "aliases" : { },
+        "extrapolationPolicy" : "NULL_EXTRAPOLATION",
+        "maxExtrapolations" : -1
+      },
+      "dataManipulations" : [ ],
+      "invisible" : false,
+      "metricDefinition" : { },
+      "name" : "New Plot",
+      "queryItems" : [ ],
+      "seriesData" : { },
+      "transient" : true,
+      "type" : "plot",
+      "uniqueKey" : 9,
+      "yAxisIndex" : 0
+    } ],
+    "chartMode" : "graph",
+    "chartType" : "area",
+    "chartconfig" : {
+      "absoluteEnd" : null,
+      "absoluteStart" : null,
+      "colorByMetric" : false,
+      "colorByValue" : false,
+      "colorByValueScale" : [ ],
+      "dimensionInLegend" : "status",
+      "histogramColor" : "#ea1849",
+      "legendColumnConfiguration" : [ {
+        "enabled" : false,
+        "property" : "sf_originatingMetric"
+      }, {
+        "enabled" : false,
+        "property" : "sf_metric"
+      }, {
+        "enabled" : true,
+        "property" : "status"
+      }, {
+        "enabled" : true,
+        "property" : "exception"
+      }, {
+        "enabled" : true,
+        "property" : "method"
+      }, {
+        "enabled" : true,
+        "property" : "uri"
+      } ],
+      "range" : -900000,
+      "rangeEnd" : null,
+      "secondaryVisualization" : "SPARKLINE",
+      "showLegend" : true,
+      "sortPreference" : "-value",
+      "useKMG2" : false,
+      "yAxisConfigurations" : [ {
+        "id" : "yAxis0",
+        "label" : "",
+        "max" : null,
+        "min" : null,
+        "name" : "yAxis0",
+        "plotlines" : {
+          "high" : null,
+          "low" : null
+        }
+      } ]
+    },
+    "currentUniqueKey" : 10,
+    "relatedDetectors" : [ ],
     "revisionNumber" : 11,
     "uiHelperValue" : "##CHARTID##_11"
   }
@@ -1456,531 +1559,18 @@
       "absoluteEnd" : null,
       "absoluteStart" : null,
       "colorByMetric" : false,
-      "range" : -900000,
-      "rangeEnd" : null,
-      "secondaryVisualization" : "NONE",
-      "sortPreference" : "",
-      "useKMG2" : false,
-      "yAxisConfigurations" : [ {
-        "id" : "yAxis0",
-        "label" : "total responses",
-        "max" : null,
-        "min" : null,
-        "name" : "yAxis0",
-        "plotlines" : {
-          "high" : null,
-          "low" : null
-        }
-      } ]
-    },
-    "currentUniqueKey" : 3,
-    "relatedDetectors" : [ ],
-    "revisionNumber" : 6,
-    "uiHelperValue" : "##CHARTID##_6"
-  }
-}, {
-  "marshallId" : 14,
-  "marshallMemberOf" : [ 3 ],
-  "sf_chart" : "Mean time per request, across hosts",
-  "sf_chartIndex" : 1517255522891,
-  "sf_description" : "",
-  "sf_type" : "Chart",
-  "sf_uiModel" : {
-    "allPlots" : [ {
-      "configuration" : {
-        "aliases" : { },
-        "extrapolationPolicy" : "NULL_EXTRAPOLATION",
-        "maxExtrapolations" : -1,
-        "prefix" : "",
-        "rollupPolicy" : null,
-        "suffix" : "",
-        "unitType" : "Second"
-      },
-      "dataManipulations" : [ {
-        "direction" : {
-          "options" : {
-            "aggregateGroupBy" : [ {
-              "value" : "host"
-            } ],
-            "collapseGroups" : false,
-            "transformTimeRange" : null
-          },
-          "type" : "aggregation"
-        },
-        "fn" : {
-          "options" : { },
-          "type" : "MEAN"
-        },
-        "showMe" : false
-      } ],
-      "invisible" : true,
-      "name" : "mean time per request",
-      "queryItems" : [ ],
-      "seriesData" : {
-        "metric" : "http.server.requests.avg",
-        "regExStyle" : null
-      },
-      "transient" : false,
-      "type" : "plot",
-      "uniqueKey" : 1,
-      "yAxisIndex" : 0
-    }, {
-      "configuration" : {
-        "aliases" : { },
-        "colorOverride" : "#05ce00",
-        "extrapolationPolicy" : "NULL_EXTRAPOLATION",
-        "maxExtrapolations" : -1,
-        "prefix" : "",
-        "suffix" : "",
-        "unitType" : "Second"
-      },
-      "dataManipulations" : [ {
-        "direction" : {
-          "options" : {
-            "aggregateGroupBy" : [ ],
-            "collapseGroups" : false,
-            "transformTimeRange" : null
-          },
-          "type" : "aggregation"
-        },
-        "fn" : {
-          "options" : {
-            "percentile" : 50
-          },
-          "type" : "PERCENTILE"
-        },
-        "showMe" : false
-      } ],
-      "expressionText" : "A",
-      "invisible" : false,
-      "metricDefinition" : { },
-      "name" : "P50 mean ms/request",
-      "queryItems" : [ ],
-      "seriesData" : {
-        "metric" : null
-      },
-      "transient" : false,
-      "type" : "ratio",
-      "uniqueKey" : 9,
-      "valid" : true,
-      "yAxisIndex" : 0
-    }, {
-      "configuration" : {
-        "aliases" : { },
-        "colorOverride" : "#e9008a",
-        "extrapolationPolicy" : "NULL_EXTRAPOLATION",
-        "maxExtrapolations" : -1,
-        "prefix" : "",
-        "suffix" : "",
-        "unitType" : "Second"
-      },
-      "dataManipulations" : [ {
-        "direction" : {
-          "options" : {
-            "aggregateGroupBy" : [ ],
-            "collapseGroups" : false,
-            "transformTimeRange" : null
-          },
-          "type" : "aggregation"
-        },
-        "fn" : {
-          "options" : { },
-          "type" : "PERCENTILE"
-        },
-        "showMe" : false
-      } ],
-      "expressionText" : "A",
-      "invisible" : false,
-      "metricDefinition" : { },
-      "name" : "P95 mean ms/request",
-      "queryItems" : [ ],
-      "seriesData" : {
-        "metric" : null
-      },
-      "transient" : false,
-      "type" : "ratio",
-      "uniqueKey" : 10,
-      "valid" : true,
-      "yAxisIndex" : 0
-    }, {
-      "configuration" : {
-        "aliases" : { },
-        "extrapolationPolicy" : "NULL_EXTRAPOLATION",
-        "maxExtrapolations" : -1
-      },
-      "dataManipulations" : [ ],
-      "invisible" : false,
-      "metricDefinition" : { },
-      "name" : "New Plot",
-      "queryItems" : [ ],
-      "seriesData" : { },
-      "transient" : true,
-      "type" : "plot",
-      "uniqueKey" : 11,
-      "yAxisIndex" : 0
-    } ],
-    "chartMode" : "graph",
-    "chartType" : "area",
-    "chartconfig" : {
-      "absoluteEnd" : null,
-      "absoluteStart" : null,
-      "colorByMetric" : false,
-      "colorByValue" : false,
-      "colorByValueScale" : [ ],
+      "dimensionInLegend" : "status",
       "histogramColor" : "#ea1849",
-      "legendColumnConfiguration" : [ {
-        "enabled" : false,
-        "property" : "sf_originatingMetric"
-      }, {
-        "enabled" : false,
-        "property" : "sf_metric"
-      }, {
-        "enabled" : true,
-        "property" : "status"
-      }, {
-        "enabled" : true,
-        "property" : "exception"
-      }, {
-        "enabled" : true,
-        "property" : "method"
-      }, {
-        "enabled" : true,
-        "property" : "uri"
-      }, {
-        "enabled" : true,
-        "property" : "host"
-      } ],
-      "range" : -900000,
-      "rangeEnd" : null,
-      "secondaryVisualization" : "SPARKLINE",
-      "sortPreference" : "-value",
-      "useKMG2" : false,
-      "yAxisConfigurations" : [ {
-        "id" : "yAxis0",
-        "label" : "",
-        "max" : null,
-        "min" : null,
-        "name" : "yAxis0",
-        "plotlines" : {
-          "high" : null,
-          "low" : null
-        }
-      } ]
-    },
-    "currentUniqueKey" : 12,
-    "relatedDetectors" : [ ],
-    "revisionNumber" : 7,
-    "uiHelperValue" : "##CHARTID##_7"
-  }
-}, {
-  "marshallId" : 15,
-  "marshallMemberOf" : [ 2 ],
-  "sf_dashboard" : "Spring Boot Host",
-  "sf_description" : "",
-  "sf_discoveryQuery" : "agent:micrometer",
-  "sf_discoverySelectors" : [ "_exists_:host" ],
-  "sf_filterAlias" : {
-    "variables" : [ {
-      "alias" : "host",
-      "applyIfExists" : false,
-      "description" : "",
-      "dimension" : "host",
-      "globalScope" : false,
-      "preferredSuggestions" : [ ],
-      "replaceOnly" : false,
-      "required" : true,
-      "restricted" : false,
-      "value" : ""
-    } ]
-  },
-  "sf_isLocked" : false,
-  "sf_maxDelayOverride" : -1,
-  "sf_savedFilters" : {
-    "density" : 0.0,
-    "sources" : null,
-    "time" : {
-      "end" : "Now",
-      "relative" : true,
-      "start" : "-15m"
-    },
-    "variables" : [ "host=host:" ]
-  },
-  "sf_selectedEventOverlays" : [ ],
-  "sf_type" : "Dashboard",
-  "sf_uiModel" : {
-    "version" : 1,
-    "widgets" : [ {
-      "col" : 4,
-      "options" : {
-        "chartIndex" : 1517254857348,
-        "id" : 0
-      },
-      "row" : 0,
-      "sizeX" : 4,
-      "sizeY" : 1
-    }, {
-      "col" : 8,
-      "options" : {
-        "chartIndex" : 1517608849515,
-        "id" : 0
-      },
-      "row" : 0,
-      "sizeX" : 4,
-      "sizeY" : 1
-    }, {
-      "col" : 0,
-      "options" : {
-        "chartIndex" : 1515521306490,
-        "id" : 0
-      },
-      "row" : 0,
-      "sizeX" : 4,
-      "sizeY" : 1
-    }, {
-      "col" : 4,
-      "options" : {
-        "chartIndex" : 1517006506607,
-        "id" : 0
-      },
-      "row" : 1,
-      "sizeX" : 4,
-      "sizeY" : 1
-    }, {
-      "col" : 8,
-      "options" : {
-        "chartIndex" : 1517251754237,
-        "id" : 0
-      },
-      "row" : 1,
-      "sizeX" : 4,
-      "sizeY" : 1
-    }, {
-      "col" : 0,
-      "options" : {
-        "chartIndex" : 1515521572702,
-        "id" : 0
-      },
-      "row" : 1,
-      "sizeX" : 4,
-      "sizeY" : 1
-    }, {
-      "col" : 0,
-      "options" : {
-        "chartIndex" : 1517609120928,
-        "id" : 0
-      },
-      "row" : 2,
-      "sizeX" : 4,
-      "sizeY" : 1
-    }, {
-      "col" : 8,
-      "options" : {
-        "chartIndex" : 1517256474084,
-        "id" : 0
-      },
-      "row" : 2,
-      "sizeX" : 4,
-      "sizeY" : 1
-    }, {
-      "col" : 4,
-      "options" : {
-        "chartIndex" : 1515521330574,
-        "id" : 0
-      },
-      "row" : 2,
-      "sizeX" : 4,
-      "sizeY" : 1
-    }, {
-      "col" : 0,
-      "options" : {
-        "chartIndex" : 1517627687555,
-        "id" : 0
-      },
-      "row" : 3,
-      "sizeX" : 4,
-      "sizeY" : 1
-    }, {
-      "col" : 4,
-      "options" : {
-        "chartIndex" : 1517628181081,
-        "id" : 0
-      },
-      "row" : 3,
-      "sizeX" : 4,
-      "sizeY" : 1
-    }, {
-      "col" : 8,
-      "options" : {
-        "chartIndex" : 1517628544042,
-        "id" : 0
-      },
-      "row" : 3,
-      "sizeX" : 4,
-      "sizeY" : 1
-    } ]
-  }
-}, {
-  "marshallId" : 16,
-  "marshallMemberOf" : [ 15 ],
-  "sf_chart" : "Total responses by status code",
-  "sf_chartIndex" : 1515521572702,
-  "sf_description" : "",
-  "sf_type" : "Chart",
-  "sf_uiModel" : {
-    "allPlots" : [ {
-      "configuration" : {
-        "aliases" : { },
-        "extrapolationPolicy" : "NULL_EXTRAPOLATION",
-        "maxExtrapolations" : -1,
-        "rollupPolicy" : "SUM_ROLLUP"
-      },
-      "dataManipulations" : [ {
-        "direction" : {
-          "options" : {
-            "aggregateGroupBy" : [ {
-              "value" : "status"
-            } ],
-            "collapseGroups" : false,
-            "transformTimeRange" : null
-          },
-          "type" : "aggregation"
-        },
-        "fn" : {
-          "options" : { },
-          "type" : "SUM"
-        },
-        "showMe" : false
-      } ],
-      "invisible" : false,
-      "name" : "total responses",
-      "queryItems" : [ ],
-      "seriesData" : {
-        "metric" : "http.server.requests.count",
-        "regExStyle" : null
-      },
-      "transient" : false,
-      "type" : "plot",
-      "uniqueKey" : 1,
-      "yAxisIndex" : 0
-    }, {
-      "configuration" : {
-        "aliases" : { },
-        "extrapolationPolicy" : "NULL_EXTRAPOLATION",
-        "maxExtrapolations" : -1
-      },
-      "dataManipulations" : [ ],
-      "invisible" : false,
-      "metricDefinition" : { },
-      "name" : "New Plot",
-      "queryItems" : [ ],
-      "seriesData" : { },
-      "transient" : true,
-      "type" : "plot",
-      "uniqueKey" : 2,
-      "yAxisIndex" : 0
-    } ],
-    "chartMode" : "graph",
-    "chartType" : "column",
-    "chartconfig" : {
-      "absoluteEnd" : null,
-      "absoluteStart" : null,
-      "colorByMetric" : false,
-      "range" : -900000,
-      "rangeEnd" : null,
-      "secondaryVisualization" : "NONE",
-      "sortPreference" : "",
-      "useKMG2" : false,
-      "yAxisConfigurations" : [ {
-        "id" : "yAxis0",
-        "label" : "total responses",
-        "max" : null,
-        "min" : null,
-        "name" : "yAxis0",
-        "plotlines" : {
-          "high" : null,
-          "low" : null
-        }
-      } ]
-    },
-    "currentUniqueKey" : 3,
-    "relatedDetectors" : [ ],
-    "revisionNumber" : 6,
-    "uiHelperValue" : "##CHARTID##_6"
-  }
-}, {
-  "marshallId" : 17,
-  "marshallMemberOf" : [ 15 ],
-  "sf_chart" : "JVM GC events by cause",
-  "sf_chartIndex" : 1517628544042,
-  "sf_type" : "Chart",
-  "sf_uiModel" : {
-    "allPlots" : [ {
-      "configuration" : {
-        "aliases" : { },
-        "extrapolationPolicy" : "NULL_EXTRAPOLATION",
-        "maxExtrapolations" : -1,
-        "rollupPolicy" : "SUM_ROLLUP"
-      },
-      "dataManipulations" : [ {
-        "direction" : {
-          "options" : {
-            "aggregateGroupBy" : [ {
-              "value" : "cause"
-            } ],
-            "collapseGroups" : false,
-            "transformTimeRange" : null
-          },
-          "type" : "aggregation"
-        },
-        "fn" : {
-          "options" : { },
-          "type" : "SUM"
-        },
-        "showMe" : false
-      } ],
-      "invisible" : false,
-      "name" : "GC events",
-      "queryItems" : [ ],
-      "seriesData" : {
-        "metric" : "jvm.gc.pause.count"
-      },
-      "transient" : false,
-      "type" : "plot",
-      "uniqueKey" : 1,
-      "yAxisIndex" : 0
-    }, {
-      "configuration" : {
-        "aliases" : { },
-        "extrapolationPolicy" : "NULL_EXTRAPOLATION",
-        "maxExtrapolations" : -1
-      },
-      "dataManipulations" : [ ],
-      "invisible" : false,
-      "metricDefinition" : { },
-      "name" : "New Plot",
-      "queryItems" : [ ],
-      "seriesData" : { },
-      "transient" : true,
-      "type" : "plot",
-      "uniqueKey" : 2,
-      "yAxisIndex" : 0
-    } ],
-    "chartMode" : "graph",
-    "chartType" : "area",
-    "chartconfig" : {
-      "absoluteEnd" : null,
-      "absoluteStart" : null,
-      "dimensionInLegend" : "cause",
-      "hideTimestamp" : false,
       "range" : -900000,
       "rangeEnd" : null,
       "secondaryVisualization" : "NONE",
       "showLegend" : true,
       "sortPreference" : "",
+      "stackedChart" : false,
       "useKMG2" : false,
       "yAxisConfigurations" : [ {
         "id" : "yAxis0",
-        "label" : "GC events",
+        "label" : "total responses",
         "max" : null,
         "min" : null,
         "name" : "yAxis0",
@@ -1991,13 +1581,13 @@
       } ]
     },
     "currentUniqueKey" : 3,
-    "markdownText" : "This is a markdown editor for creating text notes for your dashboards.<br> Enter your text or markdown on the left, and preview it on the right.<br>Here are some markdown examples:<br>\n#####_small headline italicized_\n1. ordered list\n2. same\n\n~~strike through~~\n<pre>code segment\nmore code\n</pre>\nthis is a [link](https://signalfx.com)\n\n* bullet1\n* bullet2\n\nClick Create to save this text note to your dashboard.\n",
-    "revisionNumber" : 5,
-    "uiHelperValue" : "##CHARTID##_5"
+    "relatedDetectors" : [ ],
+    "revisionNumber" : 8,
+    "uiHelperValue" : "##CHARTID##_8"
   }
 }, {
-  "marshallId" : 18,
-  "marshallMemberOf" : [ 15 ],
+  "marshallId" : 14,
+  "marshallMemberOf" : [ 3 ],
   "sf_chart" : "Overall requests/sec",
   "sf_chartIndex" : 1517254857348,
   "sf_description" : "",
@@ -2008,8 +1598,7 @@
         "aliases" : { },
         "extrapolationPolicy" : "NULL_EXTRAPOLATION",
         "maxExtrapolations" : -1,
-        "rollupPolicy" : null,
-        "suffix" : "requests/sec"
+        "rollupPolicy" : "RATE_ROLLUP"
       },
       "dataManipulations" : [ {
         "direction" : {
@@ -2025,6 +1614,20 @@
           "type" : "MEAN"
         },
         "showMe" : false
+      }, {
+        "direction" : {
+          "options" : {
+            "amount" : 30,
+            "transformTimeRange" : "30s",
+            "unit" : "s"
+          },
+          "type" : "transformation"
+        },
+        "fn" : {
+          "options" : { },
+          "type" : "MEAN"
+        },
+        "showMe" : true
       } ],
       "invisible" : false,
       "name" : "requests/sec",
@@ -2062,6 +1665,7 @@
       "colorByValue" : false,
       "colorByValueScale" : [ ],
       "hideTimestamp" : false,
+      "histogramColor" : "#ea1849",
       "range" : -900000,
       "rangeEnd" : 0,
       "secondaryVisualization" : "NONE",
@@ -2082,223 +1686,31 @@
     },
     "currentUniqueKey" : 3,
     "relatedDetectors" : [ ],
-    "revisionNumber" : 8,
-    "uiHelperValue" : "##CHARTID##_8"
+    "revisionNumber" : 8
   }
 }, {
-  "marshallId" : 19,
-  "marshallMemberOf" : [ 15 ],
-  "sf_chart" : "Process Uptime",
-  "sf_chartIndex" : 1517609120928,
-  "sf_type" : "Chart",
-  "sf_uiModel" : {
-    "allPlots" : [ {
-      "configuration" : {
-        "aliases" : { },
-        "extrapolationPolicy" : "NULL_EXTRAPOLATION",
-        "maxExtrapolations" : -1,
-        "prefix" : "",
-        "suffix" : "",
-        "unitType" : "Minute"
-      },
-      "dataManipulations" : [ {
-        "direction" : {
-          "options" : {
-            "aggregateGroupBy" : [ ],
-            "collapseGroups" : false,
-            "transformTimeRange" : null
-          },
-          "type" : "aggregation"
-        },
-        "fn" : {
-          "options" : {
-            "scaleAmount" : 0.016667
-          },
-          "type" : "SCALE"
-        },
-        "showMe" : false
-      } ],
-      "invisible" : false,
-      "name" : "Process Uptime",
-      "queryItems" : [ ],
-      "seriesData" : {
-        "metric" : "process.uptime"
-      },
-      "transient" : false,
-      "type" : "plot",
-      "uniqueKey" : 1,
-      "yAxisIndex" : 0
-    }, {
-      "configuration" : {
-        "aliases" : { },
-        "extrapolationPolicy" : "NULL_EXTRAPOLATION",
-        "maxExtrapolations" : -1
-      },
-      "dataManipulations" : [ ],
-      "invisible" : false,
-      "metricDefinition" : { },
-      "name" : "New Plot",
-      "queryItems" : [ ],
-      "seriesData" : { },
-      "transient" : true,
-      "type" : "plot",
-      "uniqueKey" : 2,
-      "yAxisIndex" : 0
-    } ],
-    "chartMode" : "graph",
-    "chartType" : "line",
-    "chartconfig" : {
-      "absoluteEnd" : null,
-      "absoluteStart" : null,
-      "colorByMetric" : false,
-      "colorByValue" : false,
-      "colorByValueScale" : [ ],
-      "hideTimestamp" : false,
-      "histogramColor" : "#ea1849",
-      "range" : -900000,
-      "rangeEnd" : null,
-      "secondaryVisualization" : "NONE",
-      "sortPreference" : "",
-      "useKMG2" : false,
-      "yAxisConfigurations" : [ {
-        "id" : "yAxis0",
-        "label" : "mins",
-        "max" : null,
-        "min" : null,
-        "name" : "yAxis0",
-        "plotlines" : {
-          "high" : null,
-          "low" : null
-        }
-      } ]
-    },
-    "currentUniqueKey" : 3,
-    "revisionNumber" : 5,
-    "uiHelperValue" : "##CHARTID##_5"
-  }
-}, {
-  "marshallId" : 20,
-  "marshallMemberOf" : [ 15 ],
-  "sf_chart" : "CPU Utilization %",
-  "sf_chartIndex" : 1517628181081,
-  "sf_type" : "Chart",
-  "sf_uiModel" : {
-    "allPlots" : [ {
-      "configuration" : {
-        "aliases" : { },
-        "extrapolationPolicy" : "NULL_EXTRAPOLATION",
-        "maxExtrapolations" : -1,
-        "suffix" : "%"
-      },
-      "dataManipulations" : [ {
-        "direction" : {
-          "options" : {
-            "aggregateGroupBy" : [ ],
-            "collapseGroups" : false,
-            "transformTimeRange" : null
-          },
-          "type" : "aggregation"
-        },
-        "fn" : {
-          "options" : {
-            "scaleAmount" : 100
-          },
-          "type" : "SCALE"
-        },
-        "showMe" : false
-      }, {
-        "direction" : {
-          "options" : {
-            "aggregateGroupBy" : [ ],
-            "collapseGroups" : false,
-            "transformTimeRange" : null
-          },
-          "type" : "aggregation"
-        },
-        "fn" : {
-          "options" : { },
-          "type" : "MEAN"
-        },
-        "showMe" : false
-      } ],
-      "invisible" : false,
-      "name" : "cpu utilization",
-      "queryItems" : [ ],
-      "seriesData" : {
-        "metric" : "process.cpu.usage"
-      },
-      "transient" : false,
-      "type" : "plot",
-      "uniqueKey" : 1,
-      "yAxisIndex" : 0
-    }, {
-      "configuration" : {
-        "aliases" : { },
-        "extrapolationPolicy" : "NULL_EXTRAPOLATION",
-        "maxExtrapolations" : -1
-      },
-      "dataManipulations" : [ ],
-      "invisible" : false,
-      "metricDefinition" : { },
-      "name" : "New Plot",
-      "queryItems" : [ ],
-      "seriesData" : { },
-      "transient" : true,
-      "type" : "plot",
-      "uniqueKey" : 2,
-      "yAxisIndex" : 0
-    } ],
-    "chartMode" : "graph",
-    "chartType" : "area",
-    "chartconfig" : {
-      "absoluteEnd" : null,
-      "absoluteStart" : null,
-      "hideTimestamp" : false,
-      "range" : -900000,
-      "rangeEnd" : null,
-      "secondaryVisualization" : "NONE",
-      "sortPreference" : "",
-      "useKMG2" : false,
-      "yAxisConfigurations" : [ {
-        "id" : "yAxis0",
-        "label" : "%",
-        "max" : 110,
-        "min" : 0,
-        "name" : "yAxis0",
-        "plotlines" : {
-          "high" : null,
-          "low" : null
-        }
-      } ]
-    },
-    "currentUniqueKey" : 3,
-    "revisionNumber" : 4,
-    "uiHelperValue" : "##CHARTID##_4"
-  }
-}, {
-  "marshallId" : 21,
-  "marshallMemberOf" : [ 15 ],
-  "sf_chart" : "Mean/Max time per request, by status",
-  "sf_chartIndex" : 1517251754237,
+  "marshallId" : 15,
+  "marshallMemberOf" : [ 3 ],
+  "sf_chart" : "Mean duration, by URI",
+  "sf_chartIndex" : 1527725150519,
   "sf_description" : "",
   "sf_type" : "Chart",
   "sf_uiModel" : {
     "allPlots" : [ {
       "configuration" : {
         "aliases" : { },
-        "colorOverride" : "#05ce00",
         "extrapolationPolicy" : "NULL_EXTRAPOLATION",
         "maxExtrapolations" : -1,
         "prefix" : "",
-        "rollupPolicy" : null,
+        "rollupPolicy" : "SUM_ROLLUP",
         "suffix" : "",
-        "unitType" : "Second"
+        "unitType" : null
       },
       "dataManipulations" : [ {
         "direction" : {
           "options" : {
             "aggregateGroupBy" : [ {
-              "value" : "status"
+              "value" : "uri"
             } ],
             "collapseGroups" : false,
             "transformTimeRange" : null
@@ -2307,15 +1719,15 @@
         },
         "fn" : {
           "options" : { },
-          "type" : "MEAN"
+          "type" : "SUM"
         },
         "showMe" : false
       } ],
-      "invisible" : false,
-      "name" : "mean ms per request",
+      "invisible" : true,
+      "name" : "http.server.requests.totalTime - Sum by uri",
       "queryItems" : [ ],
       "seriesData" : {
-        "metric" : "http.server.requests.avg",
+        "metric" : "http.server.requests.totalTime",
         "regExStyle" : null
       },
       "transient" : false,
@@ -2323,21 +1735,21 @@
       "uniqueKey" : 1,
       "yAxisIndex" : 0
     }, {
+      "_originalLabel" : "B",
       "configuration" : {
         "aliases" : { },
-        "colorOverride" : "#e9008a",
         "extrapolationPolicy" : "NULL_EXTRAPOLATION",
         "maxExtrapolations" : -1,
         "prefix" : "",
-        "rollupPolicy" : null,
+        "rollupPolicy" : "SUM_ROLLUP",
         "suffix" : "",
-        "unitType" : "Second"
+        "unitType" : null
       },
       "dataManipulations" : [ {
         "direction" : {
           "options" : {
             "aggregateGroupBy" : [ {
-              "value" : "status"
+              "value" : "uri"
             } ],
             "collapseGroups" : false,
             "transformTimeRange" : null
@@ -2346,21 +1758,47 @@
         },
         "fn" : {
           "options" : { },
-          "type" : "MEAN"
+          "type" : "SUM"
         },
         "showMe" : false
       } ],
-      "invisible" : false,
+      "expressionText" : null,
+      "invisible" : true,
       "metricDefinition" : { },
-      "name" : "max ms per request",
+      "name" : "http.server.requests.count - Sum by uri",
       "queryItems" : [ ],
       "seriesData" : {
-        "metric" : "http.server.requests.max",
+        "metric" : "http.server.requests.count",
         "regExStyle" : null
       },
       "transient" : false,
       "type" : "plot",
-      "uniqueKey" : 9,
+      "uniqueKey" : 2,
+      "valid" : false,
+      "yAxisIndex" : 0
+    }, {
+      "_originalLabel" : "C",
+      "configuration" : {
+        "aliases" : { },
+        "extrapolationPolicy" : "NULL_EXTRAPOLATION",
+        "maxExtrapolations" : -1,
+        "prefix" : "",
+        "suffix" : "",
+        "unitType" : "Second"
+      },
+      "dataManipulations" : [ ],
+      "expressionText" : "A/B",
+      "invisible" : false,
+      "metricDefinition" : { },
+      "name" : "Avg Response Latency",
+      "queryItems" : [ ],
+      "seriesData" : {
+        "metric" : null
+      },
+      "transient" : false,
+      "type" : "ratio",
+      "uniqueKey" : 3,
+      "valid" : true,
       "yAxisIndex" : 0
     }, {
       "configuration" : {
@@ -2376,7 +1814,7 @@
       "seriesData" : { },
       "transient" : true,
       "type" : "plot",
-      "uniqueKey" : 10,
+      "uniqueKey" : 4,
       "yAxisIndex" : 0
     } ],
     "chartMode" : "graph",
@@ -2387,7 +1825,17 @@
       "colorByMetric" : false,
       "colorByValue" : false,
       "colorByValueScale" : [ ],
-      "dimensionInLegend" : "status",
+      "groupBy" : [ ],
+      "heatmapAutoGradients" : 5,
+      "heatmapColorOverride" : "#05ce00",
+      "heatmapColorRange" : { },
+      "heatmapSortBy" : {
+        "asc" : true,
+        "value" : { }
+      },
+      "heatmapUnitsPerRow" : 0,
+      "heatmapUseValueAsColor" : false,
+      "hideTimestamp" : false,
       "histogramColor" : "#ea1849",
       "legendColumnConfiguration" : [ {
         "enabled" : false,
@@ -2397,7 +1845,7 @@
         "property" : "sf_metric"
       }, {
         "enabled" : true,
-        "property" : "status"
+        "property" : "uri"
       }, {
         "enabled" : true,
         "property" : "exception"
@@ -2406,23 +1854,21 @@
         "property" : "method"
       }, {
         "enabled" : true,
-        "property" : "uri"
-      }, {
-        "enabled" : true,
-        "property" : "agent"
-      }, {
-        "enabled" : true,
         "property" : "host"
+      }, {
+        "enabled" : true,
+        "property" : "region"
+      }, {
+        "enabled" : true,
+        "property" : "status"
       } ],
       "range" : -900000,
-      "rangeEnd" : null,
-      "secondaryVisualization" : "SPARKLINE",
-      "showLegend" : true,
+      "rangeEnd" : 0,
+      "secondaryVisualization" : "NONE",
       "sortPreference" : "-value",
       "useKMG2" : false,
       "yAxisConfigurations" : [ {
         "id" : "yAxis0",
-        "label" : "ms",
         "max" : null,
         "min" : null,
         "name" : "yAxis0",
@@ -2432,16 +1878,16 @@
         }
       } ]
     },
-    "currentUniqueKey" : 11,
+    "currentUniqueKey" : 5,
     "relatedDetectors" : [ ],
-    "revisionNumber" : 13,
-    "uiHelperValue" : "##CHARTID##_13"
+    "revisionNumber" : 17,
+    "uiHelperValue" : "##CHARTID##_17"
   }
 }, {
-  "marshallId" : 22,
-  "marshallMemberOf" : [ 15 ],
-  "sf_chart" : "Mean time per request",
-  "sf_chartIndex" : 1517608849515,
+  "marshallId" : 16,
+  "marshallMemberOf" : [ 3 ],
+  "sf_chart" : "Median Total JVM memory usage",
+  "sf_chartIndex" : 1527726667511,
   "sf_description" : "",
   "sf_type" : "Chart",
   "sf_uiModel" : {
@@ -2451,49 +1897,15 @@
         "extrapolationPolicy" : "NULL_EXTRAPOLATION",
         "maxExtrapolations" : -1,
         "prefix" : "",
-        "rollupPolicy" : null,
         "suffix" : "",
-        "unitType" : "Second"
+        "unitType" : "Byte"
       },
       "dataManipulations" : [ {
         "direction" : {
           "options" : {
             "aggregateGroupBy" : [ {
-              "value" : "host"
+              "value" : "id"
             } ],
-            "collapseGroups" : false,
-            "transformTimeRange" : null
-          },
-          "type" : "aggregation"
-        },
-        "fn" : {
-          "options" : { },
-          "type" : "MEAN"
-        },
-        "showMe" : false
-      } ],
-      "invisible" : false,
-      "name" : "mean time per request (ms)",
-      "queryItems" : [ ],
-      "seriesData" : {
-        "metric" : "http.server.requests.avg",
-        "regExStyle" : null
-      },
-      "transient" : false,
-      "type" : "plot",
-      "uniqueKey" : 1,
-      "yAxisIndex" : 0
-    }, {
-      "configuration" : {
-        "aliases" : { },
-        "colorOverride" : "#05ce00",
-        "extrapolationPolicy" : "NULL_EXTRAPOLATION",
-        "maxExtrapolations" : -1
-      },
-      "dataManipulations" : [ {
-        "direction" : {
-          "options" : {
-            "aggregateGroupBy" : [ ],
             "collapseGroups" : false,
             "transformTimeRange" : null
           },
@@ -2506,28 +1918,7 @@
           "type" : "PERCENTILE"
         },
         "showMe" : false
-      } ],
-      "expressionText" : "A",
-      "invisible" : true,
-      "metricDefinition" : { },
-      "name" : "P50 mean ms/request",
-      "queryItems" : [ ],
-      "seriesData" : {
-        "metric" : null
-      },
-      "transient" : false,
-      "type" : "ratio",
-      "uniqueKey" : 9,
-      "valid" : true,
-      "yAxisIndex" : 0
-    }, {
-      "configuration" : {
-        "aliases" : { },
-        "colorOverride" : "#e9008a",
-        "extrapolationPolicy" : "NULL_EXTRAPOLATION",
-        "maxExtrapolations" : -1
-      },
-      "dataManipulations" : [ {
+      }, {
         "direction" : {
           "options" : {
             "aggregateGroupBy" : [ ],
@@ -2538,22 +1929,58 @@
         },
         "fn" : {
           "options" : { },
+          "type" : "SUM"
+        },
+        "showMe" : false
+      } ],
+      "invisible" : false,
+      "name" : "median",
+      "queryItems" : [ ],
+      "seriesData" : {
+        "metric" : "jvm.memory.used"
+      },
+      "transient" : false,
+      "type" : "plot",
+      "uniqueKey" : 1,
+      "yAxisIndex" : 0
+    }, {
+      "configuration" : {
+        "aliases" : { },
+        "extrapolationPolicy" : "NULL_EXTRAPOLATION",
+        "maxExtrapolations" : -1,
+        "prefix" : "",
+        "suffix" : "",
+        "unitType" : "Byte",
+        "visualization" : "line"
+      },
+      "dataManipulations" : [ {
+        "direction" : {
+          "options" : {
+            "aggregateGroupBy" : [ {
+              "value" : "id"
+            } ],
+            "collapseGroups" : false,
+            "transformTimeRange" : null
+          },
+          "type" : "aggregation"
+        },
+        "fn" : {
+          "options" : {
+            "percentile" : 95
+          },
           "type" : "PERCENTILE"
         },
         "showMe" : false
       } ],
-      "expressionText" : "A",
       "invisible" : true,
-      "metricDefinition" : { },
-      "name" : "P95 mean ms/request",
+      "name" : "p95",
       "queryItems" : [ ],
       "seriesData" : {
-        "metric" : null
+        "metric" : "jvm.memory.used"
       },
       "transient" : false,
-      "type" : "ratio",
-      "uniqueKey" : 10,
-      "valid" : true,
+      "type" : "plot",
+      "uniqueKey" : 2,
       "yAxisIndex" : 0
     }, {
       "configuration" : {
@@ -2569,7 +1996,7 @@
       "seriesData" : { },
       "transient" : true,
       "type" : "plot",
-      "uniqueKey" : 11,
+      "uniqueKey" : 3,
       "yAxisIndex" : 0
     } ],
     "chartMode" : "single",
@@ -2578,40 +2005,17 @@
       "absoluteEnd" : null,
       "absoluteStart" : null,
       "colorByMetric" : false,
-      "colorByValue" : false,
       "colorByValueScale" : [ ],
       "hideTimestamp" : false,
       "histogramColor" : "#ea1849",
-      "legendColumnConfiguration" : [ {
-        "enabled" : false,
-        "property" : "sf_originatingMetric"
-      }, {
-        "enabled" : false,
-        "property" : "sf_metric"
-      }, {
-        "enabled" : true,
-        "property" : "status"
-      }, {
-        "enabled" : true,
-        "property" : "exception"
-      }, {
-        "enabled" : true,
-        "property" : "method"
-      }, {
-        "enabled" : true,
-        "property" : "uri"
-      }, {
-        "enabled" : true,
-        "property" : "host"
-      } ],
       "range" : -900000,
-      "rangeEnd" : 0,
+      "rangeEnd" : null,
       "secondaryVisualization" : "NONE",
-      "sortPreference" : "-value",
-      "useKMG2" : false,
+      "sortPreference" : "",
+      "stackedChart" : true,
+      "useKMG2" : true,
       "yAxisConfigurations" : [ {
         "id" : "yAxis0",
-        "label" : "ms",
         "max" : null,
         "min" : null,
         "name" : "yAxis0",
@@ -2619,17 +2023,27 @@
           "high" : null,
           "low" : null
         }
+      }, {
+        "max" : null,
+        "min" : null,
+        "plotlines" : {
+          "high" : null,
+          "low" : null
+        },
+        "title" : {
+          "text" : ""
+        }
       } ]
     },
-    "currentUniqueKey" : 12,
+    "currentUniqueKey" : 4,
     "relatedDetectors" : [ ],
-    "revisionNumber" : 11,
-    "uiHelperValue" : "##CHARTID##_11"
+    "revisionNumber" : 8,
+    "uiHelperValue" : "__OBJECT_ID___8"
   }
 }, {
-  "marshallId" : 23,
-  "marshallMemberOf" : [ 15 ],
-  "sf_chart" : "Top requests/sec per URI",
+  "marshallId" : 17,
+  "marshallMemberOf" : [ 3 ],
+  "sf_chart" : "Top requests/sec, by URI",
   "sf_chartIndex" : 1515521330574,
   "sf_description" : "",
   "sf_type" : "Chart",
@@ -2706,6 +2120,7 @@
       "heatmapUnitsPerRow" : 0,
       "heatmapUseValueAsColor" : false,
       "hideTimestamp" : false,
+      "histogramColor" : "#ea1849",
       "legendColumnConfiguration" : [ {
         "enabled" : false,
         "property" : "sf_originatingMetric"
@@ -2734,265 +2149,152 @@
     },
     "currentUniqueKey" : 3,
     "relatedDetectors" : [ ],
-    "revisionNumber" : 9
+    "revisionNumber" : 10,
+    "uiHelperValue" : "##CHARTID##_10"
   }
 }, {
-  "marshallId" : 24,
-  "marshallMemberOf" : [ 15 ],
-  "sf_chart" : "JVM memory usage",
-  "sf_chartIndex" : 1515521306490,
+  "marshallId" : 18,
+  "marshallMemberOf" : [ 2 ],
+  "sf_dashboard" : "Spring Boot URI Explorer",
   "sf_description" : "",
-  "sf_type" : "Chart",
-  "sf_uiModel" : {
-    "allPlots" : [ {
-      "configuration" : {
-        "aliases" : { },
-        "extrapolationPolicy" : "NULL_EXTRAPOLATION",
-        "maxExtrapolations" : -1,
-        "prefix" : "",
-        "suffix" : "",
-        "unitType" : "Byte"
-      },
-      "dataManipulations" : [ {
-        "direction" : {
-          "options" : {
-            "aggregateGroupBy" : [ {
-              "value" : "id"
-            } ],
-            "collapseGroups" : false,
-            "transformTimeRange" : null
-          },
-          "type" : "aggregation"
-        },
-        "fn" : {
-          "options" : { },
-          "type" : "MEAN"
-        },
-        "showMe" : false
-      } ],
-      "invisible" : false,
-      "name" : "Memory Usage",
-      "queryItems" : [ ],
-      "seriesData" : {
-        "metric" : "jvm.memory.used"
-      },
-      "transient" : false,
-      "type" : "plot",
-      "uniqueKey" : 1,
-      "yAxisIndex" : 0
+  "sf_discoveryQuery" : "agent:micrometer",
+  "sf_discoverySelectors" : [ "_exists_:host" ],
+  "sf_filterAlias" : {
+    "variables" : [ {
+      "alias" : "Endpoint (URI)",
+      "applyIfExists" : false,
+      "description" : "",
+      "dimension" : "uri",
+      "globalScope" : false,
+      "preferredSuggestions" : [ ],
+      "replaceOnly" : false,
+      "required" : true,
+      "restricted" : false,
+      "value" : [ "/" ]
     }, {
-      "configuration" : {
-        "aliases" : { },
-        "extrapolationPolicy" : "NULL_EXTRAPOLATION",
-        "maxExtrapolations" : -1
-      },
-      "dataManipulations" : [ ],
-      "invisible" : false,
-      "metricDefinition" : { },
-      "name" : "New Plot",
-      "queryItems" : [ ],
-      "seriesData" : { },
-      "transient" : true,
-      "type" : "plot",
-      "uniqueKey" : 3,
-      "yAxisIndex" : 0
-    } ],
-    "chartMode" : "graph",
-    "chartType" : "area",
-    "chartconfig" : {
-      "absoluteEnd" : null,
-      "absoluteStart" : null,
-      "colorByMetric" : false,
-      "dimensionInLegend" : "id",
-      "histogramColor" : "#ea1849",
-      "range" : -900000,
-      "rangeEnd" : null,
-      "secondaryVisualization" : "NONE",
-      "showLegend" : true,
-      "sortPreference" : "",
-      "stackedChart" : true,
-      "useKMG2" : true,
-      "yAxisConfigurations" : [ {
-        "id" : "yAxis0",
-        "max" : null,
-        "min" : null,
-        "name" : "yAxis0",
-        "plotlines" : {
-          "high" : null,
-          "low" : null
-        }
-      }, {
-        "max" : null,
-        "min" : null,
-        "plotlines" : {
-          "high" : null,
-          "low" : null
-        },
-        "title" : {
-          "text" : ""
-        }
-      } ]
+      "alias" : "Response Code",
+      "applyIfExists" : false,
+      "description" : "",
+      "dimension" : "responseCode",
+      "globalScope" : false,
+      "preferredSuggestions" : [ ],
+      "replaceOnly" : false,
+      "required" : false,
+      "restricted" : false,
+      "value" : ""
+    } ]
+  },
+  "sf_isLocked" : false,
+  "sf_maxDelayOverride" : -1,
+  "sf_savedFilters" : {
+    "density" : 0.0,
+    "sources" : null,
+    "time" : {
+      "end" : "Now",
+      "relative" : true,
+      "start" : "-15m"
     },
-    "currentUniqueKey" : 4,
-    "relatedDetectors" : [ ],
-    "revisionNumber" : 7,
-    "uiHelperValue" : "##CHARTID##_7"
+    "variables" : [ "Endpoint (URI)=uri:[\"/\"]", "Response Code=responseCode:" ]
+  },
+  "sf_selectedEventOverlays" : [ ],
+  "sf_type" : "Dashboard",
+  "sf_uiModel" : {
+    "version" : 1,
+    "widgets" : [ {
+      "col" : 8,
+      "options" : {
+        "chartIndex" : 1515521572702,
+        "id" : 0
+      },
+      "row" : 0,
+      "sizeX" : 4,
+      "sizeY" : 1
+    }, {
+      "col" : 4,
+      "options" : {
+        "chartIndex" : 1517254857348,
+        "id" : 0
+      },
+      "row" : 0,
+      "sizeX" : 4,
+      "sizeY" : 1
+    }, {
+      "col" : 0,
+      "options" : {
+        "chartIndex" : 1517608849515,
+        "id" : 0
+      },
+      "row" : 0,
+      "sizeX" : 4,
+      "sizeY" : 1
+    }, {
+      "col" : 0,
+      "options" : {
+        "chartIndex" : 1527727649161,
+        "id" : 0
+      },
+      "row" : 1,
+      "sizeX" : 6,
+      "sizeY" : 1
+    }, {
+      "col" : 6,
+      "options" : {
+        "chartIndex" : 1527727708616,
+        "id" : 0
+      },
+      "row" : 1,
+      "sizeX" : 6,
+      "sizeY" : 1
+    }, {
+      "col" : 4,
+      "options" : {
+        "chartIndex" : 1517006506607,
+        "id" : 0
+      },
+      "row" : 2,
+      "sizeX" : 4,
+      "sizeY" : 1
+    }, {
+      "col" : 0,
+      "options" : {
+        "chartIndex" : 1527728170772,
+        "id" : 0
+      },
+      "row" : 2,
+      "sizeX" : 4,
+      "sizeY" : 1
+    }, {
+      "col" : 8,
+      "options" : {
+        "chartIndex" : 1517256474084,
+        "id" : 0
+      },
+      "row" : 2,
+      "sizeX" : 4,
+      "sizeY" : 1
+    }, {
+      "col" : 0,
+      "options" : {
+        "chartIndex" : 1527790427423,
+        "id" : 0
+      },
+      "row" : 3,
+      "sizeX" : 8,
+      "sizeY" : 1
+    }, {
+      "col" : 8,
+      "options" : {
+        "chartIndex" : 1527791039558,
+        "id" : 0
+      },
+      "row" : 3,
+      "sizeX" : 4,
+      "sizeY" : 1
+    } ]
   }
 }, {
-  "marshallId" : 25,
-  "marshallMemberOf" : [ 15 ],
-  "sf_chart" : "4XX and 5XX responses per sec",
-  "sf_chartIndex" : 1517006506607,
-  "sf_description" : "",
-  "sf_type" : "Chart",
-  "sf_uiModel" : {
-    "allPlots" : [ {
-      "configuration" : {
-        "aliases" : { },
-        "extrapolationPolicy" : "NULL_EXTRAPOLATION",
-        "maxExtrapolations" : -1
-      },
-      "dataManipulations" : [ {
-        "direction" : {
-          "options" : {
-            "aggregateGroupBy" : [ {
-              "value" : "status"
-            }, {
-              "value" : "uri"
-            } ],
-            "collapseGroups" : false,
-            "transformTimeRange" : null
-          },
-          "type" : "aggregation"
-        },
-        "fn" : {
-          "options" : { },
-          "type" : "MEAN"
-        },
-        "showMe" : false
-      } ],
-      "invisible" : false,
-      "name" : "4XX per sec",
-      "queryItems" : [ {
-        "NOT" : false,
-        "iconClass" : "icon-properties",
-        "property" : "status",
-        "propertyValue" : "4*",
-        "type" : "property",
-        "value" : "4*"
-      } ],
-      "seriesData" : {
-        "metric" : "http.server.requests.count"
-      },
-      "transient" : false,
-      "type" : "plot",
-      "uniqueKey" : 1,
-      "yAxisIndex" : 0
-    }, {
-      "configuration" : {
-        "aliases" : { },
-        "extrapolationPolicy" : "NULL_EXTRAPOLATION",
-        "maxExtrapolations" : -1
-      },
-      "dataManipulations" : [ {
-        "direction" : {
-          "options" : {
-            "aggregateGroupBy" : [ {
-              "value" : "status"
-            }, {
-              "value" : "uri"
-            } ],
-            "collapseGroups" : false,
-            "transformTimeRange" : null
-          },
-          "type" : "aggregation"
-        },
-        "fn" : {
-          "options" : { },
-          "type" : "MEAN"
-        },
-        "showMe" : false
-      } ],
-      "invisible" : false,
-      "name" : "5XX per sec",
-      "queryItems" : [ {
-        "NOT" : false,
-        "iconClass" : "icon-properties",
-        "property" : "status",
-        "propertyValue" : "5*",
-        "type" : "property",
-        "value" : "5*"
-      } ],
-      "seriesData" : {
-        "metric" : "http.server.requests.count"
-      },
-      "transient" : false,
-      "type" : "plot",
-      "uniqueKey" : 2,
-      "yAxisIndex" : 0
-    }, {
-      "configuration" : {
-        "aliases" : { },
-        "extrapolationPolicy" : "NULL_EXTRAPOLATION",
-        "maxExtrapolations" : -1
-      },
-      "dataManipulations" : [ ],
-      "invisible" : false,
-      "metricDefinition" : { },
-      "name" : "New Plot",
-      "queryItems" : [ ],
-      "seriesData" : { },
-      "transient" : true,
-      "type" : "plot",
-      "uniqueKey" : 3,
-      "yAxisIndex" : 0
-    } ],
-    "chartMode" : "graph",
-    "chartType" : "line",
-    "chartconfig" : {
-      "absoluteEnd" : null,
-      "absoluteStart" : null,
-      "colorByMetric" : false,
-      "colorByValue" : false,
-      "colorByValueScale" : [ ],
-      "legendColumnConfiguration" : [ {
-        "enabled" : false,
-        "property" : "sf_originatingMetric"
-      }, {
-        "enabled" : false,
-        "property" : "sf_metric"
-      }, {
-        "enabled" : true,
-        "property" : "status"
-      }, {
-        "enabled" : true,
-        "property" : "uri"
-      } ],
-      "range" : -900000,
-      "rangeEnd" : 0,
-      "secondaryVisualization" : "NONE",
-      "sortPreference" : "",
-      "useKMG2" : false,
-      "yAxisConfigurations" : [ {
-        "id" : "yAxis0",
-        "label" : "responses",
-        "max" : null,
-        "min" : null,
-        "name" : "yAxis0",
-        "plotlines" : {
-          "high" : null,
-          "low" : null
-        }
-      } ]
-    },
-    "currentUniqueKey" : 4,
-    "relatedDetectors" : [ ],
-    "revisionNumber" : 5,
-    "uiHelperValue" : "##CHARTID##_5"
-  }
-}, {
-  "marshallId" : 26,
-  "marshallMemberOf" : [ 15 ],
+  "marshallId" : 19,
+  "marshallMemberOf" : [ 18 ],
   "sf_chart" : "Requests/sec 24h change %",
   "sf_chartIndex" : 1517256474084,
   "sf_description" : "",
@@ -3164,14 +2466,1192 @@
     },
     "currentUniqueKey" : 8,
     "relatedDetectors" : [ ],
-    "revisionNumber" : 12,
-    "uiHelperValue" : "##CHARTID##_12"
+    "revisionNumber" : 12
+  }
+}, {
+  "marshallId" : 20,
+  "marshallMemberOf" : [ 18 ],
+  "sf_chart" : "Mean Duration, by Status",
+  "sf_chartIndex" : 1527727649161,
+  "sf_description" : "",
+  "sf_type" : "Chart",
+  "sf_uiModel" : {
+    "allPlots" : [ {
+      "configuration" : {
+        "aliases" : { },
+        "colorOverride" : null,
+        "extrapolationPolicy" : "NULL_EXTRAPOLATION",
+        "maxExtrapolations" : -1,
+        "prefix" : "",
+        "rollupPolicy" : "SUM_ROLLUP",
+        "suffix" : "",
+        "unitType" : "Second"
+      },
+      "dataManipulations" : [ {
+        "direction" : {
+          "options" : {
+            "aggregateGroupBy" : [ {
+              "value" : "status"
+            } ],
+            "collapseGroups" : false,
+            "transformTimeRange" : null
+          },
+          "type" : "aggregation"
+        },
+        "fn" : {
+          "options" : { },
+          "type" : "SUM"
+        },
+        "showMe" : false
+      } ],
+      "invisible" : true,
+      "name" : "mean time per request",
+      "queryItems" : [ ],
+      "seriesData" : {
+        "metric" : "http.server.requests.totalTime",
+        "regExStyle" : null
+      },
+      "transient" : false,
+      "type" : "plot",
+      "uniqueKey" : 1,
+      "yAxisIndex" : 0
+    }, {
+      "configuration" : {
+        "aliases" : { },
+        "colorOverride" : null,
+        "extrapolationPolicy" : "NULL_EXTRAPOLATION",
+        "maxExtrapolations" : -1,
+        "prefix" : "",
+        "rollupPolicy" : "SUM_ROLLUP",
+        "suffix" : "",
+        "unitType" : "Second"
+      },
+      "dataManipulations" : [ {
+        "direction" : {
+          "options" : {
+            "aggregateGroupBy" : [ {
+              "value" : "status"
+            } ],
+            "collapseGroups" : false,
+            "transformTimeRange" : null
+          },
+          "type" : "aggregation"
+        },
+        "fn" : {
+          "options" : { },
+          "type" : "SUM"
+        },
+        "showMe" : false
+      } ],
+      "invisible" : true,
+      "metricDefinition" : { },
+      "name" : "max time per request",
+      "queryItems" : [ ],
+      "seriesData" : {
+        "metric" : "http.server.requests.count",
+        "regExStyle" : null
+      },
+      "transient" : false,
+      "type" : "plot",
+      "uniqueKey" : 9,
+      "yAxisIndex" : 0
+    }, {
+      "_originalLabel" : "J",
+      "configuration" : {
+        "aliases" : { },
+        "extrapolationPolicy" : "NULL_EXTRAPOLATION",
+        "maxExtrapolations" : -1,
+        "prefix" : "",
+        "suffix" : "",
+        "unitType" : "Second"
+      },
+      "dataManipulations" : [ ],
+      "expressionText" : "A/I",
+      "invisible" : false,
+      "metricDefinition" : { },
+      "name" : "Mean Duration",
+      "queryItems" : [ ],
+      "seriesData" : {
+        "metric" : null
+      },
+      "transient" : false,
+      "type" : "ratio",
+      "uniqueKey" : 10,
+      "valid" : true,
+      "yAxisIndex" : 0
+    }, {
+      "configuration" : {
+        "aliases" : { },
+        "extrapolationPolicy" : "NULL_EXTRAPOLATION",
+        "maxExtrapolations" : -1
+      },
+      "dataManipulations" : [ ],
+      "invisible" : false,
+      "metricDefinition" : { },
+      "name" : "New Plot",
+      "queryItems" : [ ],
+      "seriesData" : { },
+      "transient" : true,
+      "type" : "plot",
+      "uniqueKey" : 11,
+      "yAxisIndex" : 0
+    } ],
+    "chartMode" : "graph",
+    "chartType" : "line",
+    "chartconfig" : {
+      "absoluteEnd" : null,
+      "absoluteStart" : null,
+      "colorByMetric" : false,
+      "colorByValue" : false,
+      "colorByValueScale" : [ ],
+      "dimensionInLegend" : "status",
+      "histogramColor" : "#ea1849",
+      "legendColumnConfiguration" : [ {
+        "enabled" : false,
+        "property" : "sf_originatingMetric"
+      }, {
+        "enabled" : false,
+        "property" : "sf_metric"
+      }, {
+        "enabled" : true,
+        "property" : "status"
+      }, {
+        "enabled" : true,
+        "property" : "exception"
+      }, {
+        "enabled" : true,
+        "property" : "method"
+      }, {
+        "enabled" : true,
+        "property" : "uri"
+      }, {
+        "enabled" : true,
+        "property" : "agent"
+      }, {
+        "enabled" : true,
+        "property" : "host"
+      } ],
+      "range" : -900000,
+      "rangeEnd" : null,
+      "secondaryVisualization" : "SPARKLINE",
+      "showLegend" : true,
+      "sortPreference" : "-value",
+      "useKMG2" : false,
+      "yAxisConfigurations" : [ {
+        "id" : "yAxis0",
+        "label" : "",
+        "max" : null,
+        "min" : null,
+        "name" : "yAxis0",
+        "plotlines" : {
+          "high" : null,
+          "low" : null
+        }
+      } ]
+    },
+    "currentUniqueKey" : 12,
+    "relatedDetectors" : [ ],
+    "revisionNumber" : 21,
+    "uiHelperValue" : "##CHARTID##_21"
+  }
+}, {
+  "marshallId" : 21,
+  "marshallMemberOf" : [ 18 ],
+  "sf_chart" : "Responses Codes, by Exception Class",
+  "sf_chartIndex" : 1527790427423,
+  "sf_description" : "",
+  "sf_type" : "Chart",
+  "sf_uiModel" : {
+    "allPlots" : [ {
+      "configuration" : {
+        "aliases" : { },
+        "extrapolationPolicy" : "NULL_EXTRAPOLATION",
+        "maxExtrapolations" : -1,
+        "rollupPolicy" : "SUM_ROLLUP"
+      },
+      "dataManipulations" : [ {
+        "direction" : {
+          "options" : {
+            "aggregateGroupBy" : [ {
+              "value" : "status"
+            }, {
+              "value" : "exception"
+            } ],
+            "collapseGroups" : false,
+            "transformTimeRange" : null
+          },
+          "type" : "aggregation"
+        },
+        "fn" : {
+          "options" : { },
+          "type" : "SUM"
+        },
+        "showMe" : false
+      } ],
+      "invisible" : false,
+      "name" : "total responses",
+      "queryItems" : [ {
+        "NOT" : true,
+        "iconClass" : "icon-properties",
+        "property" : "exception",
+        "propertyValue" : "None",
+        "type" : "property",
+        "value" : "None"
+      } ],
+      "seriesData" : {
+        "metric" : "http.server.requests.count",
+        "regExStyle" : null
+      },
+      "transient" : false,
+      "type" : "plot",
+      "uniqueKey" : 1,
+      "yAxisIndex" : 0
+    }, {
+      "configuration" : {
+        "aliases" : { },
+        "extrapolationPolicy" : "NULL_EXTRAPOLATION",
+        "maxExtrapolations" : -1
+      },
+      "dataManipulations" : [ ],
+      "invisible" : false,
+      "metricDefinition" : { },
+      "name" : "New Plot",
+      "queryItems" : [ ],
+      "seriesData" : { },
+      "transient" : true,
+      "type" : "plot",
+      "uniqueKey" : 2,
+      "yAxisIndex" : 0
+    } ],
+    "chartMode" : "graph",
+    "chartType" : "area",
+    "chartconfig" : {
+      "absoluteEnd" : null,
+      "absoluteStart" : null,
+      "colorByMetric" : false,
+      "colorByValue" : false,
+      "colorByValueScale" : [ ],
+      "histogramColor" : "#ea1849",
+      "legendColumnConfiguration" : [ {
+        "enabled" : true,
+        "property" : "status"
+      }, {
+        "enabled" : true,
+        "property" : "exception"
+      }, {
+        "enabled" : false,
+        "property" : "sf_originatingMetric"
+      }, {
+        "enabled" : false,
+        "property" : "sf_metric"
+      } ],
+      "range" : -900000,
+      "rangeEnd" : null,
+      "secondaryVisualization" : "SPARKLINE",
+      "sortPreference" : "",
+      "stackedChart" : false,
+      "useKMG2" : false,
+      "yAxisConfigurations" : [ {
+        "id" : "yAxis0",
+        "label" : "total responses",
+        "max" : null,
+        "min" : null,
+        "name" : "yAxis0",
+        "plotlines" : {
+          "high" : null,
+          "low" : null
+        }
+      } ]
+    },
+    "currentUniqueKey" : 3,
+    "relatedDetectors" : [ ],
+    "revisionNumber" : 11,
+    "uiHelperValue" : "##CHARTID##_11"
+  }
+}, {
+  "marshallId" : 22,
+  "marshallMemberOf" : [ 18 ],
+  "sf_chart" : "Overall requests/sec",
+  "sf_chartIndex" : 1517254857348,
+  "sf_description" : "",
+  "sf_type" : "Chart",
+  "sf_uiModel" : {
+    "allPlots" : [ {
+      "configuration" : {
+        "aliases" : { },
+        "extrapolationPolicy" : "NULL_EXTRAPOLATION",
+        "maxExtrapolations" : -1,
+        "rollupPolicy" : null,
+        "suffix" : "requests/sec"
+      },
+      "dataManipulations" : [ {
+        "direction" : {
+          "options" : {
+            "aggregateGroupBy" : [ ],
+            "collapseGroups" : false,
+            "transformTimeRange" : null
+          },
+          "type" : "aggregation"
+        },
+        "fn" : {
+          "options" : { },
+          "type" : "MEAN"
+        },
+        "showMe" : false
+      } ],
+      "invisible" : false,
+      "name" : "requests/sec",
+      "queryItems" : [ ],
+      "seriesData" : {
+        "metric" : "http.server.requests.count"
+      },
+      "transient" : false,
+      "type" : "plot",
+      "uniqueKey" : 1,
+      "yAxisIndex" : 0
+    }, {
+      "configuration" : {
+        "aliases" : { },
+        "extrapolationPolicy" : "NULL_EXTRAPOLATION",
+        "maxExtrapolations" : -1
+      },
+      "dataManipulations" : [ ],
+      "invisible" : false,
+      "metricDefinition" : { },
+      "name" : "New Plot",
+      "queryItems" : [ ],
+      "seriesData" : { },
+      "transient" : true,
+      "type" : "plot",
+      "uniqueKey" : 2,
+      "yAxisIndex" : 0
+    } ],
+    "chartMode" : "single",
+    "chartType" : "line",
+    "chartconfig" : {
+      "absoluteEnd" : null,
+      "absoluteStart" : null,
+      "colorByMetric" : false,
+      "colorByValue" : false,
+      "colorByValueScale" : [ ],
+      "hideTimestamp" : false,
+      "range" : -900000,
+      "rangeEnd" : 0,
+      "secondaryVisualization" : "NONE",
+      "sortPreference" : "",
+      "stackedChart" : true,
+      "useKMG2" : false,
+      "yAxisConfigurations" : [ {
+        "id" : "yAxis0",
+        "label" : "requests/sec",
+        "max" : null,
+        "min" : null,
+        "name" : "yAxis0",
+        "plotlines" : {
+          "high" : null,
+          "low" : null
+        }
+      } ]
+    },
+    "currentUniqueKey" : 3,
+    "relatedDetectors" : [ ],
+    "revisionNumber" : 8
+  }
+}, {
+  "marshallId" : 23,
+  "marshallMemberOf" : [ 18 ],
+  "sf_chart" : "4XX and 5XX responses per sec",
+  "sf_chartIndex" : 1517006506607,
+  "sf_description" : "",
+  "sf_type" : "Chart",
+  "sf_uiModel" : {
+    "allPlots" : [ {
+      "configuration" : {
+        "aliases" : { },
+        "extrapolationPolicy" : "NULL_EXTRAPOLATION",
+        "maxExtrapolations" : -1
+      },
+      "dataManipulations" : [ {
+        "direction" : {
+          "options" : {
+            "aggregateGroupBy" : [ {
+              "value" : "status"
+            }, {
+              "value" : "uri"
+            } ],
+            "collapseGroups" : false,
+            "transformTimeRange" : null
+          },
+          "type" : "aggregation"
+        },
+        "fn" : {
+          "options" : { },
+          "type" : "MEAN"
+        },
+        "showMe" : false
+      } ],
+      "invisible" : false,
+      "name" : "4XX per sec",
+      "queryItems" : [ {
+        "NOT" : false,
+        "iconClass" : "icon-properties",
+        "property" : "status",
+        "propertyValue" : "4*",
+        "type" : "property",
+        "value" : "4*"
+      } ],
+      "seriesData" : {
+        "metric" : "http.server.requests.count"
+      },
+      "transient" : false,
+      "type" : "plot",
+      "uniqueKey" : 1,
+      "yAxisIndex" : 0
+    }, {
+      "configuration" : {
+        "aliases" : { },
+        "extrapolationPolicy" : "NULL_EXTRAPOLATION",
+        "maxExtrapolations" : -1
+      },
+      "dataManipulations" : [ {
+        "direction" : {
+          "options" : {
+            "aggregateGroupBy" : [ {
+              "value" : "status"
+            }, {
+              "value" : "uri"
+            } ],
+            "collapseGroups" : false,
+            "transformTimeRange" : null
+          },
+          "type" : "aggregation"
+        },
+        "fn" : {
+          "options" : { },
+          "type" : "MEAN"
+        },
+        "showMe" : false
+      } ],
+      "invisible" : false,
+      "name" : "5XX per sec",
+      "queryItems" : [ {
+        "NOT" : false,
+        "iconClass" : "icon-properties",
+        "property" : "status",
+        "propertyValue" : "5*",
+        "type" : "property",
+        "value" : "5*"
+      } ],
+      "seriesData" : {
+        "metric" : "http.server.requests.count"
+      },
+      "transient" : false,
+      "type" : "plot",
+      "uniqueKey" : 2,
+      "yAxisIndex" : 0
+    }, {
+      "configuration" : {
+        "aliases" : { },
+        "extrapolationPolicy" : "NULL_EXTRAPOLATION",
+        "maxExtrapolations" : -1
+      },
+      "dataManipulations" : [ ],
+      "invisible" : false,
+      "metricDefinition" : { },
+      "name" : "New Plot",
+      "queryItems" : [ ],
+      "seriesData" : { },
+      "transient" : true,
+      "type" : "plot",
+      "uniqueKey" : 3,
+      "yAxisIndex" : 0
+    } ],
+    "chartMode" : "graph",
+    "chartType" : "line",
+    "chartconfig" : {
+      "absoluteEnd" : null,
+      "absoluteStart" : null,
+      "colorByMetric" : false,
+      "colorByValue" : false,
+      "colorByValueScale" : [ ],
+      "legendColumnConfiguration" : [ {
+        "enabled" : false,
+        "property" : "sf_originatingMetric"
+      }, {
+        "enabled" : false,
+        "property" : "sf_metric"
+      }, {
+        "enabled" : true,
+        "property" : "status"
+      }, {
+        "enabled" : true,
+        "property" : "uri"
+      } ],
+      "range" : -900000,
+      "rangeEnd" : 0,
+      "secondaryVisualization" : "NONE",
+      "sortPreference" : "",
+      "useKMG2" : false,
+      "yAxisConfigurations" : [ {
+        "id" : "yAxis0",
+        "label" : "responses",
+        "max" : null,
+        "min" : null,
+        "name" : "yAxis0",
+        "plotlines" : {
+          "high" : null,
+          "low" : null
+        }
+      } ]
+    },
+    "currentUniqueKey" : 4,
+    "relatedDetectors" : [ ],
+    "revisionNumber" : 5
+  }
+}, {
+  "marshallId" : 24,
+  "marshallMemberOf" : [ 18 ],
+  "sf_chart" : "Max duration, by status",
+  "sf_chartIndex" : 1527727708616,
+  "sf_description" : "",
+  "sf_type" : "Chart",
+  "sf_uiModel" : {
+    "allPlots" : [ {
+      "configuration" : {
+        "aliases" : { },
+        "colorOverride" : null,
+        "extrapolationPolicy" : "NULL_EXTRAPOLATION",
+        "maxExtrapolations" : -1,
+        "prefix" : "",
+        "rollupPolicy" : "MAX_ROLLUP",
+        "suffix" : "",
+        "unitType" : "Second"
+      },
+      "dataManipulations" : [ {
+        "direction" : {
+          "options" : {
+            "aggregateGroupBy" : [ {
+              "value" : "status"
+            } ],
+            "collapseGroups" : false,
+            "transformTimeRange" : null
+          },
+          "type" : "aggregation"
+        },
+        "fn" : {
+          "options" : { },
+          "type" : "MAX"
+        },
+        "showMe" : false
+      } ],
+      "invisible" : false,
+      "metricDefinition" : { },
+      "name" : "max time per request",
+      "queryItems" : [ ],
+      "seriesData" : {
+        "metric" : "http.server.requests.max",
+        "regExStyle" : null
+      },
+      "transient" : false,
+      "type" : "plot",
+      "uniqueKey" : 9,
+      "yAxisIndex" : 0
+    }, {
+      "configuration" : {
+        "aliases" : { },
+        "extrapolationPolicy" : "NULL_EXTRAPOLATION",
+        "maxExtrapolations" : -1
+      },
+      "dataManipulations" : [ ],
+      "invisible" : false,
+      "metricDefinition" : { },
+      "name" : "New Plot",
+      "queryItems" : [ ],
+      "seriesData" : { },
+      "transient" : true,
+      "type" : "plot",
+      "uniqueKey" : 10,
+      "yAxisIndex" : 0
+    } ],
+    "chartMode" : "graph",
+    "chartType" : "line",
+    "chartconfig" : {
+      "absoluteEnd" : null,
+      "absoluteStart" : null,
+      "colorByMetric" : false,
+      "colorByValue" : false,
+      "colorByValueScale" : [ ],
+      "dimensionInLegend" : "status",
+      "histogramColor" : "#ea1849",
+      "legendColumnConfiguration" : [ {
+        "enabled" : false,
+        "property" : "sf_originatingMetric"
+      }, {
+        "enabled" : false,
+        "property" : "sf_metric"
+      }, {
+        "enabled" : true,
+        "property" : "status"
+      }, {
+        "enabled" : true,
+        "property" : "exception"
+      }, {
+        "enabled" : true,
+        "property" : "method"
+      }, {
+        "enabled" : true,
+        "property" : "uri"
+      }, {
+        "enabled" : true,
+        "property" : "agent"
+      }, {
+        "enabled" : true,
+        "property" : "host"
+      } ],
+      "range" : -900000,
+      "rangeEnd" : null,
+      "secondaryVisualization" : "SPARKLINE",
+      "showLegend" : true,
+      "sortPreference" : "-value",
+      "useKMG2" : false,
+      "yAxisConfigurations" : [ {
+        "id" : "yAxis0",
+        "label" : "",
+        "max" : null,
+        "min" : null,
+        "name" : "yAxis0",
+        "plotlines" : {
+          "high" : null,
+          "low" : null
+        }
+      } ]
+    },
+    "currentUniqueKey" : 11,
+    "relatedDetectors" : [ ],
+    "revisionNumber" : 21,
+    "uiHelperValue" : "##CHARTID##_21"
+  }
+}, {
+  "marshallId" : 25,
+  "marshallMemberOf" : [ 18 ],
+  "sf_chart" : "Method - % of Total",
+  "sf_chartIndex" : 1527791039558,
+  "sf_description" : "",
+  "sf_type" : "Chart",
+  "sf_uiModel" : {
+    "allPlots" : [ {
+      "configuration" : {
+        "aliases" : { },
+        "colorOverride" : null,
+        "extrapolationPolicy" : "NULL_EXTRAPOLATION",
+        "maxExtrapolations" : -1,
+        "prefix" : "",
+        "rollupPolicy" : "SUM_ROLLUP",
+        "suffix" : "requests",
+        "unitType" : null
+      },
+      "dataManipulations" : [ {
+        "direction" : {
+          "options" : {
+            "aggregateGroupBy" : [ {
+              "value" : "method"
+            } ],
+            "collapseGroups" : false,
+            "transformTimeRange" : null
+          },
+          "type" : "aggregation"
+        },
+        "fn" : {
+          "options" : { },
+          "type" : "SUM"
+        },
+        "showMe" : false
+      } ],
+      "invisible" : true,
+      "name" : "Requests by method",
+      "queryItems" : [ ],
+      "seriesData" : {
+        "metric" : "http.server.requests.count",
+        "regExStyle" : null
+      },
+      "transient" : false,
+      "type" : "plot",
+      "uniqueKey" : 1,
+      "yAxisIndex" : 0
+    }, {
+      "configuration" : {
+        "aliases" : { },
+        "colorOverride" : null,
+        "extrapolationPolicy" : "NULL_EXTRAPOLATION",
+        "maxExtrapolations" : -1,
+        "prefix" : "",
+        "rollupPolicy" : "SUM_ROLLUP",
+        "suffix" : "",
+        "unitType" : "Second"
+      },
+      "dataManipulations" : [ {
+        "direction" : {
+          "options" : {
+            "aggregateGroupBy" : [ ],
+            "collapseGroups" : false,
+            "transformTimeRange" : null
+          },
+          "type" : "aggregation"
+        },
+        "fn" : {
+          "options" : { },
+          "type" : "SUM"
+        },
+        "showMe" : false
+      } ],
+      "invisible" : true,
+      "metricDefinition" : { },
+      "name" : "max time per request",
+      "queryItems" : [ ],
+      "seriesData" : {
+        "metric" : "http.server.requests.count",
+        "regExStyle" : null
+      },
+      "transient" : false,
+      "type" : "plot",
+      "uniqueKey" : 9,
+      "yAxisIndex" : 0
+    }, {
+      "_originalLabel" : "J",
+      "configuration" : {
+        "aliases" : { },
+        "extrapolationPolicy" : "NULL_EXTRAPOLATION",
+        "maxExtrapolations" : -1,
+        "suffix" : "%",
+        "unitType" : null
+      },
+      "dataManipulations" : [ {
+        "direction" : {
+          "options" : {
+            "aggregateGroupBy" : [ ],
+            "collapseGroups" : false,
+            "transformTimeRange" : null
+          },
+          "type" : "aggregation"
+        },
+        "fn" : {
+          "options" : {
+            "scaleAmount" : 100
+          },
+          "type" : "SCALE"
+        },
+        "showMe" : false
+      } ],
+      "expressionText" : "A/I",
+      "invisible" : false,
+      "metricDefinition" : { },
+      "name" : "A/I - Scale:100",
+      "queryItems" : [ ],
+      "seriesData" : {
+        "metric" : null
+      },
+      "transient" : false,
+      "type" : "ratio",
+      "uniqueKey" : 10,
+      "valid" : true,
+      "yAxisIndex" : 0
+    }, {
+      "configuration" : {
+        "aliases" : { },
+        "extrapolationPolicy" : "NULL_EXTRAPOLATION",
+        "maxExtrapolations" : -1
+      },
+      "dataManipulations" : [ ],
+      "invisible" : false,
+      "metricDefinition" : { },
+      "name" : "New Plot",
+      "queryItems" : [ ],
+      "seriesData" : { },
+      "transient" : true,
+      "type" : "plot",
+      "uniqueKey" : 11,
+      "yAxisIndex" : 0
+    } ],
+    "chartMode" : "list",
+    "chartType" : "line",
+    "chartconfig" : {
+      "absoluteEnd" : null,
+      "absoluteStart" : null,
+      "colorByMetric" : false,
+      "colorByValue" : false,
+      "colorByValueScale" : [ ],
+      "dimensionInLegend" : "status",
+      "histogramColor" : "#ea1849",
+      "legendColumnConfiguration" : [ {
+        "enabled" : false,
+        "property" : "sf_originatingMetric"
+      }, {
+        "enabled" : false,
+        "property" : "sf_metric"
+      }, {
+        "enabled" : true,
+        "property" : "status"
+      }, {
+        "enabled" : true,
+        "property" : "exception"
+      }, {
+        "enabled" : true,
+        "property" : "method"
+      }, {
+        "enabled" : true,
+        "property" : "uri"
+      }, {
+        "enabled" : true,
+        "property" : "agent"
+      }, {
+        "enabled" : true,
+        "property" : "host"
+      } ],
+      "range" : -900000,
+      "rangeEnd" : null,
+      "secondaryVisualization" : "SPARKLINE",
+      "showLegend" : false,
+      "sortPreference" : "-value",
+      "stackedChart" : true,
+      "useKMG2" : false,
+      "yAxisConfigurations" : [ {
+        "id" : "yAxis0",
+        "label" : "",
+        "max" : null,
+        "min" : null,
+        "name" : "yAxis0",
+        "plotlines" : {
+          "high" : null,
+          "low" : null
+        }
+      } ]
+    },
+    "currentUniqueKey" : 12,
+    "relatedDetectors" : [ ],
+    "revisionNumber" : 21,
+    "uiHelperValue" : "__OBJECT_ID___21"
+  }
+}, {
+  "marshallId" : 26,
+  "marshallMemberOf" : [ 18 ],
+  "sf_chart" : "Response Code - % of Total Responses",
+  "sf_chartIndex" : 1527728170772,
+  "sf_description" : "",
+  "sf_type" : "Chart",
+  "sf_uiModel" : {
+    "allPlots" : [ {
+      "configuration" : {
+        "aliases" : { },
+        "colorOverride" : null,
+        "extrapolationPolicy" : "NULL_EXTRAPOLATION",
+        "maxExtrapolations" : -1,
+        "prefix" : "",
+        "rollupPolicy" : "SUM_ROLLUP",
+        "suffix" : "requests",
+        "unitType" : null
+      },
+      "dataManipulations" : [ {
+        "direction" : {
+          "options" : {
+            "aggregateGroupBy" : [ {
+              "value" : "status"
+            } ],
+            "collapseGroups" : false,
+            "transformTimeRange" : null
+          },
+          "type" : "aggregation"
+        },
+        "fn" : {
+          "options" : { },
+          "type" : "SUM"
+        },
+        "showMe" : false
+      } ],
+      "invisible" : true,
+      "name" : "Requests by status",
+      "queryItems" : [ ],
+      "seriesData" : {
+        "metric" : "http.server.requests.count",
+        "regExStyle" : null
+      },
+      "transient" : false,
+      "type" : "plot",
+      "uniqueKey" : 1,
+      "yAxisIndex" : 0
+    }, {
+      "configuration" : {
+        "aliases" : { },
+        "colorOverride" : null,
+        "extrapolationPolicy" : "NULL_EXTRAPOLATION",
+        "maxExtrapolations" : -1,
+        "prefix" : "",
+        "rollupPolicy" : "SUM_ROLLUP",
+        "suffix" : "",
+        "unitType" : "Second"
+      },
+      "dataManipulations" : [ {
+        "direction" : {
+          "options" : {
+            "aggregateGroupBy" : [ ],
+            "collapseGroups" : false,
+            "transformTimeRange" : null
+          },
+          "type" : "aggregation"
+        },
+        "fn" : {
+          "options" : { },
+          "type" : "SUM"
+        },
+        "showMe" : false
+      } ],
+      "invisible" : true,
+      "metricDefinition" : { },
+      "name" : "max time per request",
+      "queryItems" : [ ],
+      "seriesData" : {
+        "metric" : "http.server.requests.count",
+        "regExStyle" : null
+      },
+      "transient" : false,
+      "type" : "plot",
+      "uniqueKey" : 9,
+      "yAxisIndex" : 0
+    }, {
+      "_originalLabel" : "J",
+      "configuration" : {
+        "aliases" : { },
+        "extrapolationPolicy" : "NULL_EXTRAPOLATION",
+        "maxExtrapolations" : -1,
+        "suffix" : "%",
+        "unitType" : null
+      },
+      "dataManipulations" : [ {
+        "direction" : {
+          "options" : {
+            "aggregateGroupBy" : [ ],
+            "collapseGroups" : false,
+            "transformTimeRange" : null
+          },
+          "type" : "aggregation"
+        },
+        "fn" : {
+          "options" : {
+            "scaleAmount" : 100
+          },
+          "type" : "SCALE"
+        },
+        "showMe" : false
+      } ],
+      "expressionText" : "A/I",
+      "invisible" : false,
+      "metricDefinition" : { },
+      "name" : "A/I - Scale:100",
+      "queryItems" : [ ],
+      "seriesData" : {
+        "metric" : null
+      },
+      "transient" : false,
+      "type" : "ratio",
+      "uniqueKey" : 10,
+      "valid" : true,
+      "yAxisIndex" : 0
+    }, {
+      "configuration" : {
+        "aliases" : { },
+        "extrapolationPolicy" : "NULL_EXTRAPOLATION",
+        "maxExtrapolations" : -1
+      },
+      "dataManipulations" : [ ],
+      "invisible" : false,
+      "metricDefinition" : { },
+      "name" : "New Plot",
+      "queryItems" : [ ],
+      "seriesData" : { },
+      "transient" : true,
+      "type" : "plot",
+      "uniqueKey" : 11,
+      "yAxisIndex" : 0
+    } ],
+    "chartMode" : "list",
+    "chartType" : "line",
+    "chartconfig" : {
+      "absoluteEnd" : null,
+      "absoluteStart" : null,
+      "colorByMetric" : false,
+      "colorByValue" : false,
+      "colorByValueScale" : [ ],
+      "dimensionInLegend" : "status",
+      "histogramColor" : "#ea1849",
+      "legendColumnConfiguration" : [ {
+        "enabled" : false,
+        "property" : "sf_originatingMetric"
+      }, {
+        "enabled" : false,
+        "property" : "sf_metric"
+      }, {
+        "enabled" : true,
+        "property" : "status"
+      }, {
+        "enabled" : true,
+        "property" : "exception"
+      }, {
+        "enabled" : true,
+        "property" : "method"
+      }, {
+        "enabled" : true,
+        "property" : "uri"
+      }, {
+        "enabled" : true,
+        "property" : "agent"
+      }, {
+        "enabled" : true,
+        "property" : "host"
+      } ],
+      "range" : -900000,
+      "rangeEnd" : null,
+      "secondaryVisualization" : "SPARKLINE",
+      "showLegend" : false,
+      "sortPreference" : "-value",
+      "stackedChart" : true,
+      "useKMG2" : false,
+      "yAxisConfigurations" : [ {
+        "id" : "yAxis0",
+        "label" : "",
+        "max" : null,
+        "min" : null,
+        "name" : "yAxis0",
+        "plotlines" : {
+          "high" : null,
+          "low" : null
+        }
+      } ]
+    },
+    "currentUniqueKey" : 12,
+    "relatedDetectors" : [ ],
+    "revisionNumber" : 20,
+    "uiHelperValue" : "__OBJECT_ID___20"
   }
 }, {
   "marshallId" : 27,
-  "marshallMemberOf" : [ 15 ],
-  "sf_chart" : "Total HTTP client requests by status",
-  "sf_chartIndex" : 1517627687555,
+  "marshallMemberOf" : [ 18 ],
+  "sf_chart" : "Mean time per request",
+  "sf_chartIndex" : 1517608849515,
+  "sf_description" : "",
+  "sf_type" : "Chart",
+  "sf_uiModel" : {
+    "allPlots" : [ {
+      "configuration" : {
+        "aliases" : { },
+        "extrapolationPolicy" : "NULL_EXTRAPOLATION",
+        "maxExtrapolations" : -1,
+        "prefix" : "",
+        "rollupPolicy" : null,
+        "suffix" : "",
+        "unitType" : "Second"
+      },
+      "dataManipulations" : [ {
+        "direction" : {
+          "options" : {
+            "aggregateGroupBy" : [ ],
+            "collapseGroups" : false,
+            "transformTimeRange" : null
+          },
+          "type" : "aggregation"
+        },
+        "fn" : {
+          "options" : { },
+          "type" : "MEAN"
+        },
+        "showMe" : false
+      } ],
+      "invisible" : false,
+      "name" : "mean time per request (ms)",
+      "queryItems" : [ ],
+      "seriesData" : {
+        "metric" : "http.server.requests.avg",
+        "regExStyle" : null
+      },
+      "transient" : false,
+      "type" : "plot",
+      "uniqueKey" : 1,
+      "yAxisIndex" : 0
+    }, {
+      "configuration" : {
+        "aliases" : { },
+        "extrapolationPolicy" : "NULL_EXTRAPOLATION",
+        "maxExtrapolations" : -1
+      },
+      "dataManipulations" : [ ],
+      "invisible" : false,
+      "metricDefinition" : { },
+      "name" : "New Plot",
+      "queryItems" : [ ],
+      "seriesData" : { },
+      "transient" : true,
+      "type" : "plot",
+      "uniqueKey" : 11,
+      "yAxisIndex" : 0
+    } ],
+    "chartMode" : "single",
+    "chartType" : "line",
+    "chartconfig" : {
+      "absoluteEnd" : null,
+      "absoluteStart" : null,
+      "colorByMetric" : false,
+      "colorByValue" : false,
+      "colorByValueScale" : [ ],
+      "hideTimestamp" : false,
+      "histogramColor" : "#ea1849",
+      "legendColumnConfiguration" : [ {
+        "enabled" : false,
+        "property" : "sf_originatingMetric"
+      }, {
+        "enabled" : false,
+        "property" : "sf_metric"
+      }, {
+        "enabled" : true,
+        "property" : "status"
+      }, {
+        "enabled" : true,
+        "property" : "exception"
+      }, {
+        "enabled" : true,
+        "property" : "method"
+      }, {
+        "enabled" : true,
+        "property" : "uri"
+      }, {
+        "enabled" : true,
+        "property" : "host"
+      } ],
+      "range" : -900000,
+      "rangeEnd" : 0,
+      "secondaryVisualization" : "NONE",
+      "sortPreference" : "-value",
+      "useKMG2" : false,
+      "yAxisConfigurations" : [ {
+        "id" : "yAxis0",
+        "label" : "ms",
+        "max" : null,
+        "min" : null,
+        "name" : "yAxis0",
+        "plotlines" : {
+          "high" : null,
+          "low" : null
+        }
+      } ]
+    },
+    "currentUniqueKey" : 12,
+    "relatedDetectors" : [ ],
+    "revisionNumber" : 13,
+    "uiHelperValue" : "##CHARTID##_13"
+  }
+}, {
+  "marshallId" : 28,
+  "marshallMemberOf" : [ 18 ],
+  "sf_chart" : "Total responses by status code",
+  "sf_chartIndex" : 1515521572702,
+  "sf_description" : "",
   "sf_type" : "Chart",
   "sf_uiModel" : {
     "allPlots" : [ {
@@ -3199,10 +3679,11 @@
         "showMe" : false
       } ],
       "invisible" : false,
-      "name" : "requests",
+      "name" : "total responses",
       "queryItems" : [ ],
       "seriesData" : {
-        "metric" : "http.client.requests.count"
+        "metric" : "http.server.requests.count",
+        "regExStyle" : null
       },
       "transient" : false,
       "type" : "plot",
@@ -3230,13 +3711,18 @@
     "chartconfig" : {
       "absoluteEnd" : null,
       "absoluteStart" : null,
+      "colorByMetric" : false,
+      "dimensionInLegend" : "status",
+      "histogramColor" : "#ea1849",
       "range" : -900000,
       "rangeEnd" : null,
       "secondaryVisualization" : "NONE",
+      "showLegend" : true,
       "sortPreference" : "",
       "useKMG2" : false,
       "yAxisConfigurations" : [ {
         "id" : "yAxis0",
+        "label" : "total responses",
         "max" : null,
         "min" : null,
         "name" : "yAxis0",
@@ -3247,7 +3733,8 @@
       } ]
     },
     "currentUniqueKey" : 3,
-    "revisionNumber" : 5,
-    "uiHelperValue" : "##CHARTID##_5"
+    "relatedDetectors" : [ ],
+    "revisionNumber" : 7,
+    "uiHelperValue" : "##CHARTID##_7"
   }
 } ]
