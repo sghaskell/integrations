@@ -23,9 +23,9 @@ SignalFx integrates with Pivotal Spring Boot via [Micrometer](http://micrometer.
 
 ### INSTALLATION
 
-See [Micrometer's documentation](http://micrometer.io/docs/registry/signalFx) for installation and configuration steps.
+The following modifications to your SpringBoot application will emit metrics to SignalFx:
 
-1. Add these properties to your application.properties:
+#### 1. Add these properties to your application.properties:
 
 The following properties will ensure that the Spring Boot metrics API endpoint is enabled and a `SignalFxMeterRegistry` is 
 created to collect metrics. 
@@ -48,7 +48,7 @@ management.metrics.export.signalfx.step=10s
 management.metrics.web.server.auto-time-requests=true
 ```
 
-2. Add the SignalFx library to your project
+#### 2. Add the SignalFx library to your project
 
 In Maven, add this dependency to your pom.xml:
 
@@ -65,13 +65,13 @@ Or in Gradle:
 compile 'io.micrometer:micrometer-registry-signalfx:latest.release'
 ```
 
-3. Start your Spring Boot Application for the new properties to take effect
+#### 3. Start your Spring Boot Application for the new properties to take effect
 
-#### Alternative Methods
+#### Alternative Methods for Setting Properties
 
-There following resources are useful for defining the required properties in other ways:
-- [SignalFx Registry Properties](https://docs.spring.io/spring-boot/docs/current/reference/htmlsingle/#production-ready-metrics-export-signalfx)
+There following resources are useful for defining the required properties with environment variables or a `PropertySource` :
 - [Using property sources or environment variables](http://micrometer.io/docs/registry/signalFx#_configuring)
+- [SignalFx Registry Properties](https://docs.spring.io/spring-boot/docs/current/reference/htmlsingle/#production-ready-metrics-export-signalfx)
 
 #### TROUBLESHOOTING
 
