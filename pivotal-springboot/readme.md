@@ -53,12 +53,12 @@ management.metrics.web.server.auto-time-requests=true
 In Maven, add this dependency to your pom.xml:
 
 ```
- 		<!-- https://mvnrepository.com/artifact/io.micrometer/micrometer-registry-signalfx -->
-		<dependency>
-		    <groupId>io.micrometer</groupId>
-		    <artifactId>micrometer-registry-signalfx</artifactId>
-		    <version>1.0.5</version>
-		</dependency>
+<!-- https://mvnrepository.com/artifact/io.micrometer/micrometer-registry-signalfx -->
+<dependency>
+	<groupId>io.micrometer</groupId>
+	<artifactId>micrometer-registry-signalfx</artifactId>
+	<version>1.0.5</version>
+</dependency>
 ```
 Or in Gradle:
 ```
