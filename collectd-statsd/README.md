@@ -104,7 +104,7 @@ The following example produces a metric called `test.gaugor` of type gauge, with
 
 #### Using StatsD metrics in SignalFx
 
-SignalFx supports using the components of dot-delimited metric names as dimensions for the purposes of filtering and aggregation in a chart. <a target="_blank" href="http://docs.signalfx.com/en/latest/charts/chart-advanced-config.html#graphite-options-for-plots">Click here to read more</a>.
+SignalFx supports using the components of dot-delimited metric names as dimensions for the purposes of filtering and aggregation in a chart. <a target="_blank" href="https://docs.signalfx.com/en/latest/charts/chart-builder.html#graphite-options">Click here to read more</a>.
 
 #### Deleting unused metric names from collectd's internal cache
 
