@@ -5,4 +5,4 @@ metric_type: cumulative counter
 ---
 ### go_gc_duration_seconds_sum
 
-The sum of the GC invocation durations.
+The sum of the GC invocation durations, in seconds.

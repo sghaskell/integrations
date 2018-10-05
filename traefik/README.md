@@ -32,7 +32,7 @@ Edit the Traefik configuration file, typically `traefik.toml`, to enable Traefik
 
 `./traefik -c traefik.toml`
 
-However, when running the Traefik Docker image, the configuration file is mounted to the volume `/etc/traefik/traefik.toml`. For Example,
+However, when running the Traefik Docker image, the configuration file is mounted to the volume `/etc/traefik/traefik.toml`. For example,
 
 `docker run -d -p 8080:8080 -p 80:80 -v $PWD/traefik.toml:/etc/traefik/traefik.toml`
 
@@ -57,7 +57,7 @@ monitors:
   extraDimensions:
     metric_source: traefik
 ```
-Also, metrics can be excluded adding the metric name to the `metricsToExclude` section of the Smart Agent configuration file.
+Also, metrics can be excluded by configuring the `metricsToExclude` section of the Smart Agent configuration file.
 
 ### USAGE
 
@@ -73,7 +73,7 @@ The entrypoint-related and backend-related metrics also include metrics for the 
 
 ### METRICS
 
-For documentation of the metrics emitted by this plugin, [click here](./docs).
+For documentation of the metrics emitted, [click here](./docs).
 
 ### LICENSE
 
